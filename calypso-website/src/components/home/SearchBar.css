@@ -14,19 +14,14 @@
 }
 .search-bar .search-bar__input {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 15px;
   width: 30rem;
+  border: none;
   transition: transform 0.3s ease;
   color: black;
   height: 7vh;
   font-size: 15px;
 }
 .search-bar .search-bar__input:hover {
-  border-color: #312302;
   transform: scale(105%);
-}
-.button-search__img {
-  background-color: rgba(218, 165, 32, 1);
-  padding: 0.7rem;
-  border-radius: 5px;
 }

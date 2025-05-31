@@ -11,9 +11,6 @@ export default function NavLinks() {
         className="search-bar__input"
         placeholder="Search..."
       />
-      <Link className="button-search__img">
-        <img src={search} width="23rem" height="20rem" />
-      </Link>
     </div>
   );
 }

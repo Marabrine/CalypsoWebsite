@@ -5,10 +5,21 @@ import LanguageSwitcher from "../containers/changeLanguage";
 import Home from "./home/Home";
 
 function App() {
-  const [count, setCount] = useState(0);
   const { t } = useTranslation();
 
-  const router = createBrowserRouter([{ path: "/", element: <Home /> }]);
+  const router = createBrowserRouter([
+    { path: "/", element: <Home /> },
+    { path: "/search/:sTerm" },
+    {
+      path: "/items/guitars",
+      children: [
+        {
+          path: ":itemId",
+        },
+      ],
+    },
+    { path: "" },
+  ]);
   return (
     <>
       <RouterProvider router={router} />
