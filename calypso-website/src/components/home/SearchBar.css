@@ -14,7 +14,7 @@
 }
 .search-bar .search-bar__input {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 5px;
   width: 30rem;
   transition: transform 0.3s ease;
   color: black;
@@ -24,4 +24,9 @@
 .search-bar .search-bar__input:hover {
   border-color: #312302;
   transform: scale(105%);
+}
+.button-search__img {
+  background-color: rgba(218, 165, 32, 1);
+  padding: 0.7rem;
+  border-radius: 5px;
 }
