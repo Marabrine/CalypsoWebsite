@@ -1,3 +1,11 @@
 {
-  "test": "Count is"
+  "search": "Search...",
+  "pianos": "Pianos & Keyboards",
+  "guitars": "Guitars & Basses",
+  "orchStrings": "Orchestral Strings",
+  "winds": "Brass & Winds",
+  "drums": "Drums & Percussion",
+  "special": "Special instruments",
+  "accessories": "Accessories",
+  "sonata": "Sonata by Calypso"
 }

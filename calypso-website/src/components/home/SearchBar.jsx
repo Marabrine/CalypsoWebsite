@@ -1,15 +1,14 @@
 import "./SearchBar.css";
-import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
-import search from "../../assets/search-interface-symbol.png";
+import { useTranslation } from "react-i18next";
 
 export default function NavLinks() {
+  const { t } = useTranslation();
   return (
     <div className="search-bar">
       <input
         type="text"
         className="search-bar__input"
-        placeholder="Search..."
+        placeholder={t("search")}
       />
     </div>
   );

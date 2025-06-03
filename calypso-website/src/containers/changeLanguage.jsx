@@ -12,7 +12,7 @@ export default function LanguageSwitcher() {
   return (
     <div className="language-switcher">
       <button className="language-button" onClick={toggleLanguage}>
-        {i18n.language === "en" ? "Français" : "English"}
+        {i18n.language === "en" ? "FR" : "EN"}
       </button>
     </div>
   );

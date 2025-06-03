@@ -1,0 +1,8 @@
+.language-button {
+  background-color: rgba(218, 165, 32, 1);
+}
+.language-switcher {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}

@@ -1,3 +1,11 @@
 {
-  "test": "Le compteur est"
+  "search": "Rechercher...",
+  "pianos": "Pianos et Claviers",
+  "guitars": "Guitares & Basses",
+  "orchStrings": "Instruments à cordes",
+  "winds": "Cuivres et Bois",
+  "drums": "Percussion",
+  "special": "Instruments Spéciaux",
+  "accessories": "Accessoires",
+  "sonata": "Sonata de Calypso"
 }

@@ -1,0 +1,48 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 250px;
+  height: 31rem;
+  transition: right 0.5s ease;
+  border-radius: 2px;
+  z-index: 1000;
+  box-shadow: 1px 1px 20px 6px rgba(218, 165, 32, 1);
+  background-color: azure;
+  border: 1px solid #242424;
+}
+
+.sidebar.open {
+  right: 0;
+}
+.items-list {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  list-style: none;
+  padding: 0rem 1rem 1rem 1rem;
+}
+.items-list li {
+  padding-top: 1.5rem;
+}
+.items-list li a {
+  color: #242424;
+  border: 1px solid transparent;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+}
+.items-list li a:hover::after,
+.items-list li a:active::after {
+  width: 100%;
+}
+.items-list li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: #242424;
+  transition: width 0.3s ease, left 0.3s ease;
+  transform: translateX(-50%);
+}
