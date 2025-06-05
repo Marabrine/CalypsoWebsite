@@ -28,3 +28,9 @@ nav {
     display: none;
   }
 }
+.button-contact {
+  width: 11rem;
+  border-radius: 5%;
+  height: 2.5rem;
+  background-color: rgba(218, 165, 32, 1);
+}

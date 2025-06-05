@@ -1,4 +1,4 @@
-import SearchBar from "../home/SearchBar";
+import SearchBar from "../../containers/SearchBar";
 import "./Header.css";
 import LanguageSwitcher from "../../containers/changeLanguage";
 import { Link } from "react-router-dom";
@@ -7,10 +7,12 @@ import HamburgerButton from "../../containers/hamburgerMenu";
 import SideBar from "../../containers/sideBar";
 import { useState } from "react";
 import CalypsoText from "../../assets/CalypsoText.png";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
+  const { t } = useTranslation();
   return (
     <div>
       <header>
@@ -27,6 +29,9 @@ export default function Header() {
         />
 
         <SearchBar />
+        <Link to="/contact">
+          <button className="button-contact">{t("contact")}</button>
+        </Link>
         <HamburgerButton onHover={toggleSidebar} />
       </header>
       <SideBar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
