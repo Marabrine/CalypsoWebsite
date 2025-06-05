@@ -12,7 +12,8 @@ export default function SearchBar() {
     const result = ITEMS.filter(
       (item) =>
         item.name.toLowerCase().includes(value.toLowerCase()) ||
-        item.description.toLowerCase().includes(value.toLowerCase())
+        item.description.toLowerCase().includes(value.toLowerCase()) ||
+        item.id.toLowerCase().includes(value.toLowerCase())
     );
     setFilteredItems(result);
   }, [value]);
@@ -67,7 +68,9 @@ export default function SearchBar() {
           const after = snippet.slice(relativeMatchIndex + value.length);
 
           // Render the <li> with the bolded match and surrounding context
-          return (
+          return description === "" ? (
+            "No results found"
+          ) : (
             <Link>
               <li
                 key={index}

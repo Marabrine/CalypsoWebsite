@@ -77,3 +77,9 @@
   visibility: visible;
   transform: translateX(-50%) translateY(10px); /* subtle slide down */
 }
+
+.no-results {
+  padding: 0.5rem;
+  color: #888;
+  font-style: italic;
+}
