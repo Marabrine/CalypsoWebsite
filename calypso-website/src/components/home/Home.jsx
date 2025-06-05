@@ -1,6 +1,7 @@
 import "./Home.css";
-import NavLinks from "./SearchBar";
+import SearchBar from "../../containers/SearchBar";
 import Header from "../header/Header";
+import GuitarBackground from "../../assets/stylish-guitar-black-background-perfect-music-themes-artistic-displays_1064559-129328.jpg";
 
 const Home = () => {
   return <></>;

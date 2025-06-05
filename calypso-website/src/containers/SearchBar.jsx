@@ -1,15 +1,14 @@
 import "./SearchBar.css";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
-import ITEMS from "../data/items";
 import { Link } from "react-router-dom";
 
-export default function SearchBar() {
+export default function SearchBar({ items }) {
   const { t } = useTranslation();
   const [value, setValue] = useState("");
   const [filteredItems, setFilteredItems] = useState([]);
   useEffect(() => {
-    const result = ITEMS.filter(
+    const result = items.filter(
       (item) =>
         item.name.toLowerCase().includes(value.toLowerCase()) ||
         item.description.toLowerCase().includes(value.toLowerCase()) ||
@@ -68,9 +67,7 @@ export default function SearchBar() {
           const after = snippet.slice(relativeMatchIndex + value.length);
 
           // Render the <li> with the bolded match and surrounding context
-          return description === "" ? (
-            "No results found"
-          ) : (
+          return (
             <Link>
               <li
                 key={index}

@@ -9,7 +9,7 @@ import { useState } from "react";
 import CalypsoText from "../../assets/CalypsoText.png";
 import { useTranslation } from "react-i18next";
 
-export default function Header() {
+export default function Header({ props }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
   const { t } = useTranslation();
@@ -28,7 +28,7 @@ export default function Header() {
           className="calypso-text"
         />
 
-        <SearchBar />
+        <SearchBar items={props} />
         <Link to="/contact">
           <button className="button-contact">{t("contact")}</button>
         </Link>

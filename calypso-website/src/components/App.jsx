@@ -4,6 +4,8 @@ import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../containers/changeLanguage";
 import RootLayout from "../containers/Roots";
 import Contact from "./contact/Contact";
+import ITEMS from "../data/items";
+import Home from "./home/Home";
 
 function App() {
   const { t } = useTranslation();
@@ -11,8 +13,9 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <RootLayout />,
+      element: <RootLayout props={ITEMS} />,
       children: [
+        { path: "/", element: <Home /> },
         // { path: "/search/:sTerm" },
         // {
         //   path: "/items",
