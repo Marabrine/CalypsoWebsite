@@ -1,5 +1,5 @@
 header {
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   position: absolute;
@@ -20,17 +20,35 @@ nav {
   position: relative;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-@media (max-width: 768px) {
-  .main-header {
+@media (max-width: 950px) {
+  .header.header {
     justify-content: space-between;
+  }
+  .button-contact.button-contact {
+    width: 5rem;
+    color: white;
+    font-size: 13px;
   }
   .calypso-text {
     display: none;
   }
 }
+@media (min-width: 951px) {
+  .search-button__mobile {
+    display: none;
+  }
+  .search-bar__mobile.search-bar__mobile {
+    display: none;
+  }
+}
 .button-contact {
-  width: 11rem;
-  border-radius: 5%;
+  width: 6rem;
+  border-radius: 15px;
   height: 2.5rem;
   background-color: rgba(218, 165, 32, 1);
+}
+.search-button__mobile {
+  padding: 0;
+  margin: 0;
+  background: none;
 }

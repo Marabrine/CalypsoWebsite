@@ -1,9 +1,14 @@
-import "./SearchBar.css";
+import "./SearchBarMobile.css";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import UpArrow from "../../assets/up-arrow-icon.png";
 
-export default function SearchBar({ items }) {
+export default function SearchBarMobile({
+  isSearchBarOpen,
+  toggleSearchBar,
+  items,
+}) {
   const { t } = useTranslation();
   const [value, setValue] = useState("");
   const [filteredItems, setFilteredItems] = useState([]);
@@ -16,14 +21,24 @@ export default function SearchBar({ items }) {
     );
     setFilteredItems(result);
   }, [value]);
+
   return (
-    <div className="search-bar">
+    <div className={`search-bar__mobile ${isSearchBarOpen ? "open" : ""}`}>
       <input
         type="text"
         className="search-bar__input"
         placeholder={t("search")}
         onChange={(e) => setValue(e.target.value)}
       />
+      <button
+        className="search-bar__close"
+        onClick={() => {
+          toggleSearchBar();
+          setValue("");
+        }}
+      >
+        <span>&#x2191;</span>
+      </button>
       <ul className={`search-results ${value ? "visible" : ""}`}>
         {value && filteredItems.length === 0 ? (
           <li className="no-results">

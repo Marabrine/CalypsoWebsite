@@ -8,11 +8,21 @@ import SideBar from "../../containers/sideBar";
 import { useState } from "react";
 import CalypsoText from "../../assets/CalypsoText.png";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
+import SearchButton from "../../assets/search-explore-white-icon-transparent-png-701751695037015aogz4s2rh6-removebg-preview.png";
+import SearchBarMobile from "../../containers/mobile/SearchBarMobile";
 
 export default function Header({ props }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
+  const [isSearchBarOpen, setIsSearchBarOpen] = useState(false);
+  const toggleSearchBar = () => {
+    setIsSearchBarOpen(!isSearchBarOpen);
+    console.log(isSearchBarOpen);
+  };
+
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <div>
       <header>
@@ -29,9 +39,19 @@ export default function Header({ props }) {
         />
 
         <SearchBar items={props} />
+
+        <SearchBarMobile
+          isSearchBarOpen={isSearchBarOpen}
+          toggleSearchBar={toggleSearchBar}
+          items={props}
+        />
+        <button onClick={toggleSearchBar} className="search-button__mobile">
+          <img src={SearchButton} width="35rem" height="35rem" />
+        </button>
         <Link to="/contact">
-          <button className="button-contact">{t("contact")}</button>
+          <button className="button-contact">Contact</button>
         </Link>
+
         <HamburgerButton onHover={toggleSidebar} />
       </header>
       <SideBar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />

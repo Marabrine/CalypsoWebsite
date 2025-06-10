@@ -20,13 +20,13 @@ a {
 a:hover {
   color: #535bf2;
 }
-
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -43,10 +43,11 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 button:hover {
-  border-color: #646cff;
+  box-shadow: 1px 1px 20px black;
+  transform: scale(1.05);
 }
 button:focus,
 button:focus-visible {

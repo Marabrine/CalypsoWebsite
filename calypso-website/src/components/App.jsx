@@ -1,21 +1,19 @@
-import { useState } from "react";
 import { createBrowserRouter, replace, RouterProvider } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "../containers/changeLanguage";
 import RootLayout from "../containers/Roots";
 import Contact from "./contact/Contact";
 import ITEMS from "../data/items";
 import Home from "./home/Home";
+import ErrorPage from "../containers/ErrorPage";
 
 function App() {
-  const { t } = useTranslation();
-
   const router = createBrowserRouter([
     {
       path: "/",
       element: <RootLayout props={ITEMS} />,
+      errorElement: <ErrorPage />,
       children: [
-        { path: "/", element: <Home /> },
+        { path: "", element: <Home /> },
+
         // { path: "/search/:sTerm" },
         // {
         //   path: "/items",
