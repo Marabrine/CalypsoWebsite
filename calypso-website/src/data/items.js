@@ -1,37 +1,42 @@
 const ITEMS = [
   {
-    name: "Calypso BA222 Piano Bench",
+    name: "Calypso Piano Bench BA222",
     id: "BA222",
     description:
       "Calypso BA222 Piano Bench: adjustable height with a built-in bookcase for easy access to sheet music. Comfort and convenience for every pianist!",
     category: "ACCESSORIES",
-    pictureUrl: [],
+    subCategory: "BENCH",
+    pictureUrl: ["/images/piano-benches/BA223.png"],
   },
   {
-    name: "Calypso BA223 Piano Bench",
+    name: "Calypso Piano Bench BA223",
     id: "BA223",
     description:
       "Calypso BA223 Piano Bench: adjustable height with a convenient bookcase for storing sheet music. Perfect for comfort and organization during your practice!",
     category: "ACCESSORIES",
-    pictureUrl: [],
+    subCategory: "BENCH",
+
+    pictureUrl: ["/images/piano-benches/Q-90B.png"],
   },
   {
-    name: "Calypso Q-90B Adjustable Keyboard Bench",
+    name: "Calypso Adjustable Keyboard Bench Q-90B",
     id: "Q-90B",
     description:
       "Calypso Q-90B Adjustable Keyboard Bench: versatile and comfortable, featuring adjustable height for the perfect playing position. Ideal for musicians of all levels!",
     category: "ACCESSORIES",
+    subCategory: "BENCH",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/piano-benches/Q111T-removebg-preview.png"],
   },
   {
-    name: "Calypso Q-111T Keyboard Bench",
+    name: "Calypso Keyboard Bench Q-111T",
     id: "Q111T",
     description:
       "Calypso Q-111T Keyboard Bench: sturdy and comfortable, designed for optimal support during play. Perfect for musicians of all levels!",
     category: "ACCESSORIES",
+    subCategory: "BENCH",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/piano-benches/BA222.png"],
   },
   {
     name: "Calypso X003 3m TS Cable",

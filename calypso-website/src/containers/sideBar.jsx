@@ -31,7 +31,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
             <Link>{t("special")}</Link>
           </li>
           <li>
-            <Link>{t("accessories")}</Link>
+            <Link to={"/items/accessories"}>{t("accessories")}</Link>
           </li>
           <li>
             <Link>{t("sonata")}</Link>
