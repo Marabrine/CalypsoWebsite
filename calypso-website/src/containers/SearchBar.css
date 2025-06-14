@@ -4,7 +4,7 @@
   padding: 0;
   width: 100%;
   height: 100%;
-  padding-right: 6rem;
+  padding-right: 22rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@
   padding: 4px;
 }
 @media (max-width: 950px) {
-  .search-bar .search-bar__input {
+  .search-bar {
     display: none;
   }
 

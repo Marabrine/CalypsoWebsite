@@ -24,22 +24,23 @@ export default function Header({ props }) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="main-header">
       <header>
-        <Link to="/">
-          <img src={CalypsoFlag} width="80rem" height="80rem" />
-        </Link>
-        <img
-          src={CalypsoText}
-          style={{
-            width: "15rem", // or use maxWidth: "100%" for responsiveness
-            height: "auto",
-          }}
-          className="calypso-text"
-        />
-
+        <HamburgerButton onHover={toggleSidebar} />
+        <div className="logos">
+          <Link to="/" className="calypso-logo">
+            <img src={CalypsoFlag} width="80rem" height="80rem" />
+          </Link>
+          <img
+            src={CalypsoText}
+            style={{
+              width: "15rem", // or use maxWidth: "100%" for responsiveness
+              height: "auto",
+            }}
+            className="calypso-text"
+          />
+        </div>
         <SearchBar items={props} />
-
         <SearchBarMobile
           isSearchBarOpen={isSearchBarOpen}
           toggleSearchBar={toggleSearchBar}
@@ -48,14 +49,13 @@ export default function Header({ props }) {
         <button onClick={toggleSearchBar} className="search-button__mobile">
           <img src={SearchButton} width="35rem" height="35rem" />
         </button>
-        <Link to="/contact">
-          <button className="button-contact">Contact</button>
-        </Link>
+        <LanguageSwitcher />
 
-        <HamburgerButton onHover={toggleSidebar} />
+        {/* <Link to="/contact">
+          <button className="button-contact">Contact</button>
+        </Link> */}
       </header>
       <SideBar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-      <LanguageSwitcher />
     </div>
   );
 }

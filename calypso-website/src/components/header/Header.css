@@ -2,12 +2,16 @@ header {
   width: 100vw;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: absolute;
   top: 0;
   left: 0;
   height: 20vh;
   background-color: #242424;
   box-shadow: 0px 10px 20px gray;
+}
+.logos {
+  display: flex;
 }
 nav {
   width: 100%;
@@ -21,20 +25,25 @@ nav {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 @media (max-width: 950px) {
-  .header.header {
+  .header {
     justify-content: space-between;
+    height: 10vh;
   }
   .button-contact.button-contact {
     width: 5rem;
     color: white;
     font-size: 13px;
   }
-  .calypso-text {
-    display: none;
+  .calypso-text img {
+    width: 4rem;
+  }
+  .calypso-logo img {
+    width: 4rem;
+    height: 4rem;
   }
 }
 @media (min-width: 951px) {
-  .search-button__mobile {
+  .search-button__mobile.search-button__mobile {
     display: none;
   }
   .search-bar__mobile.search-bar__mobile {
@@ -48,7 +57,11 @@ nav {
   background-color: rgba(218, 165, 32, 1);
 }
 .search-button__mobile {
+  position: relative;
+  display: flex;
   padding: 0;
   margin: 0;
+  float: right;
   background: none;
+  justify-content: flex-end;
 }
