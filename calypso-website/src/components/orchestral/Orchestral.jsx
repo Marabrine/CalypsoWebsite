@@ -35,14 +35,6 @@ function Accessories({ props }) {
           })}
         </ul>
       </div>
-      <div>
-        <h1 className="items-title">{t("other")}</h1>
-        <ul className="items-display">
-          {other.map((item) => {
-            return <Item item={item} />;
-          })}
-        </ul>
-      </div>
     </div>
   );
 }

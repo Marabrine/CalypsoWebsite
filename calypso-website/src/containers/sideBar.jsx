@@ -1,9 +1,12 @@
 import "./SideBar.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function SideBar({ isSidebarOpen, toggleSidebar }) {
   const { t } = useTranslation();
+  const [isExtensionOpen, setIsExtensionOpen] = useState(false);
+  const toggleExtension = () => setIsExtensionOpen(!isExtensionOpen);
 
   return (
     <>
@@ -15,8 +18,16 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
           <li>
             <Link to={"/items/pianos"}>{t("pianos")}</Link>
           </li>
-          <li>
+          <li
+            onMouseEnter={() => setIsExtensionOpen(true)}
+            onMouseLeave={() => setIsExtensionOpen(false)}
+          >
             <Link to={"/items/guitar-bass"}>{t("guitars")}</Link>
+            <ul className={`extension ${isExtensionOpen ? "visible" : ""}`}>
+              <li>test1</li>
+              <li>test2</li>
+              <li>test3</li>
+            </ul>
           </li>
           <li>
             <Link>{t("orchStrings")}</Link>

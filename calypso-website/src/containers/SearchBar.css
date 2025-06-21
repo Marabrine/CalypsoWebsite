@@ -40,7 +40,7 @@
 .search-results {
   position: absolute; /* ✅ Absolute to search-bar */
   top: 100%; /* Right below the input */
-  left: 50%; /* Start at center */
+  left: 48.5%; /* Start at center */
   transform: translateX(-50%) translateY(0%); /* Center horizontally */
   width: 30rem;
   max-height: 200px;

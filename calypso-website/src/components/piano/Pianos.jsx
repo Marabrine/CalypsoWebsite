@@ -4,31 +4,23 @@ import Item from "../item/Item";
 
 function Pianos({ props }) {
   const { t } = useTranslation();
-  const benches = props.filter((item) => item.subCategory === "BENCH");
-  const cables = props.filter((item) => item.subCategory === "CABLE");
+  const digital = props.filter((item) => item.subCategory === "DIGITAL");
+  const keyboard = props.filter((item) => item.subCategory === "KEYBOARD");
 
   return (
     <div className="accessories-body">
       <div className="accessories-section">
-        <h1 className="items-title">{t("bench")}</h1>
+        <h1 className="items-title">{t("digitalPiano")}</h1>
         <ul className="items-display">
-          {benches.map((item) => {
+          {digital.map((item) => {
             return <Item item={item} />;
           })}
         </ul>
       </div>
-      <div>
-        <h1 className="items-title">{t("cable")}</h1>
+      <div className="accessories-section">
+        <h1 className="items-title">{t("keyboard")}</h1>
         <ul className="items-display">
-          {cables.map((item) => {
-            return <Item item={item} />;
-          })}
-        </ul>
-      </div>
-      <div>
-        <h1 className="items-title">{t("stand")}</h1>
-        <ul className="items-display">
-          {stands.map((item) => {
+          {keyboard.map((item) => {
             return <Item item={item} />;
           })}
         </ul>

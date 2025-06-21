@@ -17,5 +17,8 @@
   "electroAcoustic": "Guitares Electro-Acoustiques",
   "classicGuitar": "Guitares Classiques",
   "electroClassic": "Guitares Electro-Classiques",
-  "guitalele": "Guitalele"
+  "guitalele": "Guitalele",
+  "digitalPiano": "Pianos Electriques",
+  "keyboard": "Claviers",
+  "other": "Autres"
 }

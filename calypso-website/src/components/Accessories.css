@@ -20,6 +20,8 @@
 
 .items-title {
   text-align: center;
-  font-family: cursive;
-  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  position: relative;
+  left: 1rem;
 }

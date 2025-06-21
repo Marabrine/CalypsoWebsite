@@ -160,6 +160,7 @@ const ITEMS = [
     description:
       "Calypso CH-08 Headphones deliver premium sound with deep bass and crisp audio. Designed for comfort, they feature plush ear cushions and a lightweight. Perfect for long listening sessions!",
     category: "ACCESSORIES",
+    subCategory: "OTHER",
     pictureUrl: [],
   },
   {
@@ -239,6 +240,14 @@ const ITEMS = [
     description:
       '"Introducing the CT-01 Tuner: your essential tool for precision tuning, designed to accommodate a variety of instruments with ease. This compact tuner offers versatility and accuracy to enhance your musical performance.\nWith tuning modes including Chromatic, Guitar, Bass, Violin, and Ukulele, the CT-01 ensures compatibility with a wide range of instruments. Its two-color backlight system, with green indicating in-tune and white indicating out-of-tune, provides intuitive visual feedback for effortless tuning.\nOperating at a pitch range of 440Hz, the CT-01 delivers reliable performance with a detection accuracy of 0.5%. The included CR2032 battery ensures long-lasting power, while its compact dimensions of 29x75×50mm make it perfect for on-the-go musicians.\nExperience convenience and precision tuning in a compact package with the CT-01 Tuner, your trusted companion for musical excellence."',
     category: "ACCESSORIES",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso Algerian Mandole Strings",
+    id: "MS51546",
+    description: "",
+    category: "ACCESSORIES",
+    subCategory: "OTHER",
     pictureUrl: [],
   },
   {
@@ -816,67 +825,45 @@ const ITEMS = [
     pictureUrl: [],
   },
   {
-    name: "Acoustic Piano Black",
-    id: "BABY GRAND BLACK",
+    name: "Calypso Digital Piano DP-4",
+    id: "DP-4",
+    description: "",
+    category: "PIANO",
+    subCategory: "DIGITAL",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso Digital Piano DP-71",
+    id: "DP-71",
+    description: "",
+    subCategory: "DIGITAL",
+    category: "PIANO",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso Digital White Piano DP-21",
+    id: "DP-21",
+    subCategory: "DIGITAL",
     description: "",
     category: "PIANO",
     pictureUrl: [],
   },
   {
-    name: "Acoustic Piano Black",
-    id: "BABY GRAND BLACK",
+    name: "Calypso Digital White Piano PN-2",
+    id: "PN-2",
+    subCategory: "DIGITAL",
     description: "",
     category: "PIANO",
     pictureUrl: [],
   },
-  {
-    name: "Acoustic Piano Black",
-    id: "BABY GRAND BLACK",
-    description: "",
-    category: "PIANO",
-    pictureUrl: [],
-  },
-  {
-    name: "Acoustic Piano Black",
-    id: "BABY GRAND BLACK",
-    description: "",
-    category: "PIANO",
-    pictureUrl: [],
-  },
-  {
-    name: "Acoustic Piano Black",
-    id: "BABY GRAND BLACK",
-    description: "",
-    category: "PIANO",
-    pictureUrl: [],
-  },
-  {
-    name: "Acoustic Piano Black",
-    id: "BABY GRAND BLACK",
-    description: "",
-    category: "PIANO",
-    pictureUrl: [],
-  },
-  {
-    name: "Acoustic Piano Wallnut",
-    id: "BABY GRAND WALLNUT",
-    description: "",
-    category: "PIANO",
-    pictureUrl: [],
-  },
-  {
-    name: "Acoustic Piano White",
-    id: "BABY GRAND WHITE",
-    description: "",
-    category: "PIANO",
-    pictureUrl: [],
-  },
+
   {
     name: "Calypso PK-1 Digital Keyboard",
     id: "PK1",
     description:
       '"Introducing the Calypso PK-1, a cutting-edge digital piano designed for musicians on the move. Available in sleek black, Red or pristine white, this portable digital piano combines convenience with professional-grade features.\n\nFeaturing a semi-weight standard keyboard powered by the Pure France DREAM 5 sound source, the Calypso PK-1 delivers exceptional sound quality and realistic playing experience with 128-note polyphony. Its extensive library boasts 200 tones, including 128 GM standard tones, and 60 dynamic demos to inspire your creativity.\n\nEquipped with a powerful record/play function and Bluetooth connectivity, you can effortlessly connect your phone or computer to play songs and integrate with compatible learning software. The auto sleep mode activates after 30 minutes of inactivity, conserving energy without interrupting your flow.\n\nEnhance your practice sessions with the built-in metronome offering nine different rhythms and a tempo range of 20 to 280 beats per minute. Plus, take advantage of the four sets of storage memory function keys for easy access to your favorite settings.\n\nAdditional features include split note, dual, reverb level, chorus level, percussion, USB jack for unlimited song recording storage, headphone outputs, MIDI IN/OUT, and audio in/out for seamless connectivity to your devices.\n\nPowered by a 15V3A adapter and featuring 12W speakers, the Calypso PK-1 ensures powerful sound projection for your performances. Plus, with the option to add a sustain pedal (choose from three pedals), you can truly customize your playing experience.\n\nExperience the ultimate blend of portability and performance with the Calypso PK-1 digital piano – your perfect musical companion wherever you go."',
     category: "PIANO",
+    subCategory: "KEYBOARD",
     pictureUrl: [],
   },
   {
@@ -889,11 +876,27 @@ const ITEMS = [
     pictureUrl: [],
   },
   {
+    name: "Calypso DP15 Digital Piano",
+    id: "DP-15",
+    description: "",
+    category: "PIANO",
+    subCategory: "DIGITAL",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso DP81 Digital Piano",
+    id: "DP-81",
+    description: "",
+    category: "PIANO",
+    subCategory: "DIGITAL",
+    pictureUrl: [],
+  },
+  {
     name: "Calypso Sonata K-700 Digital Keyboard",
     id: "K-700",
     description:
       '"Calypso K-700 Digital Keyboard\nDiscover the Calypso K-700 Digital Keyboard—a perfect blend of innovation and creativity for musicians of all levels.\n\nKey Features:\n\n61 Light-Up Keys: Learn and play with ease as the keys illuminate to guide you through your musical journey.\n255 Timbres & 255 Rhythms: Explore a diverse range of sounds and backing styles to enrich your performances.\n50 Demo Songs: Get inspired and practice with a selection of professionally arranged songs.\nMetronome: Improve your timing and rhythm with the integrated metronome feature.\nAuto Bass Chords: Effortlessly create bass lines and chord progressions for a fuller sound.\nEffects: Enhance your music with various effects to add depth and character.\nRecording & Rhythm Programming: Capture your creative ideas and compose your own unique tracks."',
-    category: "PIANO",
+    category: "SONATA",
     subCategory: "KEYBOARD",
 
     pictureUrl: [],
@@ -903,7 +906,7 @@ const ITEMS = [
     id: "K-600",
     description:
       '"Calypso K-600 Digital Keyboard\nFeatures:\n\n61 Touch-Sensitive Keys: Enjoy a responsive and dynamic playing experience.\n255 Timbres: Access a wide range of sounds to enhance your music.\n50 Demo Songs: Play along with built-in tracks for inspiration and practice.\n255 Rhythms: Dive into a diverse selection of rhythms to explore various styles.\nAuto Bass Chords: Easily add depth to your music with automatic bass support.\nRecording & Effects: Capture your creations and apply effects for a professional touch.\nMetronome: Stay on beat during practice sessions with the built-in metronome.\nRhythm Programming: Create custom rhythms tailored to your unique sound."',
-    category: "PIANO",
+    category: "SONATA",
     subCategory: "KEYBOARD",
 
     pictureUrl: [],
@@ -913,7 +916,7 @@ const ITEMS = [
     id: "ST-200",
     description:
       '"Calypso ST-200 Digital Keyboard\nFeatures:\n\n61 Touch-Sensitive Keys: Experience expressive playing with responsive keys.\n255 Timbres: Enjoy a wide variety of sounds to fuel your creativity.\n255 Rhythms: Explore diverse musical genres with an extensive rhythm selection.\n24 Demo Songs: Play along with built-in tracks to inspire your compositions.\nAuto Bass Chords: Enhance your playing effortlessly with automatic bass support.\nRecording & Effects: Capture your music and apply effects for a polished sound.\nMetronome: Practice with precision using the built-in metronome.\nRhythm Programming: Customize and create unique rhythms to suit your style."',
-    category: "PIANO",
+    category: "SONATA",
     subCategory: "KEYBOARD",
 
     pictureUrl: [],
@@ -923,7 +926,7 @@ const ITEMS = [
     id: "ST-100",
     description:
       '"Calypso ST-100 Digital Keyboard\nFeatures:\n\n61 Touch-Sensitive Keys: Responsive keys for a dynamic playing experience.\n300 Timbres: A diverse selection of sounds to inspire your creativity.\n300 Rhythms: Explore various musical styles with an extensive rhythm library.\n21 Demo Songs: Play along with built-in songs to spark your imagination.\nAuto Bass Chords: Effortlessly add depth to your music with automatic bass support.\nRecording & Effects: Capture your ideas and enhance your sound with built-in effects.\nMetronome: Keep perfect time while practicing or composing.\nRhythm Programming: Create custom arrangements tailored to your style."',
-    category: "PIANO",
+    category: "SONATA",
     subCategory: "KEYBOARD",
 
     pictureUrl: [],

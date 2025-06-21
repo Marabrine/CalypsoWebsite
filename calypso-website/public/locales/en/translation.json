@@ -17,5 +17,8 @@
   "electroAcoustic": "Electro-Acoustic Guitars",
   "classicGuitar": "Classical Guitars",
   "electroClassic": "Electro-Classical Guitars",
-  "guitalele": "Guitalele"
+  "guitalele": "Guitalele",
+  "digitalPiano": "Digital Pianos",
+  "keyboard": "Keyboards",
+  "other": "Other"
 }

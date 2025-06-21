@@ -46,3 +46,15 @@
   transition: width 0.3s ease, left 0.3s ease;
   transform: translateX(-50%);
 }
+.extension {
+  position: absolute; /* removes from flow */
+  top: 0;
+  left: 100%; /* aligns to right of parent li */
+  z-index: 1000;
+  list-style: none;
+  display: none;
+  background: azure;
+}
+.extension.visible {
+  display: block;
+}
