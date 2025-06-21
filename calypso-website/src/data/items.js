@@ -354,19 +354,186 @@ const ITEMS = [
     pictureUrl: [],
   },
   {
-    name: "Calypso CL39 Classical Guitar",
-    id: "CL39",
+    name: "Calypso Folk (38 Inches)",
+    id: "FG38",
     description:
-      "Introducing our latest model featuring premium linden wood construction for the top, back, and sides, providing a rich and resonant tone. The sleek dyed plywood fingerboard offers both durability and aesthetic appeal. With a clean design free of binding lines and finished in a sophisticated brown color, this instrument is a stylish addition to any collection.",
-    category: "Guitar and Bass",
+      "Immerse yourself in the rich, soulful melodies with the Guitar Calypso Folk (38 Inches). Its impeccable sound quality will transport you to a world of musical bliss. The comfortable size makes it perfect for musicians of all levels, while the classic design adds a touch of elegance to your performance. Elevate your music experience with this exceptional guitar today!",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/FG38.png"],
+  },
+  {
+    name: "Calypso Folk 140MAS",
+    id: "140MAS",
+    description:
+      "Immerse yourself in the rich tones of the Guitar Calypso Folk 140MAS, crafted for both elegance and comfort. Made with durable materials, this guitar ensures a lasting musical companion for your creative journey. Elevate your playing experience with the perfect blend of style and functionality â€“ strum away with the Guitar Calypso Folk 140MAS!",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/140MAS.png"],
+  },
+  {
+    name: "Calypso Folk Black (38 Inches)",
+    id: "FG38-BK",
+    description:
+      "Unleash your musical creativity with the Guitar Calypso Folk Black! This stunning 38-inch guitar offers a versatile sound that will elevate your music to new heights. Its classic design exudes elegance, while the comfortable size makes it perfect for musicians of all levels. Dive into the world of music with the Guitar Calypso Folk Black â€“ a must-have for any aspiring guitarist!",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/FG38-BK.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate (41 Inches)",
+    id: "FG41-INT",
+    description:
+      "Unleash your musical creativity with the Guitar Calypso Folk Intermediate (41 Inches). Experience its versatile sound that adapts to various music genres, making it a must-have for aspiring musicians. Crafted with precision and care, this guitar offers exceptional quality and durability. Elevate your playing experience with the comfortable size and superior craftsmanship of this instrument.",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/FG41-INT.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate (42 Inches)",
+    id: "FG42-INT",
+    description:
+      "Unleash your musical creativity with the Guitar Calypso Folk Intermediate! Dive into a world of versatile sounds that will captivate your audience. Designed for ease of play, this 42-inch guitar offers a smooth playing experience for musicians of all levels. Crafted with durable construction, this guitar is built to withstand your musical journey. Elevate your music game and bring your melodies to life with the Guitar Calypso Folk Intermediate!",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/FG42-INT.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate Black (41 Inches)",
+    id: "FG41-INT-BK",
+    description:
+      "Experience the captivating melodies with the Guitar Calypso Folk Intermediate Black (41 Inches). This versatile instrument offers a rich and vibrant sound that will inspire your musical journey. Its comfortable size and sleek design make it a perfect choice for intermediate players looking to enhance their skills. Elevate your music with the Guitar Calypso Folk â€“ get ready to strum your way to new heights!",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/FG41-INT-BK.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate EQ Black (41 Inches)",
+    id: "FG41-INT-EQ-BK",
+    description:
+      "Unleash your musical creativity with the Guitar Calypso Folk Intermediate EQ Black! This 41-inch beauty offers a versatile sound that will elevate your playing experience to new heights. Designed for comfort and style, this guitar is the perfect companion for intermediate players looking to make a statement. Embrace the rhythm of the Calypso Folk and let your passion for music shine through!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-EQ-BK.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate EQ Black (42 Inches)",
+    id: "FG42-INT-EQ-BK",
+    description:
+      "Indulge in the vibrant tunes with the Guitar Calypso Folk Intermediate EQ Black (42 Inches). Experience a versatile sound that enhances your musical journey to new heights. The comfortable size and stylish design make this guitar a perfect companion for aspiring musicians. Elevate your performance and stand out with this exceptional instrument!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG42-INT-EQ-BK.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate EQ Left Hand (41 Inches)",
+    id: "FG41-INT-EQ-LH",
+    description:
+      "Unleash your musical prowess with this 41-inch Guitar Calypso Folk designed specifically for left-handed players. Boasting an EQ system for fine-tuned sound control, this guitar is perfect for intermediate musicians looking to elevate their skills. Embrace your unique style and sound with this exceptional left-handed guitar!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-EQ-LH.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate Left Hand (41 Inches)",
+    id: "FG41-INT-LH",
+    description:
+      "Strum your way into the world of calypso folk with this 41-inch left-handed guitar designed for intermediate players. Embrace your unique style with this specially crafted instrument, perfect for those who march to the beat of their own tune. Elevate your musical journey with the soulful melodies you can create using this exceptional guitar!",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/FG41-INT-LH.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate Slim EQ Black",
+    id: "FG41-INT-SLM-EQ-BK",
+    description:
+      "Unleash your inner musician with the Guitar Calypso Folk Intermediate Slim EQ Black! Embrace the slim design and EQ functionality that enhances your playing experience. Perfect for those captivated by the calypso folk style, this guitar is a harmonious blend of style and functionality. Elevate your musical journey with this sleek and versatile instrument!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
     pictureUrl: [],
+  },
+  {
+    name: "Calypso Folk Intermediate Slim EQ Black Redline (41 Inches)",
+    id: "FG41-INT-SLM-EQ-BK-RedLine",
+    description:
+      "Unleash your musical creativity with the Guitar Calypso Folk Intermediate Slim EQ in Black Redline (41 Inches). Its sleek design not only catches the eye but also delivers a rich, resonant sound that will elevate your playing experience. With versatile EQ options, you can customize your sound to suit any musical style. Get ready to rock the stage with this exceptional guitar!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-BK-Redline.png",
+    ],
+  },
+  {
+    name: "Calypso Folk Intermediate Slim EQ (41 Inches)",
+    id: "FG41-INT-SLM-EQ",
+    description:
+      "Unleash your musical prowess with the Guitar Calypso Folk Intermediate Slim EQ! This 41-inch beauty boasts a sleek and slim design, perfect for players who appreciate comfort and style. Elevate your sound with the EQ feature, adding a whole new dimension to your music. Ideal for intermediate players seeking quality and performance, this guitar is a must-have for anyone looking to take their music to the next level.",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ.png"],
+  },
+  {
+    name: "Calypso Folk Intermediate Slim EQ Left Hand (41 Inches)",
+    id: "FG41-INT-SLM-EQ-LH",
+    description:
+      "Unleash your musical creativity with the Guitar Calypso Folk Intermediate Slim EQ Left Hand (41 Inches). Designed specifically for left-handed players, this guitar features a slim profile that ensures maximum comfort during extended playing sessions. Enjoy the convenience of the built-in EQ, allowing you to fine-tune your sound effortlessly. Elevate your music journey with this exceptional left-handed guitar!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-LH.png"],
+  },
+  {
+    name: "Calypso Folk Slim EQ (38 Inches)",
+    id: "FG38-SLM-EQ",
+    description:
+      "Experience the harmonious blend of style and sound with the Guitar Calypso Folk Slim EQ. Its sleek design not only catches the eye but also delivers a rich, resonant sound quality that will captivate any music enthusiast. With versatile EQ options, you can customize your tone to suit your unique style and preferences. Elevate your musical journey with the Guitar Calypso Folk Slim EQ - a perfect companion for any aspiring musician!",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ.png"],
+  },
+  {
+    name: "Calypso Folk Slim EQ Black Left Hand (38 Inches)",
+    id: "FG38-SLM-EQ-BK-LH",
+    description:
+      "Discover the perfect harmony with the Guitar Calypso Folk Slim EQ Black Left Hand! Designed specifically for left-handed players, this 38-inch beauty boasts a slim EQ for effortless adjustments, ensuring you achieve your desired sound with ease. Embrace the unique calypso folk style and unleash your musical creativity in a whole new way!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso Folk Slim EQ Left Hand (38 Inches)",
+    id: "FG38-SLM-EQ-LH",
+    description:
+      "Unleash your musical creativity with the Guitar Calypso Folk Slim EQ Left Hand, a perfect companion for left-handed players. Its slim design makes it portable and easy to carry, allowing you to play your tunes anywhere. Customize your sound effortlessly with the built-in EQ feature. Elevate your music experience with this 38-inch beauty â€“ grab yours now and let your melodies shine!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso Folk Slim EQ Sunburn (38 Inches)",
+    id: "FG38-SLM-EQ-SB",
+    description:
+      "Strum your way to musical bliss with the Guitar Calypso Folk Slim EQ Sunburn. Its sleek design not only catches the eye but also delivers rich tones that will elevate your playing experience. With a built-in EQ, you can easily fine-tune your sound to perfection. Unleash your creativity and dive into the world of music with this exceptional 38-inch guitar!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Folk Slim Sunburn EQ (40 Inches)",
+    id: "FG40-088-SLM-SB-EQ",
+    description:
+      "Strum in style with the Guitar Calypso Folk Slim Sunburn EQ! Its slim design offers both comfort and elegance, perfect for passionate musicians. The eye-catching sunburst finish adds a touch of flair, while the built-in EQ ensures your tunes sound just right. Elevate your musical journey with this 40-inch beauty today!",
+    category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG40-008SLM-SB-EQ.png"],
   },
   {
     name: "Calypso CL-INT39 Classical Guitar",
     id: "CL-INT39",
     description:
       "Introducing the Calypso CL-INT39 Classic Guitar. With a 39-inch body featuring white binding line and neck truss rod, this instrument offers both elegance and functionality. Crafted with a Spruce top and Linden back & sides, it delivers a rich, resonant tone. The dyed plywood fingerboard adds a touch of sophistication to its natural finish. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the CL-INT39 Classic Guitar represents a harmonious blend of quality craftsmanship and musical excellence.",
-    category: "Guitar and Bass",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -431,7 +598,7 @@ const ITEMS = [
     description:
       "Introducing the Calypso FG38-SLM-EQ Folk Guitar. With a sleek 38-inch slim body featuring a curved design, white binding line, neck truss rod, and an equalizer, this instrument offers enhanced playability and versatile sound control. Crafted with Linden for the top, back, and sides, it delivers a balanced tone with clarity and warmth. The dyed plywood fingerboard adds a touch of sophistication to its natural finish. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the FG38-SLM-EQ Folk Guitar embodies quality craftsmanship and musical excellence.",
     category: "GUITAR",
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Acoustic/FG38.png"],
   },
   {
     name: "Calypso FG40-088-SLM-SB-EQ Folk Guitar",
@@ -447,7 +614,8 @@ const ITEMS = [
     description:
       "Introducing the FG41-INT-EQ: an exceptional acoustic guitar designed for versatile performance. Crafted with a spruce top and linden back/sides, this model delivers a rich, resonant tone suitable for various musical styles. The dyed fingerboard and half-cast machine head ensure durability and smooth playability. Finished in a sophisticated brown color, this guitar exudes timeless elegance. Equipped with an MT-3 EQ, it offers precise sound control, making it an ideal choice for musicians seeking flexibility and quality in their sound.",
     category: "GUITAR",
-    pictureUrl: [],
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-EQ.png"],
   },
   {
     name: "Electro-Acoustic Guitar FG41-INT-SLM-EQ",
@@ -455,6 +623,231 @@ const ITEMS = [
     description:
       "Introducing the FG41-INT-SLM-EQ: a versatile acoustic guitar crafted for exceptional performance. Featuring a spruce top and linden back/sides, this model delivers a rich, resonant tone perfect for various musical styles. The dyed fingerboard and half-cast machine head ensure durability and smooth playability. Finished in a sophisticated brown color, this guitar exudes timeless elegance. With its slim design and equipped with an MT-3 EQ, it offers precise sound control and comfortable playability, making it an ideal choice for musicians of all levels.",
     category: "GUITAR",
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ.png"],
+  },
+  {
+    name: "Guitar Calypso Classic 3/4 (For Kids)",
+    id: "CG-3/4",
+    description:
+      "Introduce your little one to the world of music with the Guitar Calypso Classic! Designed specifically for kids, this 3/4 size guitar is not only kid-friendly but also easy to play, making it a perfect choice for budding musicians. Experience high-quality sound that will inspire your child's musical journey. Get the Guitar Calypso Classic today and watch your child's creativity flourish!",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Blue 1/4 (for Kids)",
+    id: "CG-BL-1/4",
+    description:
+      "Introduce your budding musician to the world of guitar with the Guitar Calypso Classic Blue 1/4! Designed with kids in mind, this vibrant blue guitar is not only visually appealing but also ideal for beginners. Let your child's musical journey begin with this kid-friendly instrument that promises hours of fun and learning.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic CG851-GM",
+    id: "CG851-GM",
+    description:
+      "The Guitar Calypso Classic CG851-GM offers a timeless design paired with a rich, resonant sound. Built for both beginners and seasoned players, its comfortable build ensures an easy and enjoyable playing experience. Perfect for various genres, this guitar is a reliable choice for practice or performance.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic EQ (39 Inches)",
+    id: "Calypso-CL-CE39-EQ",
+    description:
+      "Strum in style with the Guitar Calypso Classic EQ (39 Inches), featuring a classic design that exudes timeless elegance. Take your sound to the next level with the built-in EQ, allowing you to fine-tune your tunes effortlessly. At an ideal size of 39 inches, this guitar offers both portability and comfort without compromising on quality. Elevate your musical journey with the Guitar Calypso - a perfect blend of classic charm and modern functionality!",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic EQ Black (39 Inches)",
+    id: "Calypso-CL-CE39-EQ-BK",
+    description:
+      "Unleash your inner musician with the Guitar Calypso Classic EQ Black! This 39-inch beauty features a classic design that exudes timeless elegance. Equipped with a built-in EQ, it offers versatility and allows you to fine-tune your sound effortlessly. Whether you're a beginner or a seasoned player, this guitar is the perfect size for comfortable playing. Elevate your musical journey with the Guitar Calypso Classic EQ Black today!",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Intermediate EQ (39 Inches)",
+    id: "CL-INT39-EQ",
+    description:
+      "Unleash your inner musician with the Guitar Calypso Classic Intermediate EQ! Featuring a classic design that exudes timeless elegance, this guitar is perfect for intermediate players looking to enhance their skills. Take your performance to the next level with the built-in EQ, allowing you to fine-tune your sound effortlessly. Elevate your musical journey with the Guitar Calypso Classic Intermediate EQ – a must-have for any aspiring guitarist!",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Intermediate Yellow 2/4 (For Kids)",
+    id: "INT-YW-2/4",
+    description:
+      "The Guitar Calypso Classic Intermediate Yellow 2/4 is designed with a vibrant yellow finish that captures attention. Its 2/4 size makes it an excellent choice for kids, offering comfortable playability tailored for smaller hands. Perfect for beginners or young learners, this guitar provides a balanced sound and durable build for lasting use.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Red 2/4 (For Kids)",
+    id: "CG-RD-2/4",
+    description:
+      "Introduce your little rockstar to the world of music with the Guitar Calypso Classic Red 2/4! Designed with kids in mind, this vibrant red guitar is not only visually appealing but also built to withstand the adventures of young musicians. Let your child's creativity shine with this durable and exciting musical companion!",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Red 3/4 (For Kids)",
+    id: "CG-RD-3/4",
+    description:
+      "Strum your way to musical joy with the Guitar Calypso Classic Red in the perfect 3/4 size for kids. Let the vibrant red color inspire creativity as your young musician creates beautiful melodies. Crafted for high-quality sound, this guitar is a fantastic choice to ignite a passion for music in your child.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Red Sunburn 1/4 (For Kids)",
+    id: "CL-RDS-1/4",
+    description:
+      "Introducing the Guitar Calypso Classic 1/4 in Red Sunburn, specially designed for kids who are eager to embark on their musical journey. This guitar features a kid-friendly design that ensures comfortable playability and encourages young musicians to explore their musical talents. The vibrant red sunburn color option adds a touch of fun and excitement, making it visually appealing to young players. Crafted to be easy to play, this guitar is perfect for beginners learning the ropes of playing music. Give your child the gift of music with the Guitar Calypso Classic 1/4 in Red Sunburn and watch them create beautiful melodies with ease.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Red Sunburn 3/4 (For Kids)",
+    id: "CL-RDS-3/4",
+    description:
+      "The Guitar Calypso Classic Red Sunburn 3/4 is a kid-friendly instrument designed for young musicians. Its vibrant red sunburn finish captures attention, while the 3/4 size ensures a comfortable playing experience for smaller hands. Crafted from high-quality materials, this guitar delivers reliable sound and durability, making it an excellent choice for beginners.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Slim EQ Black (39 Inches)",
+    id: "Calypso CL-INT39-SLM-EQ-BK",
+    description:
+      "Unleash your musical prowess with the Guitar Calypso Classic Slim EQ Black in a sleek 39-inch design. Elevate your performance with its built-in EQ for customized sound adjustments, delivering versatility and top-notch audio quality. Dive into a world of rich melodies and captivating rhythms – this guitar is your ticket to musical excellence!",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Student Black",
+    id: "Student-BK",
+    description:
+      "The Guitar Calypso Classic Student Black is designed with beginners in mind, offering a comfortable playing experience and a timeless black finish. Its classic design pairs with versatile sound capabilities, making it suitable for various musical styles. This 3/4-sized guitar is lightweight and easy to handle, perfect for young learners or those starting their musical journey.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Student Black 3/4 (For Kids)",
+    id: "STUDENT-BK-3/4",
+    description:
+      "Introduce your young musician to the world of music with the Guitar Calypso Classic Student in Black (3/4 size). Crafted from high-quality materials, this guitar is specifically designed for kids, ensuring a comfortable and enjoyable playing experience. Its classic design adds a touch of elegance to their musical journey. Get your hands on this perfect instrument for budding talents today!",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Student Bleu Sunburn",
+    id: "STUDENT-BLS",
+    description:
+      "The Calypso Classic Student Bleu Sunburn guitar offers a vibrant design paired with reliable performance, ideal for beginners and enthusiasts alike. Its sunburst finish in shades of blue adds a unique aesthetic while maintaining the classic Calypso style. Crafted for comfort and durability, this guitar ensures a smooth playing experience. Perfect for practice sessions or casual performances.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Student Red Sunburn",
+    id: "STUDENT-RDS",
+    description:
+      "The Guitar Calypso Classic Student in Red Sunburn features a timeless design, perfect for beginners and students. Its vibrant red sunburn finish adds a touch of style, making practice sessions visually appealing. Crafted for ease of playability, it ensures a comfortable learning experience for aspiring musicians. Ideal for those starting their musical journey.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Student Sunburn",
+    id: "STUDENT-SB",
+    description:
+      "The Calypso Classic Student Guitar in Sunburn is designed for beginners seeking a balance of quality and style. Its classic design ensures comfortable playability, making it an ideal choice for learners. The vibrant Sunburn finish adds a touch of personality, perfect for those looking to stand out. Crafted for durability, this guitar offers a reliable option for daily practice.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Student Yellow",
+    id: "Student-YW",
+    description:
+      "The Guitar Calypso Classic Student Yellow is an excellent choice for beginners, featuring a vibrant yellow finish that adds a touch of personality. Its classic design ensures comfortable playability, making it suitable for learners of all ages. Crafted for durability and ease of use, this guitar provides a great introduction to music.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Student Yellow Intermediate",
+    id: "Student-YW-INT",
+    description:
+      "The Guitar Calypso Classic Student Yellow Intermediate is designed for aspiring musicians at the intermediate level. Featuring a classic design and a vibrant yellow finish, this guitar is both functional and visually appealing. Its size and build make it an excellent choice for students seeking to enhance their skills.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Yellow Student 1/4 (For Kids)",
+    id: "Student-YW-1/4",
+    description:
+      "Introduce your little one to the world of music with the Guitar Calypso Classic Yellow Student 1/4. This beginner-friendly instrument is perfect for young musicians, with its kid-sized design and vibrant yellow color that adds a playful touch. Let your child's musical journey begin in style with this eye-catching and easy-to-handle guitar!",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Guitar Calypso Classic Yellow Student EQ",
+    id: "Student-YW-EQ",
+    description:
+      "Strum your way into the world of music with the Guitar Calypso Classic in a vibrant yellow hue! Perfect for students, this guitar features a built-in EQ for easy tuning and customization. Unleash your creativity and musical talents with this student-friendly instrument that promises both style and functionality.",
+    category: "GUITAR",
+    subCategory: "CLASSIC",
+    pictureUrl: [],
+  },
+  {
+    name: "Acoustic Piano Black",
+    id: "BABY GRAND BLACK",
+    description: "",
+    category: "PIANO",
+    pictureUrl: [],
+  },
+  {
+    name: "Acoustic Piano Black",
+    id: "BABY GRAND BLACK",
+    description: "",
+    category: "PIANO",
+    pictureUrl: [],
+  },
+  {
+    name: "Acoustic Piano Black",
+    id: "BABY GRAND BLACK",
+    description: "",
+    category: "PIANO",
+    pictureUrl: [],
+  },
+  {
+    name: "Acoustic Piano Black",
+    id: "BABY GRAND BLACK",
+    description: "",
+    category: "PIANO",
+    pictureUrl: [],
+  },
+  {
+    name: "Acoustic Piano Black",
+    id: "BABY GRAND BLACK",
+    description: "",
+    category: "PIANO",
     pictureUrl: [],
   },
   {
@@ -483,7 +876,7 @@ const ITEMS = [
     id: "PK1",
     description:
       '"Introducing the Calypso PK-1, a cutting-edge digital piano designed for musicians on the move. Available in sleek black, Red or pristine white, this portable digital piano combines convenience with professional-grade features.\n\nFeaturing a semi-weight standard keyboard powered by the Pure France DREAM 5 sound source, the Calypso PK-1 delivers exceptional sound quality and realistic playing experience with 128-note polyphony. Its extensive library boasts 200 tones, including 128 GM standard tones, and 60 dynamic demos to inspire your creativity.\n\nEquipped with a powerful record/play function and Bluetooth connectivity, you can effortlessly connect your phone or computer to play songs and integrate with compatible learning software. The auto sleep mode activates after 30 minutes of inactivity, conserving energy without interrupting your flow.\n\nEnhance your practice sessions with the built-in metronome offering nine different rhythms and a tempo range of 20 to 280 beats per minute. Plus, take advantage of the four sets of storage memory function keys for easy access to your favorite settings.\n\nAdditional features include split note, dual, reverb level, chorus level, percussion, USB jack for unlimited song recording storage, headphone outputs, MIDI IN/OUT, and audio in/out for seamless connectivity to your devices.\n\nPowered by a 15V3A adapter and featuring 12W speakers, the Calypso PK-1 ensures powerful sound projection for your performances. Plus, with the option to add a sustain pedal (choose from three pedals), you can truly customize your playing experience.\n\nExperience the ultimate blend of portability and performance with the Calypso PK-1 digital piano – your perfect musical companion wherever you go."',
-    category: "KEYBOARD",
+    category: "PIANO",
     pictureUrl: [],
   },
   {
@@ -491,7 +884,8 @@ const ITEMS = [
     id: "PN-2",
     description:
       "Calypso PN-2 Digital Keyboard offers a wide range of instrument voices and rhythms in a lightweight, portable design. With intuitive controls and built-in speakers, it’s perfect for musicians on the go. Elevate your music-making experience with the PN-2!",
-    category: "KEYBOARD",
+    category: "PIANO",
+    subCategory: "KEYBOARD",
     pictureUrl: [],
   },
   {
@@ -499,7 +893,9 @@ const ITEMS = [
     id: "K-700",
     description:
       '"Calypso K-700 Digital Keyboard\nDiscover the Calypso K-700 Digital Keyboard—a perfect blend of innovation and creativity for musicians of all levels.\n\nKey Features:\n\n61 Light-Up Keys: Learn and play with ease as the keys illuminate to guide you through your musical journey.\n255 Timbres & 255 Rhythms: Explore a diverse range of sounds and backing styles to enrich your performances.\n50 Demo Songs: Get inspired and practice with a selection of professionally arranged songs.\nMetronome: Improve your timing and rhythm with the integrated metronome feature.\nAuto Bass Chords: Effortlessly create bass lines and chord progressions for a fuller sound.\nEffects: Enhance your music with various effects to add depth and character.\nRecording & Rhythm Programming: Capture your creative ideas and compose your own unique tracks."',
-    category: "KEYBOARD",
+    category: "PIANO",
+    subCategory: "KEYBOARD",
+
     pictureUrl: [],
   },
   {
@@ -507,7 +903,9 @@ const ITEMS = [
     id: "K-600",
     description:
       '"Calypso K-600 Digital Keyboard\nFeatures:\n\n61 Touch-Sensitive Keys: Enjoy a responsive and dynamic playing experience.\n255 Timbres: Access a wide range of sounds to enhance your music.\n50 Demo Songs: Play along with built-in tracks for inspiration and practice.\n255 Rhythms: Dive into a diverse selection of rhythms to explore various styles.\nAuto Bass Chords: Easily add depth to your music with automatic bass support.\nRecording & Effects: Capture your creations and apply effects for a professional touch.\nMetronome: Stay on beat during practice sessions with the built-in metronome.\nRhythm Programming: Create custom rhythms tailored to your unique sound."',
-    category: "KEYBOARD",
+    category: "PIANO",
+    subCategory: "KEYBOARD",
+
     pictureUrl: [],
   },
   {
@@ -515,7 +913,9 @@ const ITEMS = [
     id: "ST-200",
     description:
       '"Calypso ST-200 Digital Keyboard\nFeatures:\n\n61 Touch-Sensitive Keys: Experience expressive playing with responsive keys.\n255 Timbres: Enjoy a wide variety of sounds to fuel your creativity.\n255 Rhythms: Explore diverse musical genres with an extensive rhythm selection.\n24 Demo Songs: Play along with built-in tracks to inspire your compositions.\nAuto Bass Chords: Enhance your playing effortlessly with automatic bass support.\nRecording & Effects: Capture your music and apply effects for a polished sound.\nMetronome: Practice with precision using the built-in metronome.\nRhythm Programming: Customize and create unique rhythms to suit your style."',
-    category: "KEYBOARD",
+    category: "PIANO",
+    subCategory: "KEYBOARD",
+
     pictureUrl: [],
   },
   {
@@ -523,7 +923,9 @@ const ITEMS = [
     id: "ST-100",
     description:
       '"Calypso ST-100 Digital Keyboard\nFeatures:\n\n61 Touch-Sensitive Keys: Responsive keys for a dynamic playing experience.\n300 Timbres: A diverse selection of sounds to inspire your creativity.\n300 Rhythms: Explore various musical styles with an extensive rhythm library.\n21 Demo Songs: Play along with built-in songs to spark your imagination.\nAuto Bass Chords: Effortlessly add depth to your music with automatic bass support.\nRecording & Effects: Capture your ideas and enhance your sound with built-in effects.\nMetronome: Keep perfect time while practicing or composing.\nRhythm Programming: Create custom arrangements tailored to your style."',
-    category: "KEYBOARD",
+    category: "PIANO",
+    subCategory: "KEYBOARD",
+
     pictureUrl: [],
   },
   {
@@ -531,7 +933,7 @@ const ITEMS = [
     id: "BJ52",
     description:
       'Introducing the Calypso BJ52 5-string banjo. With a sleek 26" body in a vibrant sunburst finish, this instrument exudes style. Crafted with a Spruce top and Mahogany back & sides, it delivers rich, resonant tones. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the BJ52 offers exceptional quality and playability.',
-    category: "BANJO",
+    category: "SPECIAL",
     pictureUrl: [],
   },
   {
@@ -539,7 +941,7 @@ const ITEMS = [
     id: "BJA-ADV-29-EQ",
     description:
       "Introducing the Calypso BJA-ADV-29-EQ Banjola. Featuring a 29-inch body with an integrated equalizer, this instrument offers versatility and exceptional sound control. Crafted with a solid Spruce top and Mahogany back & sides, it delivers rich, resonant tones. The Rosewood fingerboard adds a touch of elegance to its natural finish. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the BJA-ADV-29-EQ Banjola combines premium craftsmanship with superior playability.",
-    category: "BANJO",
+    category: "SPECIAL",
     pictureUrl: [],
   },
   {
@@ -804,6 +1206,7 @@ const ITEMS = [
     description:
       "Calypso Silent Electro Classical Guitar EN-NAT is designed for both exceptional acoustic quality and versatility, featuring a solid Spruce top that ensures a bright, resonant tone, complemented by an Okoume body that adds warmth and depth. The Mahogany neck provides smooth, comfortable playability, while the Technical Rosewood fingerboard and bridge enhance durability and tonal richness. The glossy natural finish adds a touch of elegance to its classic design. Equipped with SAVAREZ strings for a vibrant, dynamic sound and a piezo preamp undersaddle bridge for precise amplification, this guitar is perfect for both practice and performance. It also includes a 10mm padded bag for secure protection and easy transport, making it a perfect choice for musicians who appreciate high-quality craftsmanship and advanced features.",
     category: "GUITAR",
+    subCategory: "ELECTRO-CLASSIC",
     pictureUrl: [],
   },
   {
@@ -812,6 +1215,8 @@ const ITEMS = [
     description:
       "Calypso Silent Electro Classical Guitar EN-SB blends classic craftsmanship with modern technology for a superior playing experience. It features a solid Spruce top for a bright and resonant tone, complemented by an Okoume body that adds warmth and depth. The Mahogany neck ensures smooth, comfortable playability, while the Technical Rosewood fingerboard and bridge enhance both durability and tonal richness. Finished in a sleek glossy coating, this guitar exudes elegance and style. It is equipped with SAVAREZ strings for a vibrant sound and a piezo preamp undersaddle bridge for precise amplification. Packaged with a 10mm padded bag for excellent protection and easy transport, this model is ideal for musicians seeking a blend of refined design and advanced functionality.",
     category: "GUITAR",
+    subCategory: "ELECTRO-CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -820,6 +1225,8 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-BM-BK combines classic elegance with modern features, featuring the Manouch Bar mic for superior amplification. It boasts a Spruce top for a bright, resonant tone, complemented by Mahogany back and sides that deliver a warm, full-bodied sound. The Mahogany neck ensures smooth, comfortable playability, while SAVAREZ CJ500 strings provide a rich and vibrant performance. Finished in a sleek glossy black, this guitar not only looks stunning but is also equipped with 22 frets with rounded edges for effortless play. The 4-Band EQ allows for versatile sound adjustments, and the included 10mm padded bag offers excellent protection and convenient transport. Ideal for classical guitarists seeking both traditional craftsmanship and modern functionality.",
     category: "GUITAR",
+    subCategory: "ELECTRO-CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -828,6 +1235,8 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-BM-BKBK offers a striking blend of modern features and classic design, enhanced by the Manouch Bar mic for superior acoustic performance. It features a Spruce top for a bright, resonant tone, while the Mahogany back, sides, and neck deliver a warm, rich sound. Equipped with SAVAREZ CJ500 strings, this guitar provides a vibrant and dynamic playing experience. The sleek black gloss finish gives it a contemporary look. With 22 frets and rounded edges for smooth playability, plus a 4-Band EQ for precise sound adjustments, this model is both versatile and stylish. It also includes a 10mm padded bag for secure protection and easy transport, making it an ideal choice for classical musicians who appreciate both form and function.",
     category: "GUITAR",
+    subCategory: "ELECTRO-CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -836,6 +1245,8 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-BM-YL combines sophisticated design with advanced features, featuring the Manouch Bar mic for exceptional acoustic performance. It sports a Spruce top for a bright, resonant tone, while the Mahogany back, sides, and neck deliver a warm, rich sound. The guitar is equipped with SAVAREZ CJ500 strings, known for their vibrant and dynamic sound. Its glossy dark yellow finish offers a striking and elegant appearance. With 22 frets and rounded edges for smooth playability, it also includes a 4-Band EQ for precise sound control. The included 10mm padded bag provides secure protection and easy transport, making this guitar an excellent choice for classical musicians who value both style and functionality.",
     category: "GUITAR",
+    subCategory: "CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -844,6 +1255,8 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-BM-N offers a perfect fusion of classic craftsmanship and modern features, enhanced by the Manouch Bar mic for exceptional sound quality. It features a Spruce top that provides a bright and resonant tone, while the Mahogany back, sides, and neck deliver a warm, rich sound. The guitar is strung with SAVAREZ CJ500 strings for a vibrant and dynamic performance. Finished in a natural gloss, it boasts an elegant and timeless look. With 22 frets and rounded edges for smooth playability, it also includes a 4-Band EQ for precise sound adjustment. The guitar comes with a 10mm padded bag for secure protection and easy transport, making it an ideal choice for classical musicians who appreciate both style and advanced functionality.",
     category: "GUITAR",
+    subCategory: "ELECTRO-CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -852,6 +1265,8 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-MIC-BK merges classic craftsmanship with modern technology, featuring the Manouch mic for superior acoustic performance. It boasts a Spruce top for a bright and resonant tone, while the Mahogany back, sides, and neck contribute to a warm and rich sound. The guitar is equipped with SAVAREZ CJ500 strings, known for their vibrant, dynamic quality. Finished in a sleek black gloss, it offers a stylish and contemporary appearance. With 22 frets featuring rounded edges for smooth playability and an integrated EQ with microphone for precise sound control, this model is both versatile and user-friendly. The guitar comes with a 10mm padded bag for excellent protection and convenient transport, making it an ideal choice for classical musicians seeking a blend of elegance and advanced features.",
     category: "GUITAR",
+    subCategory: "CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -860,6 +1275,8 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-MIC-BKBK merges modern technology with classic elegance, featuring the Manouch mic for exceptional acoustic clarity. It boasts a Spruce top that provides a bright and resonant tone, complemented by Mahogany back, sides, and neck for a warm, rich sound. Strung with SAVAREZ CJ500 strings, it delivers a vibrant and dynamic performance. The sleek black gloss finish enhances its contemporary appeal. With 22 frets and rounded edges for smooth playability, and an integrated EQ with microphone for precise sound control, this guitar is both versatile and stylish. It comes with a 10mm padded bag for secure protection and convenient transport, making it an excellent choice for classical musicians seeking a blend of sophistication and functionality.",
     category: "GUITAR",
+    subCategory: "ELECTRO-CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -868,6 +1285,8 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-MIC-N combines exceptional craftsmanship with modern performance features, including the Manouch mic for outstanding sound quality. It features a Spruce top that provides a bright and resonant tone, while the Mahogany back, sides, and neck offer a warm, rich sound. The guitar is strung with SAVAREZ CJ500 strings for a vibrant, dynamic performance. Finished in a natural gloss, it showcases a classic and elegant appearance. With 22 frets and rounded edges for smooth playability, and an integrated EQ with microphone for precise sound control, this model is both versatile and stylish. It comes with a 10mm padded bag for secure protection and convenient transport, making it a great choice for classical musicians who value both aesthetic appeal and advanced functionality.",
     category: "GUITAR",
+    subCategory: "ELECTRO-CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -876,6 +1295,8 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-MIC-YL offers a striking blend of classic elegance and modern performance, enhanced by the Manouch mic for exceptional sound quality. It features a Spruce top that delivers a bright and resonant tone, while the Mahogany back, sides, and neck provide a warm and rich sound. The guitar is strung with SAVAREZ CJ500 strings, known for their vibrant and dynamic tone. Finished in a glossy dark yellow, it combines a bold aesthetic with refined craftsmanship. With 22 frets and rounded edges for smooth playability, along with an integrated EQ with microphone for precise sound control, this guitar is both versatile and stylish. It also comes with a 10mm padded bag for secure protection and easy transport, making it an excellent choice for classical musicians who appreciate both beauty and functionality.",
     category: "GUITAR",
+    subCategory: "ELECTRO-CLASSIC",
+
     pictureUrl: [],
   },
   {
@@ -886,28 +1307,14 @@ const ITEMS = [
     category: "GUITAR",
     pictureUrl: [],
   },
-  {
-    name: "Calypso FG41-INT Guitar",
-    id: "FG41-INT",
-    description:
-      "Introducing the FG41-INT: an exceptional acoustic guitar designed for versatile performance. Crafted with a spruce top and linden back/sides, this model delivers a rich, resonant tone suitable for various musical styles. The dyed fingerboard and half-cast machine head ensure durability and smooth playability. Finished in a sophisticated brown color, this guitar exudes timeless elegance, making it a perfect choice for musicians seeking both style and substance in their instrument.",
-    category: "GUITAR",
-    pictureUrl: [],
-  },
-  {
-    name: "Calypso FG42-INT Guitar",
-    id: "FG42-INT",
-    description:
-      "Introducing the FG42-INT: a premium acoustic guitar designed for exceptional performance. Crafted with a spruce top and linden back/sides, this model delivers a balanced and resonant tone perfect for various musical styles. The rosewood fingerboard offers smooth playability and adds a touch of elegance to the instrument. With its high-quality construction and versatile sound, the FG42-INT is an ideal choice for both aspiring and experienced musicians.",
-    category: "GUITAR",
-    pictureUrl: [],
-  },
+
   {
     name: "Calypso UK-CG-28-INT-EQ Guitalele",
     id: "UK-CG-28-INT-EQ",
     description:
       "Introducing the Calypso UK-CG-28-INT-EQ Guitalele. With a compact 28-inch body and an integrated equalizer, this instrument offers versatility and exceptional sound control. Crafted with a Spruce top and Mahogany back and sides, it delivers a rich, resonant tone with depth and clarity. The Rosewood fingerboard adds to the instrument's playability and elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the UK-CG-28-INT-EQ Guitalele represents a harmonious blend of quality craftsmanship and musical excellence.",
     category: "GUITAR",
+    subCategory: "GUITALELE",
     pictureUrl: [],
   },
   {
@@ -916,6 +1323,7 @@ const ITEMS = [
     description:
       "Introducing the Calypso UK-CG-28-INT-EQ Guitalele. With a compact 28-inch body and an integrated equalizer, this instrument offers versatility and exceptional sound control. Crafted with a Spruce top and Mahogany back and sides, it delivers a rich, resonant tone with depth and clarity. The Rosewood fingerboard adds to the instrument's playability and elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the UK-CG-28-INT-EQ Guitalele represents a harmonious blend of quality craftsmanship and musical excellence.",
     category: "GUITAR",
+    subCategory: "GUITALELE",
     pictureUrl: [],
   },
   {
@@ -924,6 +1332,7 @@ const ITEMS = [
     description:
       "Introducing the Calypso UK-CG-28-INT-EQ Guitalele. With a compact 28-inch body and an integrated equalizer, this instrument offers versatility and exceptional sound control. Crafted with a Spruce top and Mahogany back and sides, it delivers a rich, resonant tone with depth and clarity. The Rosewood fingerboard adds to the instrument's playability and elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the UK-CG-28-INT-EQ Guitalele represents a harmonious blend of quality craftsmanship and musical excellence.",
     category: "GUITAR",
+    subCategory: "GUITALELE",
     pictureUrl: [],
   },
 ];

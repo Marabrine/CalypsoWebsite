@@ -5,6 +5,8 @@ import ITEMS from "../data/items";
 import Home from "./home/Home";
 import ErrorPage from "../containers/ErrorPage";
 import Accessories from "./accessories/Accessories";
+import Guitars from "./guitars/Guitars";
+import Pianos from "./piano/Pianos";
 
 function App() {
   const router = createBrowserRouter([
@@ -15,16 +17,25 @@ function App() {
       children: [
         { path: "", element: <Home /> },
 
-        // { path: "/search/:sTerm" },
         {
           path: "items",
           children: [
-            //     {
-            //       path: "/guitar-bass",
-            //     },
-            //     {
-            //       path: "/piano-keyboard",
-            //     },
+            {
+              path: "guitar-bass",
+              element: (
+                <Guitars
+                  props={ITEMS.filter((item) => item.category === "GUITAR")}
+                />
+              ),
+            },
+            {
+              path: "pianos",
+              element: (
+                <Pianos
+                  props={ITEMS.filter((item) => item.category === "PIANO")}
+                />
+              ),
+            },
             //     {
             //       path: "/orchestral-strings",
             //     },

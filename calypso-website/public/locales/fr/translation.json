@@ -12,5 +12,10 @@
   "noResults": "Aucun résultat trouvé",
   "bench": "Bancs de Piano",
   "cable": "Cables",
-  "stand": "Lutrins et Supports"
+  "stand": "Lutrins et Supports",
+  "acousticGuitar": "Guitares Acoustiques",
+  "electroAcoustic": "Guitares Electro-Acoustiques",
+  "classicGuitar": "Guitares Classiques",
+  "electroClassic": "Guitares Electro-Classiques",
+  "guitalele": "Guitalele"
 }

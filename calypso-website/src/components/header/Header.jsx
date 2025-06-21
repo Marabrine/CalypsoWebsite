@@ -34,7 +34,7 @@ export default function Header({ props }) {
           <img
             src={CalypsoText}
             style={{
-              width: "15rem", // or use maxWidth: "100%" for responsiveness
+              width: "12rem", // or use maxWidth: "100%" for responsiveness
               height: "auto",
             }}
             className="calypso-text"

@@ -2,11 +2,10 @@ import "../Accessories.css";
 import { useTranslation } from "react-i18next";
 import Item from "../item/Item";
 
-function Accessories({ props }) {
+function Pianos({ props }) {
   const { t } = useTranslation();
   const benches = props.filter((item) => item.subCategory === "BENCH");
   const cables = props.filter((item) => item.subCategory === "CABLE");
-  const stands = props.filter((item) => item.subCategory === "STAND");
 
   return (
     <div className="accessories-body">
@@ -37,4 +36,4 @@ function Accessories({ props }) {
     </div>
   );
 }
-export default Accessories;
+export default Pianos;

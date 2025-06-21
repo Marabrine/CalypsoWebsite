@@ -13,10 +13,10 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
       >
         <ul className="items-list">
           <li>
-            <Link>{t("pianos")}</Link>
+            <Link to={"/items/pianos"}>{t("pianos")}</Link>
           </li>
           <li>
-            <Link>{t("guitars")}</Link>
+            <Link to={"/items/guitar-bass"}>{t("guitars")}</Link>
           </li>
           <li>
             <Link>{t("orchStrings")}</Link>

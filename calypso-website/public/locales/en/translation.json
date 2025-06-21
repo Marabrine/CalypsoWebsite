@@ -12,5 +12,10 @@
   "noResults": "No results found",
   "bench": "Piano Benches",
   "cable": "Cables",
-  "stand": "Music Stands"
+  "stand": "Music Stands",
+  "acousticGuitar": "Acoustic Guitars",
+  "electroAcoustic": "Electro-Acoustic Guitars",
+  "classicGuitar": "Classical Guitars",
+  "electroClassic": "Electro-Classical Guitars",
+  "guitalele": "Guitalele"
 }
