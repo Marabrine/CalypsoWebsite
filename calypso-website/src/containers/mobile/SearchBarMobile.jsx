@@ -48,14 +48,7 @@ export default function SearchBarMobile({
           filteredItems.map((item, index) => {
             const name = item.name || "";
             return (
-              <Link
-                key={index}
-                to={`/item/${item.id}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href = `/item/${item.id}`;
-                }}
-              >
+              <Link key={index} to={`/item/${item.id}`}>
                 <li
                   style={{
                     borderBottom: "1px solid #ccc",

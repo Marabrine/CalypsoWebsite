@@ -17,8 +17,9 @@ export default function Header({ props }) {
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
   const [isSearchBarOpen, setIsSearchBarOpen] = useState(false);
   const toggleSearchBar = () => {
-    setIsSearchBarOpen(!isSearchBarOpen);
-    console.log(isSearchBarOpen);
+    setTimeout(() => {
+      setIsSearchBarOpen((prev) => !prev);
+    }, 1000);
   };
 
   const { t } = useTranslation();
@@ -28,14 +29,7 @@ export default function Header({ props }) {
       <header>
         <HamburgerButton onHover={toggleSidebar} />
         <div className="logos">
-          <Link
-            to="/"
-            className="calypso-logo"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "/";
-            }}
-          >
+          <Link to="/" className="calypso-logo">
             <img src={CalypsoFlag} width="80rem" height="80rem" />
           </Link>
           <img

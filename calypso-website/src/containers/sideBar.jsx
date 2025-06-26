@@ -16,13 +16,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
       >
         <ul className="items-list">
           <li>
-            <Link
-              to={"/items/pianos"}
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "/items/pianos";
-              }}
-            >
+            <Link to={"/items/pianos"} onClick={toggleSidebar}>
               {t("pianos")}
             </Link>
           </li>
@@ -30,13 +24,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
             onMouseEnter={() => setIsExtensionOpen(true)}
             onMouseLeave={() => setIsExtensionOpen(false)}
           >
-            <Link
-              to={"/items/guitar-bass"}
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "/items/guitar-bass";
-              }}
-            >
+            <Link to={"/items/guitar-bass"} onClick={toggleSidebar}>
               {t("guitars")}
             </Link>
             <ul className={`extension ${isExtensionOpen ? "visible" : ""}`}>
@@ -46,30 +34,30 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
             </ul>
           </li>
           <li>
-            <Link>{t("orchStrings")}</Link>
+            <Link onClick={toggleSidebar} to={"/items/orchestral-strings"}>
+              {t("orchStrings")}
+            </Link>
           </li>
           <li>
-            <Link>{t("winds")}</Link>
+            <Link onClick={toggleSidebar} to={"/items/brass-wind"}>
+              {t("winds")}
+            </Link>
           </li>
           <li>
-            <Link>{t("drums")}</Link>
+            <Link onClick={toggleSidebar} to={"/items/drums-percussion"}>
+              {t("drums")}
+            </Link>
           </li>
           <li>
-            <Link>{t("special")}</Link>
+            <Link onClick={toggleSidebar}>{t("special")}</Link>
           </li>
           <li>
-            <Link
-              to={"/items/accessories"}
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "/items/accessories";
-              }}
-            >
+            <Link to={"/items/accessories"} onClick={toggleSidebar}>
               {t("accessories")}
             </Link>
           </li>
           <li>
-            <Link>{t("sonata")}</Link>
+            <Link onClick={toggleSidebar}>{t("sonata")}</Link>
           </li>
         </ul>
       </div>

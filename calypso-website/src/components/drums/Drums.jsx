@@ -2,34 +2,34 @@ import "../Accessories.css";
 import { useTranslation } from "react-i18next";
 import Item from "../item/Item";
 
-function Orchestral({ props }) {
+function Drums({ props }) {
   const { t } = useTranslation();
-  const violins = props.filter((item) => item.subCategory === "VIOLIN");
-  const violas = props.filter((item) => item.subCategory === "VIOLA");
-  const celli = props.filter((item) => item.subCategory === "CELLO");
+  const drumset = props.filter((item) => item.subCategory === "DRUMSET");
+  const marching = props.filter((item) => item.subCategory === "MARCHING");
+  const oriental = props.filter((item) => item.subCategory === "ORIENTAL");
 
   return (
     <div className="accessories-body">
       <div className="accessories-section">
-        <h1 className="items-title">{t("violin")}</h1>
+        <h1 className="items-title">{t("drumset")}</h1>
         <ul className="items-display">
-          {violins.map((item) => {
+          {drumset.map((item) => {
             return <Item item={item} />;
           })}
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("viola")}</h1>
+        <h1 className="items-title">{t("marching")}</h1>
         <ul className="items-display">
-          {violas.map((item) => {
+          {marching.map((item) => {
             return <Item item={item} />;
           })}
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("cello")}</h1>
+        <h1 className="items-title">{t("oriental")}</h1>
         <ul className="items-display">
-          {celli.map((item) => {
+          {oriental.map((item) => {
             return <Item item={item} />;
           })}
         </ul>
@@ -37,4 +37,4 @@ function Orchestral({ props }) {
     </div>
   );
 }
-export default Orchestral;
+export default Drums;

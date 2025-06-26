@@ -20,5 +20,12 @@
   "guitalele": "Guitalele",
   "digitalPiano": "Digital Pianos",
   "keyboard": "Keyboards",
-  "other": "Other"
+  "other": "Other",
+  "violin": "Violins",
+  "viola": "Violas",
+  "cello": "Celli",
+  "brass-wind": "Brass & Winds",
+  "drumset": "Drum Sets",
+  "oriental": "Oriental Percussion",
+  "marching": "Marching Drums"
 }

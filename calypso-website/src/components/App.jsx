@@ -7,6 +7,9 @@ import ErrorPage from "../containers/ErrorPage";
 import Accessories from "./accessories/Accessories";
 import Guitars from "./guitars/Guitars";
 import Pianos from "./piano/Pianos";
+import Orchestral from "./orchestral/Orchestral";
+import BrassAndWind from "./brass-wind/BrassAndWind";
+import Drums from "./drums/Drums";
 
 function App() {
   const router = createBrowserRouter([
@@ -36,15 +39,30 @@ function App() {
                 />
               ),
             },
-            //     {
-            //       path: "/orchestral-strings",
-            //     },
-            //     {
-            //       path: "/brass-wind",
-            //     },
-            //     {
-            //       path: "/drums-percussion",
-            //     },
+            {
+              path: "orchestral-strings",
+              element: (
+                <Orchestral
+                  props={ITEMS.filter((item) => item.category === "STRINGS")}
+                />
+              ),
+            },
+            {
+              path: "brass-wind",
+              element: (
+                <BrassAndWind
+                  props={ITEMS.filter((item) => item.category === "BRASS-WIND")}
+                />
+              ),
+            },
+            {
+              path: "drums-percussion",
+              element: (
+                <Drums
+                  props={ITEMS.filter((item) => item.category === "DRUMS")}
+                />
+              ),
+            },
             //     {
             //       path: "/special",
             //     },

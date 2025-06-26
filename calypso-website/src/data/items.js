@@ -252,18 +252,18 @@ const ITEMS = [
   },
   {
     name: "CL804SI CL-ST Bb Clarinet",
-    id: "CL804SI CL-ST",
+    id: "CL804SI-CL-ST",
     description:
       "Introducing the CL804SI CL-ST Bb Clarinet, a professional-grade instrument crafted to inspire and empower musicians of all levels. Constructed with precision and care, this clarinet features a sleek nickel-plated body with a modern matte finish, offering both durability and style. With its 17 keys and convenient thumb rest, players can navigate the instrument effortlessly, unlocking a world of musical possibilities. The double barrel design enhances tonal richness and flexibility, allowing for a nuanced and expressive performance. Complete with a sturdy canvas case for secure storage and transport, the CL804SI CL-ST Bb Clarinet is the perfect companion for your musical journey.",
-    category: "Brass and Wind",
+    category: "BRASS-WIND",
     pictureUrl: [],
   },
   {
     name: "FL805SI FL-YH Flute",
-    id: "FL805SI FL-YH",
+    id: "FL805SI-FL-YH",
     description:
       "Introducing the FL805SI FL-YH Flute, a sophisticated instrument designed for discerning musicians seeking precision and elegance. Crafted with meticulous attention to detail, this flute features a sleek silver-plated body that exudes timeless sophistication. With its 16-hole design and C key configuration, this flute offers a wide range of musical possibilities, perfect for both beginners and seasoned players alike. The inclusion of a split E mechanism and offset G key enhances playability and ensures smooth, effortless performance. Complete with a durable ABS case for secure storage and transportation, the FL805SI FL-YH Flute is the perfect choice for musicians who demand excellence in both sound and style. Elevate your musical journey with the FL805SI FL-YH Flute today.",
-    category: "Brass and Wind",
+    category: "BRASS-WIND",
     pictureUrl: [],
   },
   {
@@ -271,7 +271,7 @@ const ITEMS = [
     id: "AL802I SXA-ST",
     description:
       "Introducing the AL802I SXA-ST Alto Saxophone, a premium instrument designed to elevate your musical performance to new heights. Crafted with precision from high-quality yellow brass and finished with a lustrous gold lacquer, this saxophone boasts both exceptional sound quality and stunning visual appeal. Its Eb key configuration ensures smooth and effortless playability across various musical genres and styles. Plus, with the included durable canvas case, transporting and protecting your saxophone has never been easier. Elevate your musical journey with the AL802I SXA-ST Alto Saxophone today.",
-    category: "Brass and Wind",
+    category: "BRASS-WIND",
     pictureUrl: [],
   },
   {
@@ -279,7 +279,7 @@ const ITEMS = [
     id: "TB700 TRB-ST",
     description:
       "Introducing the TB700 TRB-ST Tenor Trombone, a premium brass instrument designed to elevate your musical performance to new heights. Crafted with precision from high-quality materials and finished with a brilliant gold lacquer, this trombone boasts both exceptional sound quality and stunning visual appeal. Featuring a bell diameter of φ203mm and a bore diameter of φ12.7mm, it delivers a rich and resonant tone with remarkable projection and clarity. The Bb key configuration ensures versatility across various musical genres and styles, while the included durable canvas case offers convenient storage and transportation. Elevate your musical journey with the TB700 TRB-ST Tenor Trombone today.",
-    category: "Brass and Wind",
+    category: "BRASS-WIND",
     pictureUrl: [],
   },
   {
@@ -287,7 +287,7 @@ const ITEMS = [
     id: "TP807LI TR-ST",
     description:
       "Introducing the TP807LI TR-ST Trumpet, an exceptional instrument meticulously crafted to meet the demands of discerning musicians. Constructed from premium yellow brass and adorned with a radiant gold lacquer finish, this trumpet not only exudes elegance but also delivers unparalleled sound quality and projection. Equipped with a roso brass leadpipe, it offers enhanced responsiveness and clarity across the entire range, allowing players to achieve their desired tonal palette with ease. Complete with a durable canvas case, the TP807LI TR-ST Trumpet is the perfect choice for both aspiring and seasoned trumpet players alike, promising years of musical excellence and enjoyment. Elevate your performance with the TP807LI TR-ST Trumpet today.",
-    category: "Brass and Wind",
+    category: "BRASS-WIND",
     pictureUrl: [],
   },
   {
@@ -295,7 +295,8 @@ const ITEMS = [
     id: "DR-INT",
     description:
       '"Calypso DR-INT Intermediate Acoustic Drum Set\nTake your drumming to the next level with our Intermediate Acoustic Drum Set. This 6-piece kit is designed for musicians ready to enhance their skills and explore new rhythms.\nSet Includes:\nKick Drum: 22""\nSnare Drum: 14""\nTom 1: 10""\nTom 2: 12""\nFloor Tom: 14""\nHi-Hat: 14""\nCrash Cymbal: 16""\nRide Cymbal: 17""\nMaterials: Made from premium New Zealand pine wood and durable Chinese poplar, this set delivers a rich, resonant sound perfect for any genre.\nIncluded: Comes with a comfortable stool and all necessary stands, making it easy to set up and start playing right away.\nDesigned for durability and performance, this drum set inspires creativity and growth. Upgrade your drumming experience today!\n"',
-    category: "Brass and Wind",
+    category: "DRUMS",
+    subCategory: "DRUMSET",
     pictureUrl: [],
   },
   {
@@ -303,7 +304,8 @@ const ITEMS = [
     id: "DR-ST",
     description:
       '"Calypso DR-St Student Acoustic Drum Set, designed for aspiring drummers looking to make their mark! This 5-piece kit includes:\n\nKick Drum: 22""\nSnare Drum: 14""\nTom 1: 10""\nTom 2: 12""\nFloor Tom: 16""\nHi-Hat: 14""\nCrash Cymbal: 16""\nCrafted from high-quality New Zealand pine wood and durable Chinese poplar, this set offers a rich, resonant sound that enhances your playing experience.\n\nComplete with a comfortable stool and all necessary stands, this drum set provides everything you need to start your musical journey. Perfect for students, it’s built for durability and ease of use, inspiring creativity and skill development from day one."',
-    category: "Brass and Wind",
+    category: "DRUMS",
+    subCategory: "DRUMSET",
     pictureUrl: [],
   },
   {
@@ -311,7 +313,8 @@ const ITEMS = [
     id: "TBL-MT-18",
     description:
       'Calypso TBL-MT 18-Inch Oriental Bass Drum, or "Tabol," delivers deep, resonant tones perfect for both traditional and contemporary music. Crafted for durability and featuring an elegant design, it’s ideal for solo performances or ensemble settings. Elevate your sound with the TBL-MT Tabol!',
-    category: "Brass and Wind",
+    category: "DRUMS",
+    subCategory: "ORIENTAL",
     pictureUrl: [],
   },
   {
@@ -319,7 +322,8 @@ const ITEMS = [
     id: "TBL-MT-20",
     description:
       'Calypso TBL-MT 18-Inch Oriental Bass Drum, or "Tabol," delivers deep, resonant tones perfect for both traditional and contemporary music. Crafted for durability and featuring an elegant design, it’s ideal for solo performances or ensemble settings. Elevate your sound with the TBL-MT Tabol!',
-    category: "Brass and Wind",
+    category: "DRUMS",
+    subCategory: "ORIENTAL",
     pictureUrl: [],
   },
   {
@@ -327,7 +331,8 @@ const ITEMS = [
     id: "TBL-MT-22",
     description:
       'Calypso TBL-MT 22-Inch Oriental Bass Drum, or "Tabol," delivers deep, resonant tones perfect for both traditional and contemporary music. Crafted for durability and featuring an elegant design, it’s ideal for solo performances or ensemble settings. Elevate your sound with the TBL-MT Tabol!',
-    category: "Brass and Wind",
+    category: "DRUMS",
+    subCategory: "ORIENTAL",
     pictureUrl: [],
   },
   {
@@ -335,7 +340,8 @@ const ITEMS = [
     id: "TBL-RD-TRSP",
     description:
       '"Calypso TBL-RD-TRSP Lightning Drum delivers vibrant sound with powerful tones, perfect for various music styles. Its durable build and eye-catching lightning design make it ideal for both solo performances and ensemble settings. Elevate your sound with the Lightning Drum!\n\n\n"',
-    category: "Brass and Wind",
+    category: "DRUMS",
+    subCategory: "ORIENTAL",
     pictureUrl: [],
   },
   {
@@ -343,7 +349,8 @@ const ITEMS = [
     id: "MCH-ST14",
     description:
       "Calypso MCH-ST14 Marching Snare offers precision and a crisp, resonant sound, making it perfect for marching bands. Its durable yet lightweight design ensures easy transport, while adjustable straps provide a comfortable fit. Elevate your performance with this essential snare!",
-    category: "Brass and Wind",
+    category: "DRUMS",
+    subCategory: "MARCHING",
     pictureUrl: [],
   },
   {
@@ -351,7 +358,8 @@ const ITEMS = [
     id: "MCH-ST24",
     description:
       "Calypso Marching Bass MCH-ST24 delivers powerful sound and durability, making it ideal for marching bands. With a lightweight design and adjustable straps, it’s easy to carry and comfortable to play. Elevate your performance with this robust bass drum!",
-    category: "Brass and Wind",
+    category: "DRUMS",
+    subCategory: "MARCHING",
     pictureUrl: [],
   },
   {
@@ -1008,7 +1016,8 @@ const ITEMS = [
     id: "MC760R",
     description:
       "Introducing the Calypso Intermediate Cello, a refined instrument designed for advancing cellists seeking a higher level of performance. With a solid spruce top and solid maple back, this cello produces a rich, resonant sound with exceptional projection and depth. The rosewood parts add a touch of sophistication to the instrument's appearance, complementing its elegant design. Whether you're honing your skills in rehearsals or captivating audiences on stage, the Calypso Intermediate Cello delivers unparalleled tonal clarity and dynamic range. Elevate your musical expression and unlock new possibilities with the Calypso Intermediate Cello, where craftsmanship meets artistry for an unforgettable playing experience.",
-    category: "CELLO",
+    category: "STRINGS",
+    subCategory: "CELLO",
     pictureUrl: [],
   },
   {
@@ -1016,15 +1025,26 @@ const ITEMS = [
     id: "MC760L",
     description:
       "Introducing the Calypso Student Cello, a reliable companion for beginner cellists embarking on their musical journey. Crafted with a laminated spruce top and laminated maple back, this cello offers durability and resilience while producing clear and balanced tones. The rosewood parts add a touch of elegance to the instrument's appearance, enhancing its aesthetic appeal. Whether you're practicing at home or performing in a school orchestra, the Calypso Student Cello provides a comfortable playing experience and reliable performance. Dive into the world of music with confidence and passion, supported by the reliability and affordability of the Calypso Student Cello.",
-    category: "CELLO",
+    category: "STRINGS",
+    subCategory: "CELLO",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso Intermediate Cello",
+    id: "INT-6011H",
+    description:
+      "Introducing the Calypso Student Cello, a reliable companion for beginner cellists embarking on their musical journey. Crafted with a laminated spruce top and laminated maple back, this cello offers durability and resilience while producing clear and balanced tones. The rosewood parts add a touch of elegance to the instrument's appearance, enhancing its aesthetic appeal. Whether you're practicing at home or performing in a school orchestra, the Calypso Student Cello provides a comfortable playing experience and reliable performance. Dive into the world of music with confidence and passion, supported by the reliability and affordability of the Calypso Student Cello.",
+    category: "STRINGS",
+    subCategory: "CELLO",
     pictureUrl: [],
   },
   {
     name: "Calypso Advanced C Viola",
-    id: "MVA12C",
+    id: "MVA012C",
     description:
       "Experience the pinnacle of craftsmanship and performance with the Calypso Advanced C Viola. Meticulously crafted with a solid spruce top and maple back and sides, this viola delivers a rich, resonant sound that captivates audiences and inspires players alike. The luxurious rosewood fingerboard and pegs offer a smooth and comfortable playing experience, allowing for effortless expression and control. Enhanced with a wengue tailpiece and chinrest, the Calypso Advanced C Viola embodies elegance and sophistication, both in appearance and sound. Elevate your musical journey with the precision and artistry of the Calypso Advanced C Viola, where unparalleled quality meets timeless beauty.",
-    category: "VIOLA",
+    category: "STRINGS",
+    subCategory: "VIOLA",
     pictureUrl: [],
   },
   {
@@ -1032,7 +1052,8 @@ const ITEMS = [
     id: "MVA012E",
     description:
       "Introducing the Calypso Concert 12E Viola, a masterpiece of elegance and precision designed for the discerning musician. Crafted with a solid spruce top and maple back and sides, this viola resonates with a rich, full-bodied sound that fills the concert hall with warmth and depth. The ebony fingerboard, pegs, and chinrest provide a luxurious playing experience, offering smoothness and stability that elevate your performance to new heights. Enhanced with a sleek metal tailpiece, the Calypso Concert 12E Viola ensures impeccable tuning and reliability, allowing you to focus on your artistry without distraction. Immerse yourself in the unparalleled beauty and craftsmanship of the Calypso Concert 12E Viola, where every note is a masterpiece and every performance is unforgettable.",
-    category: "VIOLA",
+    category: "STRINGS",
+    subCategory: "VIOLA",
     pictureUrl: [],
   },
   {
@@ -1040,7 +1061,8 @@ const ITEMS = [
     id: "MVA013E",
     description:
       "Introducing the Calypso Concert 13E Viola, a pinnacle of craftsmanship and performance. Crafted with a solid spruce top and maple back and sides, this viola delivers a rich, resonant sound that commands attention in any concert hall. The ebony fingerboard, pegs, and chinrest provide a luxurious playing experience, offering smoothness and stability for effortless expression. Enhanced with an aluminum tailpiece, the Calypso Concert 13E Viola ensures impeccable tuning and reliability, allowing you to focus on your artistry without distraction. Immerse yourself in the unparalleled beauty and craftsmanship of the Calypso Concert 13E Viola, where every note sings with clarity and depth, and every performance is unforgettable.",
-    category: "VIOLA",
+    category: "STRINGS",
+    subCategory: "VIOLA",
     pictureUrl: [],
   },
   {
@@ -1048,15 +1070,17 @@ const ITEMS = [
     id: "MVA013B",
     description:
       "Step into the world of musical excellence with the Calypso Concert B Viola. Handcrafted with a solid spruce top and maple back and sides, this viola delivers a refined and resonant sound that captivates audiences with its depth and clarity. The rosewood fingerboard ensures smooth and precise playability, while the boxwood pegs, tailpiece, and chinrest add an elegant touch of sophistication. Whether you're performing on stage or practicing at home, the Calypso Concert B Viola promises a premium playing experience, combining exquisite craftsmanship with superior tone quality. Elevate your musical journey to new heights with the Calypso Concert B Viola, where artistry and tradition converge in perfect harmony.",
-    category: "VIOLA",
+    category: "STRINGS",
+    subCategory: "VIOLA",
     pictureUrl: [],
   },
   {
     name: "Calypso Intermediate Viola",
-    id: "MV406RSMC",
+    id: "MV406RS",
     description:
       "Introducing the Calypso Intermediate Viola - a harmonious blend of craftsmanship and quality, designed to elevate your musical expression. Crafted with a solid spruce top and maple back and sides, this viola resonates with clarity and warmth, allowing your melodies to soar effortlessly. The rich tones are complemented by a luxurious rosewood fingerboard, pegs, and chinrest, offering a smooth and comfortable playing experience. Complete with a durable metal tailpiece, the Calypso Intermediate Viola is built to withstand the demands of your musical journey, ensuring reliability and performance every time you play. Immerse yourself in the enchanting world of music with the Calypso Intermediate Viola, where tradition meets innovation for a truly unforgettable playing experience.",
-    category: "VIOLA",
+    category: "STRINGS",
+    subCategory: "VIOLA",
     pictureUrl: [],
   },
   {
@@ -1064,7 +1088,8 @@ const ITEMS = [
     id: "HM-1416",
     description:
       '"Calypso HM-1416 Hand-Crafted Violin Outfit – Superior Craftsmanship and Exceptional Sound.\nThe Calypso Hand-Crafted Violin Outfit is a masterpiece, meticulously crafted for discerning musicians. Featuring a solid hand-crafted spruce soundboard top and solid hand-crafted flame maple back and sides, this violin offers superior tone and resonance, ideal for serious players.\nThe hand-crafted neck and scroll with flame detailing, combined with carefully inlaid purfling, reflect the attention to detail and expert craftsmanship. Upgraded with ebony fittings—including the fingerboard, pegs, and chinrest—the violin is equipped with a carbon composite tailpiece with four built-in fine tuners for precise tuning. The Swiss eye peg ensures smooth and stable peg adjustments.\nWith aluminum-magnesium composite steel strings and a seasoned hand-carved bridge, this violin delivers outstanding sound quality, projection, and durability.\nIncludes:\nVLS95AC Lightweight Oblong Violin Case (Foam Shell)\nMVB24 Bow with Brazilwood stick & ebony frog\nRosin & Strong Nylon Hanger\nA stunning violin outfit for advanced players who demand unparalleled craftsmanship and performance."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1072,7 +1097,8 @@ const ITEMS = [
     id: "INT-1411",
     description:
       '"Calypso INT-1411 Full Solid Carved Violin Outfit – Rich Tone & Craftsmanship\nCrafted for advancing students and serious beginners, the Calypso Full Solid Carved Violin offers enhanced resonance and response. Built with a solid carved spruce top and solid carved maple back, sides, and neck, it delivers warm, expressive tone and lasting durability.\nThis model features inlaid purfling, a classic yellow-brown glossy finish, and black-dyed hardwood fittings. The aluminum tailpiece includes 4 built-in fine tuners, while strong steel strings and a seasoned, hand-carved bridge provide excellent playability and tuning stability.\nIncludes:\nVLS90 Shaped Lightweight Hard Foam Case\nMVB22 Bow with genuine white horsehair, hardwood stick, and wenge frog\nRosin & Strong Nylon Hanger\nA solid choice for players ready to elevate their sound with true carved wood quality."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1080,7 +1106,8 @@ const ITEMS = [
     id: "INT-1413AT",
     description:
       '"Calypso INT-1413AT Ebony Fitting Solid Wood Violin Outfit – Premium Feel, Classic Sound\nDesigned for advancing players, the Calypso Ebony Fitting Violin Outfit offers exceptional tone and refined aesthetics. Built with a solid carved spruce top and solid carved maple back, sides, and neck, this model provides rich resonance and excellent projection.\nFinished in an elegant antique brown matte (ABM), it features inlaid purfling and upgraded ebony fittings—fingerboard, pegs, and chinrest—for enhanced durability and smoother playability. The aluminum tailpiece includes 4 built-in fine tuners, paired with strong steel strings and a seasoned, hand-carved bridge for optimal sound and tuning stability.\nIncludes:\nVLS90 Shaped Lightweight Hard Foam Case\nMVB23 Bow with a Brazilwood stick and ebony frog\nRosin & Strong Nylon Hanger\nA stylish and high-performing violin outfit for dedicated students and intermediate players."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1088,7 +1115,8 @@ const ITEMS = [
     id: "INT-1413PH",
     description:
       '"Calypso INT-1413PH  Ebony Fitting Solid Wood Violin Outfit – Premium Feel, Classic Sound\nDesigned for advancing players, the Calypso Ebony Fitting Violin Outfit offers exceptional tone and refined aesthetics. Built with a solid carved spruce top and solid carved maple back, sides, and neck, this model provides rich resonance and excellent projection.\nFinished in a warm Antique Brown Matte (ABM), it features inlaid purfling and upgraded ebony fittings—fingerboard, pegs, and chinrest—for enhanced durability and smoother playability. The aluminum tailpiece includes four built-in fine tuners, paired with strong steel strings and a seasoned, hand-carved bridge for optimal sound and tuning stability.\nIncludes:\nVLS90 Shaped Lightweight Hard Foam Case\nMVB23 Bow – Brazilwood Stick & Ebony Frog\nRosin & Strong Nylon Hanger\nA stylish, high-performing violin outfit ideal for dedicated students and intermediate players."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1096,7 +1124,8 @@ const ITEMS = [
     id: "INT-1413YA",
     description:
       '"Calypso INT-1413YA Ebony Fitting Solid Wood Violin Outfit – Enhanced Craftsmanship, Superior Sound\nThe Calypso Ebony Fitting Solid Wood Violin Outfit is designed for players seeking both premium quality and exceptional sound. Featuring a solid carved spruce soundboard top and solid carved maple body & neck, this violin offers rich resonance and great projection.\nWith inlaid purfling and ebony fittings—including the fingerboard, pegs, chinrest, and Swiss eye peg—this violin combines aesthetic elegance with robust functionality. The aluminum tailpiece includes 4 built-in fine tuners for accurate tuning, and the strong steel strings and seasoned hand-carved bridge ensure excellent tone and stability.\nIncludes:\nVLS90 Shaped Lightweight Hard Foam Case\nMVB23 Bow with Brazilwood stick & ebony frog\nRosin & Strong Nylon Hanger\nA sophisticated and reliable violin outfit designed for dedicated students and advancing musicians."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1104,7 +1133,8 @@ const ITEMS = [
     id: "INT-1415BW",
     description:
       '"Calypso INT-1415BW Ebony Fitting Solid Wood Violin Outfit – Premium Craftsmanship, Enhanced Performance\nThe Calypso Ebony Fitting Solid Wood Violin Outfit is a premium choice for advancing players. Featuring a solid carved spruce top and solid carved maple body & neck, it offers rich tone and great resonance. The inlaid purfling adds an elegant touch to the design.\nUpgraded with ebony fittings—including the fingerboard, pegs, chinrest, and Swiss eye peg—this violin ensures durability and smooth playability. The aluminum tailpiece includes 4 built-in fine tuners for precise tuning. Equipped with strong steel strings and a seasoned hand-carved bridge, it provides excellent sound quality and stability.\nIncludes:\nVLS90 Shaped Lightweight Hard Foam Case\nMVB23 Bow with Brazilwood stick & ebony frog\nRosin & Strong Nylon Hanger\nAn elegant and reliable outfit, designed for serious students and advancing musicians."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1112,7 +1142,8 @@ const ITEMS = [
     id: "INT-1415RD",
     description:
       '"Calypso INT-1415RD Ebony Fittings Flame Solid Wood Violin Outfit – Stunning Tone, Bold Aesthetics\nThe Calypso Ebony Fittings Flame Solid Wood Violin Outfit offers exceptional craftsmanship with a blend of elegance and durability. Featuring a solid carved spruce soundboard top with tight grain, and a solid carved maple back with moderate flame, this violin is designed to provide rich resonance and projection. The maple solid wood neck and scroll add strength and stability, with a subtle fake flame detail for a distinctive look.\nThe violin’s inlaid purfling and RD color finish give it a classic yet refined appearance. Upgraded with ebony fittings—including the fingerboard, pegs, and chinrest—and a carbon composite tailpiece with 4 built-in fine tuners for easy tuning. The Swiss eye peg ensures smooth and precise adjustments.\nWith strong steel strings and a seasoned hand-carved bridge, this violin produces an excellent tone and reliable stability.\nIncludes:\nVLS95AC Lightweight Oblong Violin Case (Foam Shell)\nMVB24 Bow with Brazilwood stick & ebony frog\nRosin & Strong Nylon Hanger\nA beautifully crafted violin outfit, ideal for advancing players who demand both style and performance."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1120,7 +1151,8 @@ const ITEMS = [
     id: "INT-1419A",
     description:
       '"Calypso INT-1419A College Violin Outfit – Unmatched Craftsmanship for Serious Musicians\nThe Calypso College Violin Outfit is a top-tier choice for advanced students and dedicated musicians. Crafted with a solid hand-crafted spruce soundboard top and solid hand-crafted maple back and sides with exceptional flame, this violin offers superb tone, projection, and durability.\nThe hand-crafted neck and scroll, also featuring flame details, add to its elegance, while the hand-carved carefully inlaid purfling and matte finish give it a refined, classic appearance. Featuring premium ebony fittings, including the fingerboard, pegs, chinrest, and tailpiece with four built-in adjusters, this violin is designed for superior playability and tuning precision. The Swiss eye peg ensures smooth and stable peg adjustments.\nWith aluminum-magnesium composite steel strings and a seasoned hand-carved bridge, it delivers a rich, full sound ideal for demanding performance.\nIncludes:\nVLS95CC High-Grade Lightweight Oblong Violin Case\nMVB24 Bow with Brazilwood stick & ebony frog\nRosin & Strong Nylon Hanger\nAn exceptional violin outfit for serious musicians seeking premium performance and fine craftsmanship."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1128,7 +1160,8 @@ const ITEMS = [
     id: "INT-1421",
     description:
       '"Calypso INT-1421 Hand-Crafted Violin Outfit\nExperience the perfect harmony of craftsmanship and performance with the INT-1421 Violin Outfit. Expertly hand-carved for discerning musicians, this violin features a solid spruce soundboard top and solid maple back and sides, both meticulously hand-crafted and enhanced with top-grade flame for a stunning appearance and resonant tone.\nThe hand-carved neck and scroll, along with precisely inlaid purfling, showcase exceptional artistry. Ebony fittings—including fingerboard, pegs, chinrest, and Swiss eye pegs—offer both durability and classic aesthetic appeal. The ebony tailpiece includes four built-in fine tuners for easy and accurate tuning, while the strong nylon hanger ensures secure handling.\nOutfitted with aluminum-magnesium composite steel strings and a seasoned, hand-carved bridge, this violin delivers a rich, responsive sound.\nIncluded Accessories:\nVLS94CB Carbon Color ABS Polycarbonate Shaped Case – Lightweight and protective with a sleek design.\nMVB25AH Brazilwood Octagonal Stick Bow – Balanced and durable for refined control.\nWhether you\'re an advancing student or a passionate enthusiast, the INT-1421 is crafted to inspire and perform."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1136,15 +1169,17 @@ const ITEMS = [
     id: "INT-1422",
     description:
       '"Calypso INT-1422 Hand-Crafted Violin Outfit – Unmatched Craftsmanship and Premium Tone\nThe Calypso Hand-Crafted Violin Outfit is designed for serious musicians who demand the finest quality and performance. Featuring a solid hand-crafted spruce soundboard top and solid hand-crafted maple back and sides with top-grade flame, this violin offers superior resonance, tonal richness, and exceptional projection.\nThe hand-crafted neck and scroll, with stunning flame detail, are paired with hand-carved carefully inlaid purfling to create a visually striking and acoustically refined instrument. The ebony fittings—including the fingerboard, pegs, chinrest, and tailpiece with four built-in adjusters—ensure smooth, reliable playability, while the Swiss eye peg offers stable and precise tuning adjustments.\nWith aluminum-magnesium composite steel strings and a seasoned hand-carved bridge, this violin produces an outstanding tone, ideal for demanding performances.\nIncludes:\nVLS94CB Carbon Color ABS Polycarbonate Shaped Case\nMVB25AH Brazilwood Octagonal Stick Bow\nRosin & Strong Nylon Hanger\nA premium violin outfit perfect for musicians seeking unparalleled craftsmanship and performance."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
-    name: "Calypso ST-14L 4/4 Violin",
+    name: "Calypso ST-14L Violin",
     id: "ST-14L",
     description:
       '"Calypso ST-14L 4/4 Laminated Violin Outfit – Canadian Craftsmanship, \nThe Calypso ST-14L 4/4 Violin combines durability, style, and solid performance—perfect for students and advancing players. Designed by a trusted Canadian brand, this full-size violin features a laminated linden top, back, and sides with a solid maple neck and scroll.\nIts vibrant orange-red glossy finish is paired with black-dyed hardwood fittings and an aluminum tailpiece with 4 fine tuners for easy, precise tuning.\nIncludes:\nVLS90 Shaped Lightweight Foam Case\nMVB22 Bow with genuine white horsehair, hardwood stick, and wenge frog\nRosin & Strong Nylon Hanger\nA reliable, all-in-one violin outfit that offers great tone and value."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1152,7 +1187,8 @@ const ITEMS = [
     id: "ST-14L 3/4",
     description:
       '"Calypso ST-14L 3/4 Laminated Violin Outfit – Canadian Craftsmanship\nThe Calypso ST-14L 3/4 Violin is a high-quality student instrument designed for younger players. With a linden laminated top, back, and sides, plus a solid maple neck and scroll, it offers durability and stable tone—ideal for learning and practice.\nIt features a classic orange-red glossy finish, drawn purfling, and black-dyed hardwood fingerboard, pegs, and chinrest. The aluminum tailpiece comes with four built-in fine tuners for easy and precise tuning.\nIncludes:\nVLS90 Shaped Lightweight Foam Case\nMVB22 Bow with genuine white horsehair, hardwood stick, and wenge frog\nRosin & Strong Nylon Hanger\nA dependable 3/4-size violin outfit that combines value, playability, and Canadian design."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
@@ -1160,7 +1196,72 @@ const ITEMS = [
     id: "ST-14PF",
     description:
       '"Calypso ST-14PF Paint Flame Laminated Violin Outfit – Stylish Student Model\nThis Calypso violin outfit features a unique painted flame design on the back for an eye-catching look—perfect for students who want both style and sound. Crafted with a laminated linden top, back, and sides, and a solid maple neck and scroll, it offers durability and reliable tone for daily practice.\nFinished in a bright orange-yellow gloss, it includes drawn purfling, black-dyed hardwood fittings, and an aluminum tailpiece with 4 fine tuners. The painted flame adds a touch of elegance, making this a standout choice.\nIncludes:\nVLS90 Shaped Lightweight Foam Case\nMVB22 Bow with genuine white horsehair, hardwood stick, and wenge frog\nRosin & Strong Nylon Hanger\nA bold and dependable violin outfit for students ready to stand out."',
-    category: "VIOLIN",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso MV012C Violin",
+    id: "MV012C",
+    description: "",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso MV012E Violin",
+    id: "MV012E",
+    description: "",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso MV012L Violin",
+    id: "MV012L",
+    description: "",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso MV013B Violin",
+    id: "MV013B",
+    description: "",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso MV013E Violin",
+    id: "MV013E",
+    description: "",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso MV013W Violin",
+    id: "MV013W",
+    description: "",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso MV100B Hornless Violin",
+    id: "MV100B-HL",
+    description: "",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
+    pictureUrl: [],
+  },
+  {
+    name: "Calypso MV012RS Violin",
+    id: "MV012RS",
+    description: "",
+    category: "STRINGS",
+    subCategory: "VIOLIN",
     pictureUrl: [],
   },
   {
