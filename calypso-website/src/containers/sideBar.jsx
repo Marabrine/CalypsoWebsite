@@ -1,4 +1,4 @@
-import "./SideBar.css";
+import "./sideBar.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useState } from "react";
