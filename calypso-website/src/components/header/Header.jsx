@@ -28,7 +28,14 @@ export default function Header({ props }) {
       <header>
         <HamburgerButton onHover={toggleSidebar} />
         <div className="logos">
-          <Link to="/" className="calypso-logo">
+          <Link
+            to="/"
+            className="calypso-logo"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "/";
+            }}
+          >
             <img src={CalypsoFlag} width="80rem" height="80rem" />
           </Link>
           <img

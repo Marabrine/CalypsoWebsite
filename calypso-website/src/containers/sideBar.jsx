@@ -16,13 +16,29 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
       >
         <ul className="items-list">
           <li>
-            <Link to={"/items/pianos"}>{t("pianos")}</Link>
+            <Link
+              to={"/items/pianos"}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "/items/pianos";
+              }}
+            >
+              {t("pianos")}
+            </Link>
           </li>
           <li
             onMouseEnter={() => setIsExtensionOpen(true)}
             onMouseLeave={() => setIsExtensionOpen(false)}
           >
-            <Link to={"/items/guitar-bass"}>{t("guitars")}</Link>
+            <Link
+              to={"/items/guitar-bass"}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "/items/guitar-bass";
+              }}
+            >
+              {t("guitars")}
+            </Link>
             <ul className={`extension ${isExtensionOpen ? "visible" : ""}`}>
               <li>test1</li>
               <li>test2</li>
@@ -42,7 +58,15 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
             <Link>{t("special")}</Link>
           </li>
           <li>
-            <Link to={"/items/accessories"}>{t("accessories")}</Link>
+            <Link
+              to={"/items/accessories"}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "/items/accessories";
+              }}
+            >
+              {t("accessories")}
+            </Link>
           </li>
           <li>
             <Link>{t("sonata")}</Link>
