@@ -49,7 +49,9 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
             </Link>
           </li>
           <li>
-            <Link onClick={toggleSidebar}>{t("special")}</Link>
+            <Link onClick={toggleSidebar} to={"/items/special"}>
+              {t("special")}
+            </Link>
           </li>
           <li>
             <Link to={"/items/accessories"} onClick={toggleSidebar}>
@@ -57,7 +59,9 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
             </Link>
           </li>
           <li>
-            <Link onClick={toggleSidebar}>{t("sonata")}</Link>
+            <Link onClick={toggleSidebar} to={"/items/sonata-calypso"}>
+              {t("sonata")}
+            </Link>
           </li>
         </ul>
       </div>

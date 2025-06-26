@@ -8,6 +8,7 @@
   margin-bottom: 2rem;
   background: radial-gradient(circle, white, azure);
   transition: transform 0.3s ease, box-shadow 0.3s ease-in-out;
+  text-align: center;
 }
 .items-display__item:hover {
   transform: scale(1.1);

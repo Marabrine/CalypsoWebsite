@@ -10,6 +10,8 @@ import Pianos from "./piano/Pianos";
 import Orchestral from "./orchestral/Orchestral";
 import BrassAndWind from "./brass-wind/BrassAndWind";
 import Drums from "./drums/Drums";
+import Special from "./special/Special";
+import Sonata from "./sonata/Sonata";
 
 function App() {
   const router = createBrowserRouter([
@@ -63,9 +65,14 @@ function App() {
                 />
               ),
             },
-            //     {
-            //       path: "/special",
-            //     },
+            {
+              path: "special",
+              element: (
+                <Special
+                  props={ITEMS.filter((item) => item.category === "SPECIAL")}
+                />
+              ),
+            },
             {
               path: "accessories",
               element: (
@@ -76,9 +83,14 @@ function App() {
                 />
               ),
             },
-            //     {
-            //       path: "/sonata-calypso",
-            //     },
+            {
+              path: "sonata-calypso",
+              element: (
+                <Sonata
+                  props={ITEMS.filter((item) => item.category === "SONATA")}
+                />
+              ),
+            },
             //    { path: "/:itemId"}
           ],
         },

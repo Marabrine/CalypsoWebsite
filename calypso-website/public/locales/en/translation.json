@@ -27,5 +27,9 @@
   "brass-wind": "Brass & Winds",
   "drumset": "Drum Sets",
   "oriental": "Oriental Percussion",
-  "marching": "Marching Drums"
+  "marching": "Marching Drums",
+  "banjo": "Banjo & Banjola",
+  "cuatro": "Cuatros",
+  "handpan": "Handpans",
+  "tongue": "Tongue Drums"
 }
