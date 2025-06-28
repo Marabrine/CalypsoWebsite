@@ -5,17 +5,17 @@ const Home = () => {
     "/images/homepage/DSC07195.jpg",
 
     "/images/homepage/DSC05991.jpg",
-    "/images/homepage/DSC06279-Edit.jpg",
-    "/images/homepage/DSC06326.jpg",
+    "/images/homepage/DSC06279-Edit.png",
+    "/images/homepage/DSC06326.png",
     "/images/homepage/calypso-image8.jpeg",
     "/images/homepage/DSC06429.jpg",
     "/images/homepage/6E88498F-849B-4BED-9B29-1A52E5E37425.jpg",
 
     "/images/homepage/DSC05669.jpg",
     "/images/homepage/calypso-image6.jpeg",
-    "/images/homepage/DSC06466.jpg",
+    "/images/homepage/DSC06466.png",
 
-    "/images/homepage/DSC06377-Edit.jpg",
+    "/images/homepage/DSC06377-Edit.png",
     "/images/homepage/DSC06439.jpg",
     "/images/homepage/DSC07161.jpg",
     "/images/homepage/calypso-image7.jpeg",
