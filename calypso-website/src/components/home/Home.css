@@ -9,10 +9,10 @@ html {
 
 /* OPTION 1: Masonry Layout (Pinterest-style) - Images keep natural aspect ratios */
 .img-container {
-  padding-top: 8.5rem;
-
+  position: relative;
+  top: 20vh;
   /* CSS Columns for masonry effect */
-  columns: 4; /* Adjust number of columns */
+  columns: 4;
   column-gap: 0;
 
   /* Fill the viewport */

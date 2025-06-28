@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <div className="img-container">
       {images.map((image) => {
-        return <img src={image} />;
+        return <img src={image} loading="lazy" />;
       })}
     </div>
   );
