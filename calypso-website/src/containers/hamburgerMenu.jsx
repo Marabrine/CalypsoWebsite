@@ -2,7 +2,7 @@ import "./hamburgerMenu.css";
 
 function HamburgerButton({ onHover }) {
   return (
-    <button className="hamburger" onMouseEnter={onHover} aria-label="Menu">
+    <button className="hamburger" onClick={onHover} aria-label="Menu">
       <span className="bar"></span>
       <span className="bar"></span>
       <span className="bar"></span>

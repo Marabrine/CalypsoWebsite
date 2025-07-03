@@ -12,12 +12,13 @@
 }
 .items-display img {
   /* margin: 2rem 2rem 2rem 2rem; */
-  mix-blend-mode: multiply;
   max-width: 100%;
   height: 17rem;
   display: block;
   object-fit: cover;
-  background-image: url("/images/backgroun/instrumentBackground.PNG");
+  background-image: url("/images/backgroun/instrumentBackground.png");
+  background-size: cover;
+  background-position: center center;
 }
 .items-display li {
   width: 250px;

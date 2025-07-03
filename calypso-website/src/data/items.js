@@ -386,7 +386,7 @@ const ITEMS = [
       "Immerse yourself in the rich tones of the Guitar Calypso Folk 140MAS, crafted for both elegance and comfort. Made with durable materials, this guitar ensures a lasting musical companion for your creative journey. Elevate your playing experience with the perfect blend of style and functionality â€“ strum away with the Guitar Calypso Folk 140MAS!",
     category: "GUITAR",
     subCategory: "ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/140MAS.jpg"],
+    pictureUrl: ["/images/guitars/Acoustic/140MAS.png"],
   },
   {
     name: "Calypso Folk Black (38 Inches)",
@@ -504,7 +504,7 @@ const ITEMS = [
     description:
       "Experience the harmonious blend of style and sound with the Guitar Calypso Folk Slim EQ. Its sleek design not only catches the eye but also delivers a rich, resonant sound quality that will captivate any music enthusiast. With versatile EQ options, you can customize your tone to suit your unique style and preferences. Elevate your musical journey with the Guitar Calypso Folk Slim EQ - a perfect companion for any aspiring musician!",
     category: "GUITAR",
-    subCategory: "ACOUSTIC",
+    subCategory: "ELECTRO-ACOUSTIC",
     pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ.png"],
   },
   {

@@ -2,19 +2,33 @@
   position: fixed;
   top: 0;
   left: -300px;
-  width: 15;
-  height: 31rem;
+  width: 15rem;
+  height: 70vh;
   transition: left 0.5s ease;
   border-radius: 2px;
   z-index: 1000;
   background-color: azure;
   border: 1px solid #242424;
+  overflow-y: auto;
 }
 
 .sidebar.open {
   left: 0;
 }
-
+.items-list li.active a {
+  text-shadow: 0 2px 4px rgba(218, 165, 32, 1);
+}
+.close-sidebar {
+  padding: 0;
+  background: none;
+  color: #242424;
+  border: 1px solid grey;
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  top: -0rem;
+  margin: 0;
+}
 .items-list {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
