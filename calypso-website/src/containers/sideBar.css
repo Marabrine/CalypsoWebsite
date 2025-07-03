@@ -7,7 +7,6 @@
   transition: left 0.5s ease;
   border-radius: 2px;
   z-index: 1000;
-  box-shadow: 1px 1px 20px 6px rgba(218, 165, 32, 1);
   background-color: azure;
   border: 1px solid #242424;
 }

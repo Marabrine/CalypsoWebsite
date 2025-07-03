@@ -467,7 +467,7 @@ const ITEMS = [
       "Unleash your inner musician with the Guitar Calypso Folk Intermediate Slim EQ Black! Embrace the slim design and EQ functionality that enhances your playing experience. Perfect for those captivated by the calypso folk style, this guitar is a harmonious blend of style and functionality. Elevate your musical journey with this sleek and versatile instrument!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-BK.png"],
   },
   {
     name: "Calypso Folk Intermediate Slim EQ Black Redline (41 Inches)",
@@ -477,7 +477,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
     pictureUrl: [
-      "/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-BK-Redline.png",
+      "/images/guitars/Acoustic/Electro/FG38-INT-SLM-EQ-BK-Redline.png",
     ],
   },
   {
@@ -514,7 +514,7 @@ const ITEMS = [
       "Discover the perfect harmony with the Guitar Calypso Folk Slim EQ Black Left Hand! Designed specifically for left-handed players, this 38-inch beauty boasts a slim EQ for effortless adjustments, ensuring you achieve your desired sound with ease. Embrace the unique calypso folk style and unleash your musical creativity in a whole new way!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ-BK-LH.png"],
   },
   {
     name: "Calypso Folk Slim EQ Left Hand (38 Inches)",

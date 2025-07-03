@@ -11,7 +11,7 @@ function Pianos({ props }) {
     <div className="accessories-body">
       <div className="accessories-section">
         <h1 className="items-title">{t("digitalPiano")}</h1>
-        <ul className="items-display">
+        <ul className="items-display piano">
           {digital.map((item) => {
             return <Item item={item} />;
           })}
@@ -19,7 +19,7 @@ function Pianos({ props }) {
       </div>
       <div className="accessories-section">
         <h1 className="items-title">{t("keyboard")}</h1>
-        <ul className="items-display">
+        <ul className="items-display piano">
           {keyboard.map((item) => {
             return <Item item={item} />;
           })}

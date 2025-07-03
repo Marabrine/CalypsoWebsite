@@ -12,7 +12,7 @@ function Drums({ props }) {
     <div className="accessories-body">
       <div className="accessories-section">
         <h1 className="items-title">{t("drumset")}</h1>
-        <ul className="items-display">
+        <ul className="items-display drums">
           {drumset.map((item) => {
             return <Item item={item} />;
           })}
@@ -20,7 +20,7 @@ function Drums({ props }) {
       </div>
       <div>
         <h1 className="items-title">{t("marching")}</h1>
-        <ul className="items-display">
+        <ul className="items-display drums">
           {marching.map((item) => {
             return <Item item={item} />;
           })}
@@ -28,7 +28,7 @@ function Drums({ props }) {
       </div>
       <div>
         <h1 className="items-title">{t("oriental")}</h1>
-        <ul className="items-display">
+        <ul className="items-display drums">
           {oriental.map((item) => {
             return <Item item={item} />;
           })}

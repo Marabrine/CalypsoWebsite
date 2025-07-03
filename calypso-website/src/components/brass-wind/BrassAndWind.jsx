@@ -9,7 +9,7 @@ function BrassAndWind({ props }) {
     <div className="accessories-body">
       <div className="accessories-section">
         <h1 className="items-title">{t("brass-wind")}</h1>
-        <ul className="items-display">
+        <ul className="items-display brass">
           {props.map((item) => {
             return <Item item={item} />;
           })}
