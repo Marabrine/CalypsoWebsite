@@ -13,9 +13,19 @@
   background-color: lightgray;
   color: azure;
 }
+.item-name sub {
+  padding: 0;
+  margin: 0;
+}
 .item-name {
   text-align: center;
   color: rgba(218, 165, 32, 1);
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.titles {
+  margin-top: 2rem;
 }
 .items-display__item:hover .item-name {
   color: white;

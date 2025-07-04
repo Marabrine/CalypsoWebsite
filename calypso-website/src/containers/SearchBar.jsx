@@ -8,12 +8,23 @@ export default function SearchBar({ items }) {
   const [value, setValue] = useState("");
   const [filteredItems, setFilteredItems] = useState([]);
   useEffect(() => {
-    const result = items.filter(
-      (item) =>
-        item.name.toLowerCase().includes(value.toLowerCase()) ||
-        item.description.toLowerCase().includes(value.toLowerCase()) ||
-        item.id.toLowerCase().includes(value.toLowerCase())
-    );
+    const searchTerms = value
+      .toLowerCase()
+      .split(" ")
+      .filter((term) => term.length > 0);
+
+    const result = items.filter((item) => {
+      const itemName = item.name.toLowerCase();
+      const itemDescription = item.description.toLowerCase();
+      const itemId = item.id.toLowerCase();
+
+      return searchTerms.every(
+        (term) =>
+          itemName.includes(term) ||
+          itemDescription.includes(term) ||
+          itemId.includes(term)
+      );
+    });
     setFilteredItems(result);
   }, [value]);
   return (
