@@ -5,7 +5,7 @@
 }
 .items-display {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   list-style: none;
   flex-wrap: wrap; /* This makes items wrap on small screens */
   justify-content: center;
@@ -16,7 +16,7 @@
   height: 17rem;
   display: block;
   object-fit: cover;
-  background-image: url("/images/backgroun/instrumentBackground.png");
+  background-image: url("../assets/CalypsoFlag.png");
   background-size: cover;
   background-position: center center;
 }

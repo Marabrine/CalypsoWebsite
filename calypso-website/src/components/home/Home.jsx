@@ -40,8 +40,17 @@ const Home = () => {
   ];
   return (
     <div className="img-container">
-      {images.map((image) => {
-        return <img src={image} loading="lazy" />;
+      {images.map((image, index) => {
+        return (
+          <img
+            src={image}
+            loading="lazy"
+            className="fade-in-image"
+            style={{
+              animationDelay: `${index * 0.1}s`, // Each image appears 0.2s after the previous one
+            }}
+          />
+        );
       })}
     </div>
   );
