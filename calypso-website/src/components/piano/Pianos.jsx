@@ -21,7 +21,7 @@ function Pianos({ props }) {
         <h1 className="items-title">{t("keyboard")}</h1>
         <ul className="items-display piano">
           {keyboard.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>

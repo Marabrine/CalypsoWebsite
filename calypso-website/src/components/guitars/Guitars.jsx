@@ -20,7 +20,7 @@ function Guitars({ props }) {
         <h1 className="items-title">{t("acousticGuitar")}</h1>
         <ul className="items-display">
           {acoustic.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>
@@ -28,7 +28,7 @@ function Guitars({ props }) {
         <h1 className="items-title">{t("electroAcoustic")}</h1>
         <ul className="items-display">
           {electroAcoustic.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>
@@ -36,7 +36,7 @@ function Guitars({ props }) {
         <h1 className="items-title">{t("classicGuitar")}</h1>
         <ul className="items-display">
           {classic.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>
@@ -44,7 +44,7 @@ function Guitars({ props }) {
         <h1 className="items-title">{t("electroClassic")}</h1>
         <ul className="items-display">
           {electroClassic.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>

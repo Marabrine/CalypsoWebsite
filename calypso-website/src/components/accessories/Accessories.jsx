@@ -23,7 +23,7 @@ function Accessories({ props }) {
         <h1 className="items-title">{t("cable")}</h1>
         <ul className="items-display accessories">
           {cables.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>
@@ -31,7 +31,7 @@ function Accessories({ props }) {
         <h1 className="items-title">{t("stand")}</h1>
         <ul className="items-display accessories">
           {stands.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>
@@ -39,7 +39,7 @@ function Accessories({ props }) {
         <h1 className="items-title">{t("other")}</h1>
         <ul className="items-display accessories">
           {other.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>

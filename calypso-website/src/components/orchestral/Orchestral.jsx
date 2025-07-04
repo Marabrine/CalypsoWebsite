@@ -14,7 +14,7 @@ function Orchestral({ props }) {
         <h1 className="items-title">{t("violin")}</h1>
         <ul className="items-display">
           {violins.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>
@@ -22,7 +22,7 @@ function Orchestral({ props }) {
         <h1 className="items-title">{t("viola")}</h1>
         <ul className="items-display">
           {violas.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>
@@ -30,7 +30,7 @@ function Orchestral({ props }) {
         <h1 className="items-title">{t("cello")}</h1>
         <ul className="items-display">
           {celli.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>

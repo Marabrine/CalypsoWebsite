@@ -11,7 +11,7 @@ function BrassAndWind({ props }) {
         <h1 className="items-title">{t("brass-wind")}</h1>
         <ul className="items-display brass">
           {props.map((item) => {
-            return <Item item={item} />;
+            return <Item item={item} key={item.id} />;
           })}
         </ul>
       </div>
