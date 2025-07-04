@@ -43,6 +43,7 @@ const Home = () => {
       {images.map((image, index) => {
         return (
           <img
+            key={index}
             src={image}
             loading="lazy"
             className="fade-in-image"
