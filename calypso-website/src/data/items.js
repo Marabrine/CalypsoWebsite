@@ -461,6 +461,14 @@ const ITEMS = [
     pictureUrl: ["/images/guitars/Acoustic/FG41-INT-LH.png"],
   },
   {
+    name: "Calypso Folk Intermediate Left Hand Natural (41 Inches)",
+    id: "FG41-INT-LH-NAT",
+    description: "",
+    category: "GUITAR",
+    subCategory: "ACOUSTIC",
+    pictureUrl: ["/images/guitars/Acoustic/FG41-INT-2.png"],
+  },
+  {
     name: "Calypso Folk Intermediate Slim EQ Black",
     id: "FG41-INT-SLM-EQ-BK",
     description:
@@ -477,7 +485,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
     pictureUrl: [
-      "/images/guitars/Acoustic/Electro/FG38-INT-SLM-EQ-BK-Redline.png",
+      "/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-BK-Redline.png",
     ],
   },
   {
@@ -523,7 +531,7 @@ const ITEMS = [
       "Unleash your musical creativity with the Guitar Calypso Folk Slim EQ Left Hand, a perfect companion for left-handed players. Its slim design makes it portable and easy to carry, allowing you to play your tunes anywhere. Customize your sound effortlessly with the built-in EQ feature. Elevate your music experience with this 38-inch beauty â€“ grab yours now and let your melodies shine!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ-LH.png"],
   },
   {
     name: "Calypso Folk Slim EQ Sunburn (38 Inches)",
@@ -532,7 +540,7 @@ const ITEMS = [
       "Strum your way to musical bliss with the Guitar Calypso Folk Slim EQ Sunburn. Its sleek design not only catches the eye but also delivers rich tones that will elevate your playing experience. With a built-in EQ, you can easily fine-tune your sound to perfection. Unleash your creativity and dive into the world of music with this exceptional 38-inch guitar!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ-SB.png"],
   },
   {
     name: "Guitar Calypso Folk Slim Sunburn EQ (40 Inches)",
@@ -626,7 +634,7 @@ const ITEMS = [
     pictureUrl: [],
   },
   {
-    name: "Electro-Acoustic Guitar FG41-INT-EQ",
+    name: "Calypso Folk Intermediate EQ Guitar (41 Inches)",
     id: "FG41-INT-EQ",
     description:
       "Introducing the FG41-INT-EQ: an exceptional acoustic guitar designed for versatile performance. Crafted with a spruce top and linden back/sides, this model delivers a rich, resonant tone suitable for various musical styles. The dyed fingerboard and half-cast machine head ensure durability and smooth playability. Finished in a sophisticated brown color, this guitar exudes timeless elegance. Equipped with an MT-3 EQ, it offers precise sound control, making it an ideal choice for musicians seeking flexibility and quality in their sound.",
@@ -635,7 +643,7 @@ const ITEMS = [
     pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-EQ.png"],
   },
   {
-    name: "Electro-Acoustic Guitar FG41-INT-SLM-EQ",
+    name: "Calypso Folk Intermediate Slim Guitar (41 Inches)",
     id: "FG41-INT-SLM-EQ",
     description:
       "Introducing the FG41-INT-SLM-EQ: a versatile acoustic guitar crafted for exceptional performance. Featuring a spruce top and linden back/sides, this model delivers a rich, resonant tone perfect for various musical styles. The dyed fingerboard and half-cast machine head ensure durability and smooth playability. Finished in a sophisticated brown color, this guitar exudes timeless elegance. With its slim design and equipped with an MT-3 EQ, it offers precise sound control and comfortable playability, making it an ideal choice for musicians of all levels.",

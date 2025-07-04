@@ -22,15 +22,12 @@ html {
     transform: translateY(0);
   }
 }
-/* OPTION 1: Masonry Layout (Pinterest-style) - Images keep natural aspect ratios */
 .img-container {
   position: relative;
-  top: 20vh;
-  /* CSS Columns for masonry effect */
+  top: 15vh;
   columns: 4;
   column-gap: 0;
 
-  /* Fill the viewport */
   min-height: 100vh;
   width: 100vw;
   margin: 0;

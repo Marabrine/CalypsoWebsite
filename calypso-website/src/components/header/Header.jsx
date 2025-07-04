@@ -17,9 +17,7 @@ export default function Header({ props }) {
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
   const [isSearchBarOpen, setIsSearchBarOpen] = useState(false);
   const toggleSearchBar = () => {
-    setTimeout(() => {
-      setIsSearchBarOpen((prev) => !prev);
-    }, 1000);
+    setIsSearchBarOpen((prev) => !prev);
   };
 
   const { t } = useTranslation();
