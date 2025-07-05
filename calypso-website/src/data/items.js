@@ -1272,7 +1272,7 @@ const ITEMS = [
     description: "",
     category: "STRINGS",
     subCategory: "VIOLIN",
-    pictureUrl: ["/images/strings/violin/MV013B.PNG"],
+    pictureUrl: ["/images/strings/violin/MV013B.png"],
   },
   {
     name: "Calypso MV013E Violin",
@@ -1280,7 +1280,7 @@ const ITEMS = [
     description: "",
     category: "STRINGS",
     subCategory: "VIOLIN",
-    pictureUrl: ["/images/strings/violin/MV013E.PNG"],
+    pictureUrl: ["/images/strings/violin/MV013E.png"],
   },
   {
     name: "Calypso MV013W Violin",
@@ -1296,7 +1296,7 @@ const ITEMS = [
     description: "",
     category: "STRINGS",
     subCategory: "VIOLIN",
-    pictureUrl: ["/images/strings/violin/MV100BHL.PNG"],
+    pictureUrl: ["/images/strings/violin/MV100BHL.png"],
   },
   {
     name: "Calypso MV012RS Violin",

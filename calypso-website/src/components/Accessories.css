@@ -33,13 +33,25 @@
   color: rgba(218, 165, 32, 1);
 }
 .piano img {
-  height: 375px;
-  width: 350px;
-  background-size: 37rem;
+  height: 17rem;
+  width: 15rem;
+  background-size: 22rem;
+}
+.guitar li,
+.orchestral li {
+  width: 100%;
+}
+.guitar img {
+  width: 204px;
+  height: 272px;
+}
+.orchestral img {
+  width: 204px;
+  height: 272px;
 }
 .piano li {
   max-width: none;
-  width: 420px;
+  width: 100%;
 }
 .brass img {
   height: 200px;

@@ -15,17 +15,16 @@
 .search-bar .search-bar__input {
   background-color: white;
   border-radius: 15px;
-  width: 30rem;
+  width: 24rem;
   border: none;
   color: black;
   transition: box-shadow 0.3s ease, padding 0.3s ease;
-  height: 5vh;
+  height: 6vh;
   font-size: 15px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 600;
 }
 .search-bar .search-bar__input:hover {
-  box-shadow: 1px 1px 20px 6px rgba(218, 165, 32, 1);
   padding: 4px;
 }
 @media (max-width: 950px) {
