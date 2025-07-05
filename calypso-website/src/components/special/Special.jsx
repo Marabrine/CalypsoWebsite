@@ -13,7 +13,7 @@ function Special({ props }) {
     <div className="accessories-body">
       <div className="accessories-section">
         <h1 className="items-title">{t("banjo")}</h1>
-        <ul className="items-display">
+        <ul className="items-display special">
           {banjo.map((item) => {
             return <Item item={item} />;
           })}
@@ -21,7 +21,7 @@ function Special({ props }) {
       </div>
       <div>
         <h1 className="items-title">{t("handpan")}</h1>
-        <ul className="items-display">
+        <ul className="items-display special">
           {handpan.map((item) => {
             return <Item item={item} />;
           })}
@@ -29,7 +29,7 @@ function Special({ props }) {
       </div>
       <div>
         <h1 className="items-title">{t("tongue")}</h1>
-        <ul className="items-display">
+        <ul className="items-display special">
           {tongue.map((item) => {
             return <Item item={item} />;
           })}
@@ -37,7 +37,7 @@ function Special({ props }) {
       </div>
       <div>
         <h1 className="items-title">{t("cuatro")}</h1>
-        <ul className="items-display">
+        <ul className="items-display special">
           {cuatro.map((item) => {
             return <Item item={item} />;
           })}

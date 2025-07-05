@@ -26,7 +26,7 @@ const ITEMS = [
     category: "ACCESSORIES",
     subCategory: "BENCH",
 
-    pictureUrl: ["/images/piano-benches/Q111T-removebg-preview.png"],
+    pictureUrl: ["/images/piano-benches/Q111T.png"],
   },
   {
     name: "Calypso Keyboard Bench Q-111T",
@@ -342,7 +342,7 @@ const ITEMS = [
       '"Calypso TBL-RD-TRSP Lightning Drum delivers vibrant sound with powerful tones, perfect for various music styles. Its durable build and eye-catching lightning design make it ideal for both solo performances and ensemble settings. Elevate your sound with the Lightning Drum!\n\n\n"',
     category: "DRUMS",
     subCategory: "ORIENTAL",
-    pictureUrl: ["/images/percussion/oriental/TBL-RD-TRSP 1.png"],
+    pictureUrl: ["/images/percussion/oriental/TBL-RD-TRSP1.png"],
   },
   {
     name: "Calypso MCH-ST14 Marching Snare",
@@ -915,7 +915,7 @@ const ITEMS = [
     category: "SONATA",
     subCategory: "KEYBOARD",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/sonata/K-700.png"],
   },
   {
     name: "Calypso K-600 Sonata Digital Keyboard",
@@ -925,7 +925,7 @@ const ITEMS = [
     category: "SONATA",
     subCategory: "KEYBOARD",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/sonata/K-600.png"],
   },
   {
     name: "Calypso ST-200 Sonata Digital Keyboard",
@@ -935,7 +935,7 @@ const ITEMS = [
     category: "SONATA",
     subCategory: "KEYBOARD",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/sonata/ST-200.png"],
   },
   {
     name: "Calypso ST-100 Sonata Digital Keyboard",
@@ -945,7 +945,7 @@ const ITEMS = [
     category: "SONATA",
     subCategory: "KEYBOARD",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/sonata/ST-100.png"],
   },
   {
     name: "Calypso BJ52 5-string Banjo",
@@ -954,7 +954,7 @@ const ITEMS = [
       'Introducing the Calypso BJ52 5-string banjo. With a sleek 26" body in a vibrant sunburst finish, this instrument exudes style. Crafted with a Spruce top and Mahogany back & sides, it delivers rich, resonant tones. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the BJ52 offers exceptional quality and playability.',
     category: "SPECIAL",
     subCategory: "BANJO",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/banjo/BJ52-1.png"],
   },
   {
     name: "Calypso BJA-ADV-29-EQ Banjola",
@@ -964,34 +964,34 @@ const ITEMS = [
     category: "SPECIAL",
     subCategory: "BANJO",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/special/banjo/BJA-ADV-29-EQ-1.png"],
   },
   {
     name: "Calypso CU-ADV-12-EQ Cuatro",
-    id: "CU-ADV-12-EQ",
+    id: "CU-ADV-27-EQ",
     description:
       "Introducing the Calypso CU-ADV-12-EQ Cuatro. Featuring a compact 12-inch body with an integrated equalizer, this instrument offers versatility and exceptional sound control. Crafted with a solid Spruce top and Maple back & sides, it delivers a crisp, resonant tone. The Rosewood fingerboard adds warmth and smooth playability. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the CU-ADV-12-EQ Cuatro represents a harmonious blend of quality craftsmanship and musical excellence.",
     category: "SPECIAL",
     subCategory: "CUATRO",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/cuatro/CU-ADV-27-EQ.png"],
   },
   {
     name: "Calypso CU-ADV-15-EQ Cuatro",
-    id: "CU-ADV-15-EQ",
+    id: "CU-ADV-32-EQ",
     description:
       "Introducing the Calypso CU-ADV-15-EQ Cuatro. With a versatile 15-inch body featuring an integrated equalizer, this instrument offers exceptional sound control and resonance. Crafted with a solid Spruce top and Maple back & sides, it delivers a vibrant, well-balanced tone. The Rosewood fingerboard ensures smooth playability and adds to the instrument's elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the CU-ADV-15-EQ Cuatro represents a fusion of craftsmanship and musical excellence.",
     category: "SPECIAL",
     subCategory: "CUATRO",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/cuatro/CU-ADV-32-EQ.png"],
   },
   {
     name: "Calypso CU-ADV-17-EQ Cuatro",
-    id: "CU-ADV-17-EQ",
+    id: "CU-ADV-35-EQ",
     description:
       "Introducing the Calypso CU-ADV-17-EQ Cuatro. With a spacious 17-inch body and an integrated equalizer, this instrument offers exceptional resonance and sound control. Crafted with a solid Spruce top and Maple back & sides, it delivers a rich, vibrant tone. The Rosewood fingerboard ensures smooth playability and adds a touch of elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the CU-ADV-17-EQ Cuatro embodies quality craftsmanship and musical excellence.",
     category: "SPECIAL",
     subCategory: "CUATRO",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/cuatro/CU-ADV-35-EQ.png"],
   },
   {
     name: "Calypso CU-BS-ADV-33-EQ Bass Cuatro",
@@ -1000,7 +1000,7 @@ const ITEMS = [
       "Introducing the Calypso CU-BS-ADV-33-EQ Bass Cuatro. With a commanding 33-inch body and an integrated equalizer, this instrument offers exceptional resonance and precise sound control. Crafted with a solid Spruce top and Maple back & sides, it delivers a deep, resonant bass tone with clarity and warmth. The Rosewood fingerboard ensures smooth playability and adds to the instrument's elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the CU-BS-ADV-33-EQ Bass Cuatro represents the pinnacle of craftsmanship and musical excellence.",
     category: "SPECIAL",
     subCategory: "CUATRO",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/cuatro/CU-BS-ADV-33-EQ.png"],
   },
   {
     name: "Calypso Handpan Black",
@@ -1009,7 +1009,7 @@ const ITEMS = [
       "Introducing the Calypso Handpan, a captivating musical instrument meticulously crafted to deliver unparalleled sound quality and durability. Featuring 22 inches with 10 pre-tuned notes in D Minor, including a distinctive center note (Ding) at D3, and 9 accompanying notes ranging from A3 to C5. Constructed from premium Nitrogen Steel material and enhanced through a meticulous Nitriding Heating process, the Calypso Handpan produces ethereal, warm tones with vibrant overtones. Its unique rubber edging design enhances sound collection, reduces dissonant resonance, and ensures clear overtones for a delightful auditory experience. Each handpan undergoes boundless manual tuning, resulting in finely controlled tightness across different sound areas, yielding balanced volume and an ethereal tone unique to each instrument. Complete with a versatile Calypso Drum Bag, which doubles as a backpack or handbag, providing comprehensive protection against scratches, impacts, and moisture, making it effortlessly portable for musicians on the go. Experience the harmonious blend of craftsmanship and musicality with the Calypso Handpan.",
     category: "SPECIAL",
     subCategory: "HANDPAN",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/handpan/HP-1BK.png"],
   },
   {
     name: "Calypso Handpan Golden Storm",
@@ -1018,7 +1018,7 @@ const ITEMS = [
       "Introducing the Calypso Handpan, a captivating musical instrument meticulously crafted to deliver unparalleled sound quality and durability. Featuring 22 inches with 10 pre-tuned notes in D Minor, including a distinctive center note (Ding) at D3, and 9 accompanying notes ranging from A3 to C5. Constructed from premium Nitrogen Steel material and enhanced through a meticulous Nitriding Heating process, the Calypso Handpan produces ethereal, warm tones with vibrant overtones. Its unique rubber edging design enhances sound collection, reduces dissonant resonance, and ensures clear overtones for a delightful auditory experience. Each handpan undergoes boundless manual tuning, resulting in finely controlled tightness across different sound areas, yielding balanced volume and an ethereal tone unique to each instrument. Complete with a versatile Calypso Drum Bag, which doubles as a backpack or handbag, providing comprehensive protection against scratches, impacts, and moisture, making it effortlessly portable for musicians on the go. Experience the harmonious blend of craftsmanship and musicality with the Calypso Handpan.",
     category: "SPECIAL",
     subCategory: "HANDPAN",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/handpan/HP-1GDST.png"],
   },
   {
     name: "Calypso Handpan Spiral Deep Gold",
@@ -1027,7 +1027,7 @@ const ITEMS = [
       "Introducing the Calypso Handpan, a captivating musical instrument meticulously crafted to deliver unparalleled sound quality and durability. Featuring 22 inches with 10 pre-tuned notes in D Minor, including a distinctive center note (Ding) at D3, and 9 accompanying notes ranging from A3 to C5. Constructed from premium Nitrogen Steel material and enhanced through a meticulous Nitriding Heating process, the Calypso Handpan produces ethereal, warm tones with vibrant overtones. Its unique rubber edging design enhances sound collection, reduces dissonant resonance, and ensures clear overtones for a delightful auditory experience. Each handpan undergoes boundless manual tuning, resulting in finely controlled tightness across different sound areas, yielding balanced volume and an ethereal tone unique to each instrument. Complete with a versatile Calypso Drum Bag, which doubles as a backpack or handbag, providing comprehensive protection against scratches, impacts, and moisture, making it effortlessly portable for musicians on the go. Experience the harmonious blend of craftsmanship and musicality with the Calypso Handpan.",
     category: "SPECIAL",
     subCategory: "HANDPAN",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/handpan/HP-SPDGD.png"],
   },
   {
     name: "Calypso 10-inch Steel Tongue Drum",
@@ -1035,7 +1035,7 @@ const ITEMS = [
     description: "",
     category: "SPECIAL",
     subCategory: "TONGUE",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/tongue/STD-10-11.png"],
   },
   {
     name: "Calypso 12-inch Steel Tongue Drum",
@@ -1043,7 +1043,7 @@ const ITEMS = [
     description: "",
     category: "SPECIAL",
     subCategory: "TONGUE",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/tongue/STD-12-13.png"],
   },
   {
     name: "Calypso 14-inch Steel Tongue Drum",
@@ -1051,7 +1051,7 @@ const ITEMS = [
     description: "",
     category: "SPECIAL",
     subCategory: "TONGUE",
-    pictureUrl: [],
+    pictureUrl: ["/images/special/tongue/STD-14-15.png"],
   },
   {
     name: "Calypso Intermediate Cello",

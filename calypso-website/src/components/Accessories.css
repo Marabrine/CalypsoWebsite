@@ -38,18 +38,23 @@
   background-size: 22rem;
 }
 .guitar li,
-.orchestral li {
+.orchestral li,
+.special li,
+.accessories li {
   width: 100%;
 }
-.guitar img {
-  width: 204px;
-  height: 272px;
-}
+.guitar img,
+.special img,
 .orchestral img {
   width: 204px;
   height: 272px;
 }
-.piano li {
+.sonata img {
+  height: 272px;
+  width: 100%;
+}
+.piano li,
+.sonata li {
   max-width: none;
   width: 100%;
 }
@@ -58,7 +63,9 @@
 }
 .drums img {
   height: 200px;
+  background-size: 17rem;
 }
 .accessories img {
   height: 200px;
+  width: 100%;
 }

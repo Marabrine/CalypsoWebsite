@@ -9,7 +9,7 @@ function Sonata({ props }) {
     <div className="accessories-body">
       <div className="accessories-section">
         <h1 className="items-title">{t("sonata")}</h1>
-        <ul className="items-display">
+        <ul className="items-display sonata">
           {props.map((item) => {
             return <Item item={item} />;
           })}
