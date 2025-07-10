@@ -377,7 +377,12 @@ const ITEMS = [
       "Immerse yourself in the rich, soulful melodies with the Guitar Calypso Folk (38 Inches). Its impeccable sound quality will transport you to a world of musical bliss. The comfortable size makes it perfect for musicians of all levels, while the classic design adds a touch of elegance to your performance. Elevate your music experience with this exceptional guitar today!",
     category: "GUITAR",
     subCategory: "ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/FG38.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/FG38.png",
+      "/images/specificImages/guitar/Acoustic/FG38/FG38-1.png",
+      "/images/specificImages/guitar/Acoustic/FG38/FG38-2.png",
+      "/images/specificImages/guitar/Acoustic/FG38/FG38-3.png",
+    ],
   },
   {
     name: "Acoustic Guitar",
@@ -386,7 +391,12 @@ const ITEMS = [
       "Immerse yourself in the rich tones of the Guitar Calypso Folk 140MAS, crafted for both elegance and comfort. Made with durable materials, this guitar ensures a lasting musical companion for your creative journey. Elevate your playing experience with the perfect blend of style and functionality â€“ strum away with the Guitar Calypso Folk 140MAS!",
     category: "GUITAR",
     subCategory: "ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/140MAS.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/140MAS.png",
+      "/images/specificImages/guitar/Acoustic/140MAS/140MAS-1.png",
+      "/images/specificImages/guitar/Acoustic/140MAS/140MAS-2.png",
+      "/images/specificImages/guitar/Acoustic/140MAS/140MAS-3.png",
+    ],
   },
   {
     name: "Acoustic Guitar 38-inches",
@@ -395,7 +405,12 @@ const ITEMS = [
       "Unleash your musical creativity with the Guitar Calypso Folk Black! This stunning 38-inch guitar offers a versatile sound that will elevate your music to new heights. Its classic design exudes elegance, while the comfortable size makes it perfect for musicians of all levels. Dive into the world of music with the Guitar Calypso Folk Black â€“ a must-have for any aspiring guitarist!",
     category: "GUITAR",
     subCategory: "ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/FG38-BK.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/FG38-BK.png",
+      "/images/specificImages/guitar/Acoustic/FG38-BK/FG38-BK-1.png",
+      "/images/specificImages/guitar/Acoustic/FG38-BK/FG38-BK-2.png",
+      "/images/specificImages/guitar/Acoustic/FG38-BK/FG38-BK-3.png",
+    ],
   },
   {
     name: "Acoustic Guitar 41-inches",
@@ -559,7 +574,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/CL-INT39.png"],
   },
   {
     name: "Electric Guitar",
@@ -637,12 +652,17 @@ const ITEMS = [
   },
   {
     name: "Classical Guitar 3/4",
-    id: "CG-3/4",
+    id: "CG-34",
     description:
       "Introduce your little one to the world of music with the Guitar Calypso Classic! Designed specifically for kids, this 3/4 size guitar is not only kid-friendly but also easy to play, making it a perfect choice for budding musicians. Experience high-quality sound that will inspire your child's musical journey. Get the Guitar Calypso Classic today and watch your child's creativity flourish!",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/CG-34.png",
+      "/images/specificImages/guitar/Classic/CG-34/CG-34-1.png",
+      "/images/specificImages/guitar/Classic/CG-34/CG-34-2.png",
+      "/images/specificImages/guitar/Classic/CG-34/CG-34-3.png",
+    ],
   },
   {
     name: "Classical Guitar 1/4",
@@ -651,7 +671,7 @@ const ITEMS = [
       "Introduce your budding musician to the world of guitar with the Guitar Calypso Classic Blue 1/4! Designed with kids in mind, this vibrant blue guitar is not only visually appealing but also ideal for beginners. Let your child's musical journey begin with this kid-friendly instrument that promises hours of fun and learning.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/CG-14-BL.png"],
   },
   {
     name: "Classical Guitar",
@@ -660,7 +680,7 @@ const ITEMS = [
       "The Guitar Calypso Classic CG851-GM offers a timeless design paired with a rich, resonant sound. Built for both beginners and seasoned players, its comfortable build ensures an easy and enjoyable playing experience. Perfect for various genres, this guitar is a reliable choice for practice or performance.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/CG851-GM.png"],
   },
   {
     name: "Classical Guitar 39-inches",

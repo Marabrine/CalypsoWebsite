@@ -1,12 +1,17 @@
+import Carousel from "../carousel/Carousel";
 import "./Item.css";
 
 function Item({ item }) {
-  console.log(item);
   return (
     <div>
       <li key={item.id} className="items-display__item">
         {item.pictureUrl.length !== 0 ? (
-          <img src={item.pictureUrl} />
+          <Carousel>
+            {item.pictureUrl.map((photo, index) => {
+              console.log(photo, index);
+              return <img src={photo} key={index} />;
+            })}
+          </Carousel>
         ) : (
           <img src="/images/no-image.png" />
         )}

@@ -14,9 +14,9 @@
   height: 17rem;
   display: block;
   object-fit: cover;
-  background-image: url("../assets/CalypsoFlag.png");
+  /* background-image: url("../assets/CalypsoFlag.png");
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
 }
 .items-display li {
   width: 250px;
@@ -43,8 +43,11 @@
 .accessories li {
   width: 100%;
 }
+.carousel-slide,
 .guitar img,
+.carousel-slide,
 .special img,
+.carousel-slide,
 .orchestral img {
   width: 204px;
   height: 272px;
