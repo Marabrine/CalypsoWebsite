@@ -23,11 +23,9 @@
 
 .slider__btn-prev,
 .slider__btn-next {
-  padding: 10px 15px;
-  background: #f0f0f0;
-  border: 1px solid #ccc;
+  background-color: transparent;
+  color: black;
   cursor: pointer;
-  border-radius: 4px;
 }
 
 .carousel-slide img {

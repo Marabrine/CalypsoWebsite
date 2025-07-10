@@ -419,7 +419,12 @@ const ITEMS = [
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate (41 Inches). Experience its versatile sound that adapts to various music genres, making it a must-have for aspiring musicians. Crafted with precision and care, this guitar offers exceptional quality and durability. Elevate your playing experience with the comfortable size and superior craftsmanship of this instrument.",
     category: "GUITAR",
     subCategory: "ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/FG41-INT.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/FG41-INT.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT/FG41-INT-1.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT/FG41-INT-2.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT/FG41-INT-3.png",
+    ],
   },
   {
     name: "Acoustic Guitar 42-inches",
@@ -428,7 +433,12 @@ const ITEMS = [
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate! Dive into a world of versatile sounds that will captivate your audience. Designed for ease of play, this 42-inch guitar offers a smooth playing experience for musicians of all levels. Crafted with durable construction, this guitar is built to withstand your musical journey. Elevate your music game and bring your melodies to life with the Guitar Calypso Folk Intermediate!",
     category: "GUITAR",
     subCategory: "ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/FG42-INT.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/FG42-INT.png",
+      "/images/specificImages/guitar/Acoustic/FG42-INT/FG42-INT-1.png",
+      "/images/specificImages/guitar/Acoustic/FG42-INT/FG42-INT-2.png",
+      "/images/specificImages/guitar/Acoustic/FG42-INT/FG42-INT-3.png",
+    ],
   },
   {
     name: "Acoustic Guitar 42-inches",
@@ -437,7 +447,12 @@ const ITEMS = [
       "Experience the captivating melodies with the Guitar Calypso Folk Intermediate Black (41 Inches). This versatile instrument offers a rich and vibrant sound that will inspire your musical journey. Its comfortable size and sleek design make it a perfect choice for intermediate players looking to enhance their skills. Elevate your music with the Guitar Calypso Folk â€“ get ready to strum your way to new heights!",
     category: "GUITAR",
     subCategory: "ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/FG41-INT-BK.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/FG41-INT-BK.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT-BK/FG41-INT-BK-1.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT-BK/FG41-INT-BK-2.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT-BK/FG41-INT-BK-3.png",
+    ],
   },
   {
     name: "Electro-Acoustic Guitar 41-inches",
