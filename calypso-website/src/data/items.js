@@ -496,7 +496,12 @@ const ITEMS = [
     description: "",
     category: "GUITAR",
     subCategory: "ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/FG41-INT-LH-2.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/FG41-INT-LH-2.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT-LH-NAT/FG41-INT-LH-NAT-1.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT-LH-NAT/FG41-INT-LH-NAT-2.png",
+      "/images/specificImages/guitar/Acoustic/FG41-INT-LH-NAT/FG41-INT-LH-NAT-3.png",
+    ],
   },
   {
     name: "Electro-Acoustic Slim Guitar 41-inches",
