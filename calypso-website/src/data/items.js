@@ -461,7 +461,14 @@ const ITEMS = [
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate EQ Black! This 41-inch beauty offers a versatile sound that will elevate your playing experience to new heights. Designed for comfort and style, this guitar is the perfect companion for intermediate players looking to make a statement. Embrace the rhythm of the Calypso Folk and let your passion for music shine through!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-EQ-BK.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG41-INT-EQ-BK.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-EQ-BK/FG41-INT-EQ-BK-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-EQ-BK/FG41-INT-EQ-BK-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-EQ-BK/FG41-INT-EQ-BK-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Electro-Acoustic Guitar 42-inches",
@@ -470,7 +477,14 @@ const ITEMS = [
       "Indulge in the vibrant tunes with the Guitar Calypso Folk Intermediate EQ Black (42 Inches). Experience a versatile sound that enhances your musical journey to new heights. The comfortable size and stylish design make this guitar a perfect companion for aspiring musicians. Elevate your performance and stand out with this exceptional instrument!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG42-INT-EQ-BK.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG42-INT-EQ-BK.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG42-INT-EQ-BK/FG42-INT-EQ-BK-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG42-INT-EQ-BK/FG42-INT-EQ-BK-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG42-INT-EQ-BK/FG42-INT-EQ-BK-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Left Handed Electro-Acoustic Guitar 41-inches",
@@ -479,7 +493,14 @@ const ITEMS = [
       "Unleash your musical prowess with this 41-inch Guitar Calypso Folk designed specifically for left-handed players. Boasting an EQ system for fine-tuned sound control, this guitar is perfect for intermediate musicians looking to elevate their skills. Embrace your unique style and sound with this exceptional left-handed guitar!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-EQ-LH.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG41-INT-EQ-LH.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-EQ-LH/FG41-INT-EQ-LH-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-EQ-LH/FG41-INT-EQ-LH-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-EQ-LH/FG41-INT-EQ-LH-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Left Handed Acoustic Guitar 41-inches",
@@ -510,7 +531,14 @@ const ITEMS = [
       "Unleash your inner musician with the Guitar Calypso Folk Intermediate Slim EQ Black! Embrace the slim design and EQ functionality that enhances your playing experience. Perfect for those captivated by the calypso folk style, this guitar is a harmonious blend of style and functionality. Elevate your musical journey with this sleek and versatile instrument!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-BK.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-BK.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-BK/FG41-INT-SLM-EQ-BK-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-BK/FG41-INT-SLM-EQ-BK-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-BK/FG41-INT-SLM-EQ-BK-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Electro-Acoustic Slim Redline Guitar 41-inches",
