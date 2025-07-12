@@ -549,6 +549,11 @@ const ITEMS = [
     subCategory: "ELECTRO-ACOUSTIC",
     pictureUrl: [
       "/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-BK-Redline.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-BK-Redline/FG41-INT-SLM-EQ-BK-Redline-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-BK-Redline/FG41-INT-SLM-EQ-BK-Redline-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-BK-Redline/FG41-INT-SLM-EQ-BK-Redline-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
     ],
   },
   {
@@ -558,7 +563,14 @@ const ITEMS = [
       "Unleash your musical prowess with the Guitar Calypso Folk Intermediate Slim EQ! This 41-inch beauty boasts a sleek and slim design, perfect for players who appreciate comfort and style. Elevate your sound with the EQ feature, adding a whole new dimension to your music. Ideal for intermediate players seeking quality and performance, this guitar is a must-have for anyone looking to take their music to the next level.",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ/FG41-INT-SLM-EQ-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ/FG41-INT-SLM-EQ-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ/FG41-INT-SLM-EQ-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Electro-Acoustic Left Handed Slim Guitar 41-inches",
@@ -567,7 +579,14 @@ const ITEMS = [
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate Slim EQ Left Hand (41 Inches). Designed specifically for left-handed players, this guitar features a slim profile that ensures maximum comfort during extended playing sessions. Enjoy the convenience of the built-in EQ, allowing you to fine-tune your sound effortlessly. Elevate your music journey with this exceptional left-handed guitar!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-LH.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ-LH.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-LH/FG41-INT-SLM-EQ-LH-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-LH/FG41-INT-SLM-EQ-LH-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG41-INT-SLM-EQ-LH/FG41-INT-SLM-EQ-LH-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Electro-Acoustic Slim Guitar 38-inches",
@@ -576,7 +595,14 @@ const ITEMS = [
       "Experience the harmonious blend of style and sound with the Guitar Calypso Folk Slim EQ. Its sleek design not only catches the eye but also delivers a rich, resonant sound quality that will captivate any music enthusiast. With versatile EQ options, you can customize your tone to suit your unique style and preferences. Elevate your musical journey with the Guitar Calypso Folk Slim EQ - a perfect companion for any aspiring musician!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG38-SLM-EQ.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-INT-SLM-EQ/FG38-INT-SLM-EQ-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-INT-SLM-EQ/FG38-INT-SLM-EQ-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-INT-SLM-EQ/FG38-INT-SLM-EQ-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Electro-Acoustic Left Handed Slim Guitar 38-inches",
@@ -585,7 +611,15 @@ const ITEMS = [
       "Discover the perfect harmony with the Guitar Calypso Folk Slim EQ Black Left Hand! Designed specifically for left-handed players, this 38-inch beauty boasts a slim EQ for effortless adjustments, ensuring you achieve your desired sound with ease. Embrace the unique calypso folk style and unleash your musical creativity in a whole new way!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ-BK-LH.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG38-SLM-EQ-BK-LH.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-BK-LH/FG38-SLM-EQ-BK-LH-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-BK-LH/FG38-SLM-EQ-BK-LH-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-BK-LH/FG38-SLM-EQ-BK-LH-3.png",
+
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Electro-Acoustic Left Handed Slim Guitar 38-inches",
@@ -594,7 +628,15 @@ const ITEMS = [
       "Unleash your musical creativity with the Guitar Calypso Folk Slim EQ Left Hand, a perfect companion for left-handed players. Its slim design makes it portable and easy to carry, allowing you to play your tunes anywhere. Customize your sound effortlessly with the built-in EQ feature. Elevate your music experience with this 38-inch beauty â€“ grab yours now and let your melodies shine!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ-LH.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG38-SLM-EQ-LH.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-LH/FG38-SLM-EQ-LH-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-LH/FG38-SLM-EQ-LH-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-LH/FG38-SLM-EQ-LH-3.png",
+
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Electro-Acoustic Slim Guitar 38-inches",
@@ -612,7 +654,14 @@ const ITEMS = [
       "Strum in style with the Guitar Calypso Folk Slim Sunburn EQ! Its slim design offers both comfort and elegance, perfect for passionate musicians. The eye-catching sunburst finish adds a touch of flair, while the built-in EQ ensures your tunes sound just right. Elevate your musical journey with this 40-inch beauty today!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG40-008SLM-SB-EQ.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG40-008SLM-SB-EQ.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG40-088-SLM-SB-EQ/FG40-088-SLM-SB-EQ-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG40-088-SLM-SB-EQ/FG40-088-SLM-SB-EQ-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG40-088-SLM-SB-EQ/FG40-088-SLM-SB-EQ-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG40-088-SLM-SB-EQ/FG40-088-SLM-SB-EQ-4.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG40-088-SLM-SB-EQ/FG40-088-SLM-SB-EQ-5.png",
+    ],
   },
   {
     name: "Classical Guitar 39-inches",
