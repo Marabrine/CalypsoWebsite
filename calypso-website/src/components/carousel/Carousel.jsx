@@ -24,7 +24,12 @@ export default function Carousel({ children }) {
           style={{ transform: `translateX(-${activeIndex * 100}%)` }}
         >
           {children.map((child, index) => (
-            <div key={index} className="carousel-slide">
+            <div
+              key={index}
+              className={`carousel-slide ${
+                index !== activeIndex ? "hide" : ""
+              }`}
+            >
               {child}
             </div>
           ))}
