@@ -645,7 +645,14 @@ const ITEMS = [
       "Strum your way to musical bliss with the Guitar Calypso Folk Slim EQ Sunburn. Its sleek design not only catches the eye but also delivers rich tones that will elevate your playing experience. With a built-in EQ, you can easily fine-tune your sound to perfection. Unleash your creativity and dive into the world of music with this exceptional 38-inch guitar!",
     category: "GUITAR",
     subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG38-SLM-EQ-SB.png"],
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/FG38-SLM-EQ-SB.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-SB/FG38-SLM-EQ-SB-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-SB/FG38-SLM-EQ-SB-2.png",
+      "/images/specificImages/guitar/Acoustic/Electro/FG38-SLM-EQ-SB/FG38-SLM-EQ-SB-3.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-top.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EQ/EQ-bottom.png",
+    ],
   },
   {
     name: "Electro-Acoustic Slim Guitar 40-inches",
@@ -768,7 +775,12 @@ const ITEMS = [
       "Introduce your budding musician to the world of guitar with the Guitar Calypso Classic Blue 1/4! Designed with kids in mind, this vibrant blue guitar is not only visually appealing but also ideal for beginners. Let your child's musical journey begin with this kid-friendly instrument that promises hours of fun and learning.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: ["/images/guitars/Classic/CG-14-BL.png"],
+    pictureUrl: [
+      "/images/guitars/Classic/CG-14-BL.png",
+      "/images/specificImages/guitar/Classic/CG-14-BL/CG-BL-14-1.png",
+      "/images/specificImages/guitar/Classic/CG-14-BL/CG-BL-14-2.png",
+      "/images/specificImages/guitar/Classic/CG-14-BL/CG-BL-14-3.png",
+    ],
   },
   {
     name: "Classical Guitar",
@@ -777,7 +789,13 @@ const ITEMS = [
       "The Guitar Calypso Classic CG851-GM offers a timeless design paired with a rich, resonant sound. Built for both beginners and seasoned players, its comfortable build ensures an easy and enjoyable playing experience. Perfect for various genres, this guitar is a reliable choice for practice or performance.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: ["/images/guitars/Classic/CG851-GM.png"],
+    pictureUrl: [
+      "/images/guitars/Classic/CG851-GM.png",
+      "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-1.png",
+      "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-2.png",
+      "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-3.png",
+      "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-4.png",
+    ],
   },
   {
     name: "Classical Guitar 39-inches",
@@ -785,7 +803,7 @@ const ITEMS = [
     description:
       "Strum in style with the Guitar Calypso Classic EQ (39 Inches), featuring a classic design that exudes timeless elegance. Take your sound to the next level with the built-in EQ, allowing you to fine-tune your tunes effortlessly. At an ideal size of 39 inches, this guitar offers both portability and comfort without compromising on quality. Elevate your musical journey with the Guitar Calypso - a perfect blend of classic charm and modern functionality!",
     category: "GUITAR",
-    subCategory: "CLASSIC",
+    subCategory: "ELECTRO-CLASSIC",
     pictureUrl: [],
   },
   {
@@ -794,7 +812,7 @@ const ITEMS = [
     description:
       "Unleash your inner musician with the Guitar Calypso Classic EQ Black! This 39-inch beauty features a classic design that exudes timeless elegance. Equipped with a built-in EQ, it offers versatility and allows you to fine-tune your sound effortlessly. Whether you're a beginner or a seasoned player, this guitar is the perfect size for comfortable playing. Elevate your musical journey with the Guitar Calypso Classic EQ Black today!",
     category: "GUITAR",
-    subCategory: "CLASSIC",
+    subCategory: "ELECTRO-CLASSIC",
     pictureUrl: [],
   },
   {
@@ -803,7 +821,7 @@ const ITEMS = [
     description:
       "Unleash your inner musician with the Guitar Calypso Classic Intermediate EQ! Featuring a classic design that exudes timeless elegance, this guitar is perfect for intermediate players looking to enhance their skills. Take your performance to the next level with the built-in EQ, allowing you to fine-tune your sound effortlessly. Elevate your musical journey with the Guitar Calypso Classic Intermediate EQ – a must-have for any aspiring guitarist!",
     category: "GUITAR",
-    subCategory: "CLASSIC",
+    subCategory: "ELECTRO-CLASSIC",
     pictureUrl: [],
   },
   {
@@ -813,7 +831,12 @@ const ITEMS = [
       "The Guitar Calypso Classic Intermediate Yellow 2/4 is designed with a vibrant yellow finish that captures attention. Its 2/4 size makes it an excellent choice for kids, offering comfortable playability tailored for smaller hands. Perfect for beginners or young learners, this guitar provides a balanced sound and durable build for lasting use.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/INT-YW-24.png",
+      "/images/specificImages/guitar/Classic/INT-YW-24/INT-YW-24-1.png",
+      "/images/specificImages/guitar/Classic/INT-YW-24/INT-YW-24-2.png",
+      "/images/specificImages/guitar/Classic/INT-YW-24/INT-YW-24-3.png",
+    ],
   },
   {
     name: "Classical Guitar 2/4",
@@ -822,7 +845,12 @@ const ITEMS = [
       "Introduce your little rockstar to the world of music with the Guitar Calypso Classic Red 2/4! Designed with kids in mind, this vibrant red guitar is not only visually appealing but also built to withstand the adventures of young musicians. Let your child's creativity shine with this durable and exciting musical companion!",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/CG-RD-24.png",
+      "/images/specificImages/guitar/Classic/CG-RD-24/CG-RD-24-1.png",
+      "/images/specificImages/guitar/Classic/CG-RD-24/CG-RD-24-2.png",
+      "/images/specificImages/guitar/Classic/CG-RD-24/CG-RD-24-3.png",
+    ],
   },
   {
     name: "Classical Guitar 3/4",
@@ -840,7 +868,12 @@ const ITEMS = [
       "Introducing the Guitar Calypso Classic 1/4 in Red Sunburn, specially designed for kids who are eager to embark on their musical journey. This guitar features a kid-friendly design that ensures comfortable playability and encourages young musicians to explore their musical talents. The vibrant red sunburn color option adds a touch of fun and excitement, making it visually appealing to young players. Crafted to be easy to play, this guitar is perfect for beginners learning the ropes of playing music. Give your child the gift of music with the Guitar Calypso Classic 1/4 in Red Sunburn and watch them create beautiful melodies with ease.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/CL-RDS-14.png",
+      "/images/specificImages/guitar/Classic/CL-RDS-14/CL-RDS-14-1.png",
+      "/images/specificImages/guitar/Classic/CL-RDS-14/CL-RDS-14-2.png",
+      "/images/specificImages/guitar/Classic/CL-RDS-14/CL-RDS-14-3.png",
+    ],
   },
   {
     name: "Classical Guitar 3/4",
@@ -857,7 +890,7 @@ const ITEMS = [
     description:
       "Unleash your musical prowess with the Guitar Calypso Classic Slim EQ Black in a sleek 39-inch design. Elevate your performance with its built-in EQ for customized sound adjustments, delivering versatility and top-notch audio quality. Dive into a world of rich melodies and captivating rhythms – this guitar is your ticket to musical excellence!",
     category: "GUITAR",
-    subCategory: "CLASSIC",
+    subCategory: "ELECTRO-CLASSIC",
     pictureUrl: [],
   },
   {
@@ -867,7 +900,12 @@ const ITEMS = [
       "The Guitar Calypso Classic Student Black is designed with beginners in mind, offering a comfortable playing experience and a timeless black finish. Its classic design pairs with versatile sound capabilities, making it suitable for various musical styles. This 3/4-sized guitar is lightweight and easy to handle, perfect for young learners or those starting their musical journey.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: ["/images/guitars/Classic/StudentBK.jpg"],
+    pictureUrl: [
+      "/images/guitars/Classic/STUDENT-BK.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BK/STUDENT-BK-1.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BK/STUDENT-BK-2.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BK/STUDENT-BK-3.png",
+    ],
   },
   {
     name: "Student Classical Guitar 3/4",
@@ -876,7 +914,12 @@ const ITEMS = [
       "Introduce your young musician to the world of music with the Guitar Calypso Classic Student in Black (3/4 size). Crafted from high-quality materials, this guitar is specifically designed for kids, ensuring a comfortable and enjoyable playing experience. Its classic design adds a touch of elegance to their musical journey. Get your hands on this perfect instrument for budding talents today!",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/STUDENT-BK-34.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BK-34/STUDENT-BK-34-1.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BK-34/STUDENT-BK-34-2.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BK-34/STUDENT-BK-34-3.png",
+    ],
   },
   {
     name: "Student Classical Guitar",
@@ -885,7 +928,12 @@ const ITEMS = [
       "The Calypso Classic Student Bleu Sunburn guitar offers a vibrant design paired with reliable performance, ideal for beginners and enthusiasts alike. Its sunburst finish in shades of blue adds a unique aesthetic while maintaining the classic Calypso style. Crafted for comfort and durability, this guitar ensures a smooth playing experience. Perfect for practice sessions or casual performances.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: ["/images/guitars/Classic/StudentBL.jpg"],
+    pictureUrl: [
+      "/images/guitars/Classic/STUDENT-BLS.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BLS/STUDENT-BLS-1.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BLS/STUDENT-BLS-2.png",
+      "/images/specificImages/guitar/Classic/STUDENT-BLS/STUDENT-BLS-3.png",
+    ],
   },
   {
     name: "Student Classical Guitar",
@@ -894,7 +942,12 @@ const ITEMS = [
       "The Guitar Calypso Classic Student in Red Sunburn features a timeless design, perfect for beginners and students. Its vibrant red sunburn finish adds a touch of style, making practice sessions visually appealing. Crafted for ease of playability, it ensures a comfortable learning experience for aspiring musicians. Ideal for those starting their musical journey.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: ["/images/guitars/Classic/StudentRD.jpg"],
+    pictureUrl: [
+      "/images/guitars/Classic/STUDENT-RDS.png",
+      "/images/specificImages/guitar/Classic/STUDENT-RDS/STUDENT-RDS-1.png",
+      "/images/specificImages/guitar/Classic/STUDENT-RDS/STUDENT-RDS-2.png",
+      "/images/specificImages/guitar/Classic/STUDENT-RDS/STUDENT-RDS-3.png",
+    ],
   },
   {
     name: "Student Classical Guitar",
@@ -903,7 +956,12 @@ const ITEMS = [
       "The Calypso Classic Student Guitar in Sunburn is designed for beginners seeking a balance of quality and style. Its classic design ensures comfortable playability, making it an ideal choice for learners. The vibrant Sunburn finish adds a touch of personality, perfect for those looking to stand out. Crafted for durability, this guitar offers a reliable option for daily practice.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: ["/images/guitars/Classic/StudentSB.jpg"],
+    pictureUrl: [
+      "/images/guitars/Classic/STUDENT-SB.png",
+      "/images/specificImages/guitar/Classic/STUDENT-SB/STUDENT-SB-1.png",
+      "/images/specificImages/guitar/Classic/STUDENT-SB/STUDENT-SB-2.png",
+      "/images/specificImages/guitar/Classic/STUDENT-SB/STUDENT-SB-3.png",
+    ],
   },
   {
     name: "Student Classical Guitar",
@@ -912,7 +970,12 @@ const ITEMS = [
       "The Guitar Calypso Classic Student Yellow is an excellent choice for beginners, featuring a vibrant yellow finish that adds a touch of personality. Its classic design ensures comfortable playability, making it suitable for learners of all ages. Crafted for durability and ease of use, this guitar provides a great introduction to music.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: ["/images/guitars/Classic/StudentYW.jpg"],
+    pictureUrl: [
+      "/images/guitars/Classic/STUDENT-YW.png",
+      "/images/specificImages/guitar/Classic/STUDENT-YW/STUDENT-YW-1.png",
+      "/images/specificImages/guitar/Classic/STUDENT-YW/STUDENT-YW-2.png",
+      "/images/specificImages/guitar/Classic/STUDENT-YW/STUDENT-YW-3.png",
+    ],
   },
   {
     name: "Student Classical Guitar",
@@ -930,7 +993,12 @@ const ITEMS = [
       "Introduce your little one to the world of music with the Guitar Calypso Classic Yellow Student 1/4. This beginner-friendly instrument is perfect for young musicians, with its kid-sized design and vibrant yellow color that adds a playful touch. Let your child's musical journey begin in style with this eye-catching and easy-to-handle guitar!",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/STUDENT-YW-14.png",
+      "/images/specificImages/guitar/Classic/STUDENT-YW-14/STUDENT-YW-14-1.png",
+      "/images/specificImages/guitar/Classic/STUDENT-YW-14/STUDENT-YW-14-2.png",
+      "/images/specificImages/guitar/Classic/STUDENT-YW-14/STUDENT-YW-14-3.png",
+    ],
   },
   {
     name: "Student Classical Guitar",
@@ -938,7 +1006,7 @@ const ITEMS = [
     description:
       "Strum your way into the world of music with the Guitar Calypso Classic in a vibrant yellow hue! Perfect for students, this guitar features a built-in EQ for easy tuning and customization. Unleash your creativity and musical talents with this student-friendly instrument that promises both style and functionality.",
     category: "GUITAR",
-    subCategory: "CLASSIC",
+    subCategory: "ELECTRO-CLASSIC",
     pictureUrl: [],
   },
   {
@@ -1472,7 +1540,7 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-BM-YL combines sophisticated design with advanced features, featuring the Manouch Bar mic for exceptional acoustic performance. It sports a Spruce top for a bright, resonant tone, while the Mahogany back, sides, and neck deliver a warm, rich sound. The guitar is equipped with SAVAREZ CJ500 strings, known for their vibrant and dynamic sound. Its glossy dark yellow finish offers a striking and elegant appearance. With 22 frets and rounded edges for smooth playability, it also includes a 4-Band EQ for precise sound control. The included 10mm padded bag provides secure protection and easy transport, making this guitar an excellent choice for classical musicians who value both style and functionality.",
     category: "GUITAR",
-    subCategory: "CLASSIC",
+    subCategory: "ELECTRO-CLASSIC",
 
     pictureUrl: [],
   },
@@ -1492,7 +1560,7 @@ const ITEMS = [
     description:
       "Calypso Electro Classical Guitar G-MIC-BK merges classic craftsmanship with modern technology, featuring the Manouch mic for superior acoustic performance. It boasts a Spruce top for a bright and resonant tone, while the Mahogany back, sides, and neck contribute to a warm and rich sound. The guitar is equipped with SAVAREZ CJ500 strings, known for their vibrant, dynamic quality. Finished in a sleek black gloss, it offers a stylish and contemporary appearance. With 22 frets featuring rounded edges for smooth playability and an integrated EQ with microphone for precise sound control, this model is both versatile and user-friendly. The guitar comes with a 10mm padded bag for excellent protection and convenient transport, making it an ideal choice for classical musicians seeking a blend of elegance and advanced features.",
     category: "GUITAR",
-    subCategory: "CLASSIC",
+    subCategory: "ELECTRO-CLASSIC",
 
     pictureUrl: [],
   },
