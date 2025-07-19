@@ -12,7 +12,7 @@ export default function Carousel({ children }) {
     setActiveIndex((val) => (val <= 0 ? children.length - 1 : val - 1));
   };
 
-  return (
+  return children.length > 1 ? (
     <div className="carousel">
       <button className="slider__btn-prev" onClick={slidePrev}>
         {"<"}
@@ -40,5 +40,7 @@ export default function Carousel({ children }) {
         {">"}
       </button>
     </div>
+  ) : (
+    <div className="single-image">{children[0]}</div>
   );
 }

@@ -788,7 +788,7 @@ const ITEMS = [
     description:
       "The Guitar Calypso Classic CG851-GM offers a timeless design paired with a rich, resonant sound. Built for both beginners and seasoned players, its comfortable build ensures an easy and enjoyable playing experience. Perfect for various genres, this guitar is a reliable choice for practice or performance.",
     category: "GUITAR",
-    subCategory: "CLASSIC",
+    subCategory: "ELECTRO-CLASSIC",
     pictureUrl: [
       "/images/guitars/Classic/CG851-GM.png",
       "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-1.png",
@@ -859,7 +859,12 @@ const ITEMS = [
       "Strum your way to musical joy with the Guitar Calypso Classic Red in the perfect 3/4 size for kids. Let the vibrant red color inspire creativity as your young musician creates beautiful melodies. Crafted for high-quality sound, this guitar is a fantastic choice to ignite a passion for music in your child.",
     category: "GUITAR",
     subCategory: "CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/CG-RD-34.png",
+      "/images/specificImages/guitar/Classic/CG-RD-34/CG-RD-34-1.png",
+      "/images/specificImages/guitar/Classic/CG-RD-34/CG-RD-34-2.png",
+      "/images/specificImages/guitar/Classic/CG-RD-34/CG-RD-34-3.png",
+    ],
   },
   {
     name: "Classical Guitar 1/4",
@@ -1502,7 +1507,11 @@ const ITEMS = [
       "Calypso Silent Electro Classical Guitar EN-NAT is designed for both exceptional acoustic quality and versatility, featuring a solid Spruce top that ensures a bright, resonant tone, complemented by an Okoume body that adds warmth and depth. The Mahogany neck provides smooth, comfortable playability, while the Technical Rosewood fingerboard and bridge enhance durability and tonal richness. The glossy natural finish adds a touch of elegance to its classic design. Equipped with SAVAREZ strings for a vibrant, dynamic sound and a piezo preamp undersaddle bridge for precise amplification, this guitar is perfect for both practice and performance. It also includes a 10mm padded bag for secure protection and easy transport, making it a perfect choice for musicians who appreciate high-quality craftsmanship and advanced features.",
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
-    pictureUrl: ["/images/guitars/Classic/Electro/ElectroClassical.png"],
+    pictureUrl: [
+      "/images/guitars/Classic/Electro/EN-NAT.png",
+      "/images/specificImages/guitar/Classic/Electro/EN-NAT/EN-1.png",
+      "/images/specificImages/guitar/Classic/Electro/EN-NAT/EN-2.png",
+    ],
   },
   {
     name: "Silent Electro-Classical Guitar",
@@ -1512,7 +1521,11 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/Electro/EN-SB.png",
+      "/images/specificImages/guitar/Classic/Electro/EN-SB/EN-1.png",
+      "/images/specificImages/guitar/Classic/Electro/EN-SB/EN-2.png",
+    ],
   },
   {
     name: "Manouche Electro-Classical Guitar",
@@ -1522,7 +1535,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/G-BM-BK.png"],
   },
   {
     name: "Manouche Electro-Classical Guitar",
@@ -1532,7 +1545,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/G-BM-BKBK.png"],
   },
   {
     name: "Manouche Electro-Classical Guitar",
@@ -1542,7 +1555,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/G-BM-YL.png"],
   },
   {
     name: "Manouche Electro-Classical Guitar",
@@ -1552,7 +1565,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/G-BM-N.png"],
   },
   {
     name: "Manouche Electro-Classical Guitar",
@@ -1562,7 +1575,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/G-MIC-BK.png"],
   },
   {
     name: "Manouche Electro-Classical Guitar",
@@ -1572,7 +1585,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/G-MIC-BKBK.png"],
   },
   {
     name: "Manouche Electro-Classical Guitar",
@@ -1582,7 +1595,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/G-MIC-N.png"],
   },
   {
     name: "Manouche Electro-Classical Guitar",
@@ -1592,7 +1605,7 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/G-MIC-YL.png"],
   },
   {
     name: "Guitalele",
