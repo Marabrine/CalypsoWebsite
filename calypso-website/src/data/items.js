@@ -1614,7 +1614,14 @@ const ITEMS = [
       "Introducing the Calypso UK-CG-28-INT-EQ Guitalele. With a compact 28-inch body and an integrated equalizer, this instrument offers versatility and exceptional sound control. Crafted with a Spruce top and Mahogany back and sides, it delivers a rich, resonant tone with depth and clarity. The Rosewood fingerboard adds to the instrument's playability and elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the UK-CG-28-INT-EQ Guitalele represents a harmonious blend of quality craftsmanship and musical excellence.",
     category: "GUITAR",
     subCategory: "GUITALELE",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Guitalele/UK-CG-28-INT-EQ.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ/UK-CG-28-INT-EQ-1.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ/UK-CG-28-INT-EQ-2.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ/UK-CG-28-INT-EQ-3.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-EQ-1.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-EQ-2.png",
+    ],
   },
   {
     name: "Guitalele",
@@ -1623,7 +1630,14 @@ const ITEMS = [
       "Introducing the Calypso UK-CG-28-INT-EQ Guitalele. With a compact 28-inch body and an integrated equalizer, this instrument offers versatility and exceptional sound control. Crafted with a Spruce top and Mahogany back and sides, it delivers a rich, resonant tone with depth and clarity. The Rosewood fingerboard adds to the instrument's playability and elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the UK-CG-28-INT-EQ Guitalele represents a harmonious blend of quality craftsmanship and musical excellence.",
     category: "GUITAR",
     subCategory: "GUITALELE",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Guitalele/UK-CG-28-INT-EQ-BK.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ-BK/UK-CG-28-INT-EQ-BK-1.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ-BK/UK-CG-28-INT-EQ-BK-2.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ-BK/UK-CG-28-INT-EQ-BK-3.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-EQ-1.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-EQ-2.png",
+    ],
   },
   {
     name: "Guitalele",
@@ -1632,7 +1646,14 @@ const ITEMS = [
       "Introducing the Calypso UK-CG-28-INT-EQ Guitalele. With a compact 28-inch body and an integrated equalizer, this instrument offers versatility and exceptional sound control. Crafted with a Spruce top and Mahogany back and sides, it delivers a rich, resonant tone with depth and clarity. The Rosewood fingerboard adds to the instrument's playability and elegance. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the UK-CG-28-INT-EQ Guitalele represents a harmonious blend of quality craftsmanship and musical excellence.",
     category: "GUITAR",
     subCategory: "GUITALELE",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Guitalele/UK-CG-28-INT-EQ-SB.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ-SB/UK-CG-28-INT-EQ-SB-1.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ-SB/UK-CG-28-INT-EQ-SB-2.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-28-INT-EQ-SB/UK-CG-28-INT-EQ-SB-3.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-EQ-1.png",
+      "/images/specificImages/guitar/Guitalele/UK-CG-EQ-2.png",
+    ],
   },
 ];
 
