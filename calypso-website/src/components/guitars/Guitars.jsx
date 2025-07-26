@@ -13,7 +13,7 @@ function Guitars({ props }) {
     (item) => item.subCategory === "ELECTRO-CLASSIC"
   );
   const guitalele = props.filter((item) => item.subCategory === "GUITALELE");
-
+  const electric = props.filter((item) => item.subCategory === "ELECTRIC");
   return (
     <div className="accessories-body">
       <div className="accessories-section">
@@ -28,6 +28,14 @@ function Guitars({ props }) {
         <h1 className="items-title">{t("electroAcoustic")}</h1>
         <ul className="items-display guitar">
           {electroAcoustic.map((item) => {
+            return <Item item={item} key={item.id} />;
+          })}
+        </ul>
+      </div>
+      <div>
+        <h1 className="items-title">{t("electric")}</h1>
+        <ul className="items-display guitar">
+          {electric.map((item) => {
             return <Item item={item} key={item.id} />;
           })}
         </ul>

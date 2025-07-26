@@ -682,11 +682,13 @@ const ITEMS = [
   },
   {
     name: "Electric Guitar",
-    id: "MF-805 SB",
+    id: "MF-805-SB",
     description:
       '"Calypso MF-805 Electric Guitar\n\nThe Model MF-805 features a solid alder body with a flamed maple top for stunning visuals and rich tone. Its maple neck and rosewood fingerboard ensure smooth playability.\n\nWith H-H pickups, it delivers powerful sound, controlled by 1 volume and 1 tone knob with a 3-way blade switch. Finished in a glossy 2TS color, this guitar is perfect for any player.\n\nTune it standard (E, A, D, G, B, E) and let your music shine!"',
     category: "GUITAR",
-    pictureUrl: [],
+    subCategory: "ELECTRIC",
+
+    pictureUrl: ["/images/guitars/Electric/MF-805-SB.png"],
   },
   {
     name: "Electric Guitar",
@@ -694,7 +696,9 @@ const ITEMS = [
     description:
       '"Calypso MST Electric Guitar\n\nThe MODEL MST features a solid alder body and a smooth maple neck for excellent playability. With a steel tremolo bridge and S-S-S single coil pickups, it delivers bright tones and expressive effects.\n\nControlled by 1 volume and 2 tone knobs with a 5-way switch, this guitar offers versatile sound options. Its sleek gloss finish and die-cast tuning pegs ensure style and stability. Perfect for any musician!"',
     category: "GUITAR",
-    pictureUrl: [],
+    subCategory: "ELECTRIC",
+
+    pictureUrl: ["/images/guitars/Electric/MST-BK.png"],
   },
   {
     name: "Electric Guitar",
@@ -702,7 +706,9 @@ const ITEMS = [
     description:
       '"Calypso MST Electric Guitar\n\nThe MODEL MST features a solid alder body and a smooth maple neck for excellent playability. With a steel tremolo bridge and S-S-S single coil pickups, it delivers bright tones and expressive effects.\n\nControlled by 1 volume and 2 tone knobs with a 5-way switch, this guitar offers versatile sound options. Its sleek gloss finish and die-cast tuning pegs ensure style and stability. Perfect for any musician!"',
     category: "GUITAR",
-    pictureUrl: [],
+    subCategory: "ELECTRIC",
+
+    pictureUrl: ["/images/guitars/Electric/MST-BL.png"],
   },
   {
     name: "Electric Guitar",
@@ -710,7 +716,9 @@ const ITEMS = [
     description:
       '"Calypso MST Electric Guitar\n\nThe MODEL MST features a solid alder body and a smooth maple neck for excellent playability. With a steel tremolo bridge and S-S-S single coil pickups, it delivers bright tones and expressive effects.\n\nControlled by 1 volume and 2 tone knobs with a 5-way switch, this guitar offers versatile sound options. Its sleek gloss finish and die-cast tuning pegs ensure style and stability. Perfect for any musician!"',
     category: "GUITAR",
-    pictureUrl: [],
+    subCategory: "ELECTRIC",
+
+    pictureUrl: ["/images/guitars/Electric/MST-RD.png"],
   },
   {
     name: "Electric Guitar",
@@ -718,7 +726,9 @@ const ITEMS = [
     description:
       '"Calypso MST Electric Guitar\n\nThe MODEL MST features a solid alder body and a smooth maple neck for excellent playability. With a steel tremolo bridge and S-S-S single coil pickups, it delivers bright tones and expressive effects.\n\nControlled by 1 volume and 2 tone knobs with a 5-way switch, this guitar offers versatile sound options. Its sleek gloss finish and die-cast tuning pegs ensure style and stability. Perfect for any musician!"',
     category: "GUITAR",
-    pictureUrl: [],
+    subCategory: "ELECTRIC",
+
+    pictureUrl: ["/images/guitars/Electric/MST-SB.png"],
   },
   {
     name: "Silent Electro-Acoustic Guitar",
@@ -726,7 +736,11 @@ const ITEMS = [
     description:
       "Calypso Silent Electro Acoustic Guitar EA-NAT combines exceptional craftsmanship with advanced technology to deliver a superior playing experience. It features a solid Spruce top for a bright and resonant tone, complemented by an Okoume body that adds warmth and depth. The Mahogany neck ensures smooth, comfortable playability, while the Technical Rosewood fingerboard and bridge enhance durability and tonal richness. The glossy natural finish adds a touch of elegance to its classic design. Equipped with SAVAREZ strings for a vibrant, dynamic sound and a piezo preamp undersaddle bridge for precise amplification, this guitar is perfect for both practice and performance. It also includes a 10mm padded bag for secure protection and easy transport.",
     category: "GUITAR",
-    pictureUrl: [],
+    subCategory: "ELECTRO-ACOUSTIC",
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/EA-NAT.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EA-NAT/EA-NAT-1.png",
+    ],
   },
   {
     name: "Silent Electro-Acoustic Guitar",
@@ -734,7 +748,13 @@ const ITEMS = [
     description:
       "Calypso Silent Electro Acoustic Guitar EA-SB offers a blend of traditional craftsmanship and modern performance features. It features a solid Spruce top that delivers a bright, resonant tone, paired with an Okoume body that provides warmth and depth. The Mahogany neck ensures smooth and comfortable playability, while the Technical Rosewood fingerboard and bridge enhance both durability and tonal richness. Finished in a sleek, glossy design, this guitar combines elegance with advanced functionality. Equipped with SAVAREZ strings for a vibrant sound and a piezo preamp undersaddle bridge for accurate amplification, it’s ideal for both practice and performance. The guitar comes with a 10mm padded bag for secure protection and convenient transport.",
     category: "GUITAR",
-    pictureUrl: [],
+    subCategory: "ELECTRO-ACOUSTIC",
+
+    pictureUrl: [
+      "/images/guitars/Acoustic/Electro/EA-SB.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EA-SB/EA-SB-1.png",
+      "/images/specificImages/guitar/Acoustic/Electro/EA-SB/EA-SB-2.png",
+    ],
   },
   {
     name: "Electro-Acoustic Guitar 41-inches",
@@ -789,7 +809,7 @@ const ITEMS = [
   },
   {
     name: "Classical Guitar 39-inches",
-    id: "Calypso-CL-CE39-EQ",
+    id: "CL-CE39-EQ",
     description:
       "Strum in style with the Guitar Calypso Classic EQ (39 Inches), featuring a classic design that exudes timeless elegance. Take your sound to the next level with the built-in EQ, allowing you to fine-tune your tunes effortlessly. At an ideal size of 39 inches, this guitar offers both portability and comfort without compromising on quality. Elevate your musical journey with the Guitar Calypso - a perfect blend of classic charm and modern functionality!",
     category: "GUITAR",
@@ -804,7 +824,7 @@ const ITEMS = [
   },
   {
     name: "Classical Guitar 39-inches",
-    id: "Calypso-CL-CE39-EQ-BK",
+    id: "CL-CE39-EQ-BK",
     description:
       "Unleash your inner musician with the Guitar Calypso Classic EQ Black! This 39-inch beauty features a classic design that exudes timeless elegance. Equipped with a built-in EQ, it offers versatility and allows you to fine-tune your sound effortlessly. Whether you're a beginner or a seasoned player, this guitar is the perfect size for comfortable playing. Elevate your musical journey with the Guitar Calypso Classic EQ Black today!",
     category: "GUITAR",
@@ -893,7 +913,7 @@ const ITEMS = [
   },
   {
     name: "Classical Guitar 39-inches",
-    id: "Calypso CL-INT39-SLM-EQ-BK",
+    id: "CL-INT39-SLM-EQ-BK",
     description:
       "Unleash your musical prowess with the Guitar Calypso Classic Slim EQ Black in a sleek 39-inch design. Elevate your performance with its built-in EQ for customized sound adjustments, delivering versatility and top-notch audio quality. Dive into a world of rich melodies and captivating rhythms – this guitar is your ticket to musical excellence!",
     category: "GUITAR",
