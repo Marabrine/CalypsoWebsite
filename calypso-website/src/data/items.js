@@ -746,15 +746,6 @@ const ITEMS = [
     pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-EQ.png"],
   },
   {
-    name: "Electro-Acoustic Slim Guitar 41-inches",
-    id: "FG41-INT-SLM-EQ",
-    description:
-      "Introducing the FG41-INT-SLM-EQ: a versatile acoustic guitar crafted for exceptional performance. Featuring a spruce top and linden back/sides, this model delivers a rich, resonant tone perfect for various musical styles. The dyed fingerboard and half-cast machine head ensure durability and smooth playability. Finished in a sophisticated brown color, this guitar exudes timeless elegance. With its slim design and equipped with an MT-3 EQ, it offers precise sound control and comfortable playability, making it an ideal choice for musicians of all levels.",
-    category: "GUITAR",
-    subCategory: "ELECTRO-ACOUSTIC",
-    pictureUrl: ["/images/guitars/Acoustic/Electro/FG41-INT-SLM-EQ.png"],
-  },
-  {
     name: "Classical Guitar 3/4",
     id: "CG-34",
     description:
@@ -794,7 +785,6 @@ const ITEMS = [
       "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-1.png",
       "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-2.png",
       "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-3.png",
-      "/images/specificImages/guitar/Classic/Electro/CG851-GM/CG851-GM-4.png",
     ],
   },
   {
@@ -804,7 +794,13 @@ const ITEMS = [
       "Strum in style with the Guitar Calypso Classic EQ (39 Inches), featuring a classic design that exudes timeless elegance. Take your sound to the next level with the built-in EQ, allowing you to fine-tune your tunes effortlessly. At an ideal size of 39 inches, this guitar offers both portability and comfort without compromising on quality. Elevate your musical journey with the Guitar Calypso - a perfect blend of classic charm and modern functionality!",
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/Electro/CL-CE39-EQ.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-CE39-EQ/CL-CE39-EQ-1.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-CE39-EQ/CL-CE39-EQ-2.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-CE39-EQ/CL-CE39-EQ-3.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-CE39-EQ/CL-CE39-EQ-4.png",
+    ],
   },
   {
     name: "Classical Guitar 39-inches",
@@ -813,7 +809,13 @@ const ITEMS = [
       "Unleash your inner musician with the Guitar Calypso Classic EQ Black! This 39-inch beauty features a classic design that exudes timeless elegance. Equipped with a built-in EQ, it offers versatility and allows you to fine-tune your sound effortlessly. Whether you're a beginner or a seasoned player, this guitar is the perfect size for comfortable playing. Elevate your musical journey with the Guitar Calypso Classic EQ Black today!",
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/Electro/CL-CE39-EQ-BK.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-CE39-EQ-BK/CL-CE39-EQ-BK-1.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-CE39-EQ-BK/CL-CE39-EQ-BK-2.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-CE39-EQ-BK/CL-CE39-EQ-BK-3.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-CE39-EQ-BK/CL-CE39-EQ-BK-4.png",
+    ],
   },
   {
     name: "Classical Guitar 39-inches",
@@ -822,7 +824,7 @@ const ITEMS = [
       "Unleash your inner musician with the Guitar Calypso Classic Intermediate EQ! Featuring a classic design that exudes timeless elegance, this guitar is perfect for intermediate players looking to enhance their skills. Take your performance to the next level with the built-in EQ, allowing you to fine-tune your sound effortlessly. Elevate your musical journey with the Guitar Calypso Classic Intermediate EQ – a must-have for any aspiring guitarist!",
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
-    pictureUrl: [],
+    pictureUrl: ["/images/guitars/Classic/Electro/CL-INT39-EQ.png"],
   },
   {
     name: "Classical Guitar 2/4",
@@ -896,7 +898,12 @@ const ITEMS = [
       "Unleash your musical prowess with the Guitar Calypso Classic Slim EQ Black in a sleek 39-inch design. Elevate your performance with its built-in EQ for customized sound adjustments, delivering versatility and top-notch audio quality. Dive into a world of rich melodies and captivating rhythms – this guitar is your ticket to musical excellence!",
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/Electro/CL-INT39-SLM-EQ-BK.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-INT39-SLM-EQ-BK/CL-INT39-SLM-EQ-BK-1.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-INT39-SLM-EQ-BK/CL-INT39-SLM-EQ-BK-2.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-INT39-SLM-EQ-BK/CL-INT39-SLM-EQ-BK-3.png",
+    ],
   },
   {
     name: "Student Classical Guitar",
@@ -1012,7 +1019,13 @@ const ITEMS = [
       "Strum your way into the world of music with the Guitar Calypso Classic in a vibrant yellow hue! Perfect for students, this guitar features a built-in EQ for easy tuning and customization. Unleash your creativity and musical talents with this student-friendly instrument that promises both style and functionality.",
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/Electro/STUDENT-YW-EQ.png",
+      "/images/specificImages/guitar/Classic/Electro/STUDENT-YW-EQ/STUDENT-YW-EQ-1.png",
+      "/images/specificImages/guitar/Classic/Electro/STUDENT-YW-EQ/STUDENT-YW-EQ-2.png",
+      "/images/specificImages/guitar/Classic/Electro/STUDENT-YW-EQ/STUDENT-YW-EQ-3.png",
+      "/images/specificImages/guitar/Classic/Electro/STUDENT-YW-EQ/STUDENT-YW-EQ-4.png",
+    ],
   },
   {
     name: "Digital Piano",
@@ -1488,17 +1501,12 @@ const ITEMS = [
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
 
-    pictureUrl: ["/images/guitars/Classic/Electro/CL-INT39-SLM-EQ.png"],
-  },
-  {
-    name: "Slim Electro-Classical Guitar",
-    id: "CL-INT39-SLM-EQ-BK",
-    description:
-      "Introducing the Calypso CL-INT39-SLM-EQ-BK Classic Guitar. Featuring a sleek 39-inch slim body with a cutaway, white binding line, neck truss rod, and an equalizer, this instrument offers enhanced playability and versatile sound control. Crafted with a Spruce top and Linden back & sides, it delivers a rich, resonant tone. The dyed plywood fingerboard adds a touch of sophistication to its modern black finish. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the CL-INT39-SLM-EQ-BK Classic Guitar embodies quality craftsmanship and musical excellence.",
-    category: "GUITAR",
-    subCategory: "ELECTRO-CLASSIC",
-
-    pictureUrl: [],
+    pictureUrl: [
+      "/images/guitars/Classic/Electro/CL-INT39-SLM-EQ.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-INT39-SLM-EQ/CL-INT39-SLM-EQ-1.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-INT39-SLM-EQ/CL-INT39-SLM-EQ-2.png",
+      "/images/specificImages/guitar/Classic/Electro/CL-INT39-SLM-EQ/CL-INT39-SLM-EQ-3.png",
+    ],
   },
   {
     name: "Silent Electro-Classical Guitar",
@@ -1656,5 +1664,4 @@ const ITEMS = [
     ],
   },
 ];
-
 export default ITEMS;
