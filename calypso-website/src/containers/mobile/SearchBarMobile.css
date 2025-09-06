@@ -45,7 +45,7 @@
   padding: 4px;
 }
 
-.open {
+.search-bar__mobile.open {
   display: block;
   top: 0rem;
 }

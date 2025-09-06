@@ -8,7 +8,7 @@ function Accessories({ props }) {
   const cables = props.filter((item) => item.subCategory === "CABLE");
   const stands = props.filter((item) => item.subCategory === "STAND");
   const other = props.filter((item) => item.subCategory === "OTHER");
-
+  console.log(props);
   return (
     <div className="accessories-body">
       <div className="accessories-section">

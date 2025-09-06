@@ -2,9 +2,16 @@
   background-color: rgba(218, 165, 32, 1);
 }
 .language-switcher {
-  position: fixed;
-  bottom: 1rem;
-  left: 1rem;
+  position: relative;
+  bottom: 0rem;
+  left: -2rem;
   z-index: 1000;
   color: white;
+}
+@media (max-width: 950px) {
+  .language-switcher {
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+  }
 }

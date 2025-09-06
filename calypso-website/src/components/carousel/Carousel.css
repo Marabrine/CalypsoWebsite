@@ -32,6 +32,7 @@
   background-color: transparent;
   color: black;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .carousel-slide img {

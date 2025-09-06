@@ -36,7 +36,7 @@ const ITEMS = [
     category: "ACCESSORIES",
     subCategory: "BENCH",
 
-    pictureUrl: ["/images/piano-benches/Q-111T.png"],
+    pictureUrl: ["/images/piano-benches/Q111T.png"],
   },
   {
     name: "3m Cable",
@@ -80,6 +80,8 @@ const ITEMS = [
     description:
       "Calypso G400 Cymbal Stand: sturdy and adjustable, designed for stability and ease of use. Perfect for drummers looking to enhance their setup!",
     category: "ACCESSORIES",
+    subCategory: "STAND",
+
     pictureUrl: ["/images/stands/G400.png"],
   },
   {
@@ -371,7 +373,7 @@ const ITEMS = [
     pictureUrl: [],
   },
   {
-    name: "Acoustic Guitar 38-inches",
+    name: 'Acoustic Guitar 38"',
     id: "FG38",
     description:
       "Immerse yourself in the rich, soulful melodies with the Guitar Calypso Folk (38 Inches). Its impeccable sound quality will transport you to a world of musical bliss. The comfortable size makes it perfect for musicians of all levels, while the classic design adds a touch of elegance to your performance. Elevate your music experience with this exceptional guitar today!",
@@ -385,7 +387,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Acoustic Guitar",
+    name: 'Acoustic 40"',
     id: "140MAS",
     description:
       "Immerse yourself in the rich tones of the Guitar Calypso Folk 140MAS, crafted for both elegance and comfort. Made with durable materials, this guitar ensures a lasting musical companion for your creative journey. Elevate your playing experience with the perfect blend of style and functionality â€“ strum away with the Guitar Calypso Folk 140MAS!",
@@ -399,7 +401,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Acoustic Guitar 38-inches",
+    name: 'Acoustic Guitar 38"',
     id: "FG38-BK",
     description:
       "Unleash your musical creativity with the Guitar Calypso Folk Black! This stunning 38-inch guitar offers a versatile sound that will elevate your music to new heights. Its classic design exudes elegance, while the comfortable size makes it perfect for musicians of all levels. Dive into the world of music with the Guitar Calypso Folk Black â€“ a must-have for any aspiring guitarist!",
@@ -413,7 +415,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Acoustic Guitar 41-inches",
+    name: 'Acoustic Guitar 41"',
     id: "FG41-INT",
     description:
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate (41 Inches). Experience its versatile sound that adapts to various music genres, making it a must-have for aspiring musicians. Crafted with precision and care, this guitar offers exceptional quality and durability. Elevate your playing experience with the comfortable size and superior craftsmanship of this instrument.",
@@ -427,7 +429,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Acoustic Guitar 42-inches",
+    name: 'Acoustic Guitar 42"',
     id: "FG42-INT",
     description:
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate! Dive into a world of versatile sounds that will captivate your audience. Designed for ease of play, this 42-inch guitar offers a smooth playing experience for musicians of all levels. Crafted with durable construction, this guitar is built to withstand your musical journey. Elevate your music game and bring your melodies to life with the Guitar Calypso Folk Intermediate!",
@@ -441,7 +443,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Acoustic Guitar 42-inches",
+    name: 'Acoustic Guitar 42"',
     id: "FG41-INT-BK",
     description:
       "Experience the captivating melodies with the Guitar Calypso Folk Intermediate Black (41 Inches). This versatile instrument offers a rich and vibrant sound that will inspire your musical journey. Its comfortable size and sleek design make it a perfect choice for intermediate players looking to enhance their skills. Elevate your music with the Guitar Calypso Folk â€“ get ready to strum your way to new heights!",
@@ -455,7 +457,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Guitar 41-inches",
+    name: 'Electro-Acoustic Guitar 41"',
     id: "FG41-INT-EQ-BK",
     description:
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate EQ Black! This 41-inch beauty offers a versatile sound that will elevate your playing experience to new heights. Designed for comfort and style, this guitar is the perfect companion for intermediate players looking to make a statement. Embrace the rhythm of the Calypso Folk and let your passion for music shine through!",
@@ -471,7 +473,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Guitar 42-inches",
+    name: 'Electro-Acoustic Guitar 42"',
     id: "FG42-INT-EQ-BK",
     description:
       "Indulge in the vibrant tunes with the Guitar Calypso Folk Intermediate EQ Black (42 Inches). Experience a versatile sound that enhances your musical journey to new heights. The comfortable size and stylish design make this guitar a perfect companion for aspiring musicians. Elevate your performance and stand out with this exceptional instrument!",
@@ -487,7 +489,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Left Handed Electro-Acoustic Guitar 41-inches",
+    name: 'Left Handed Electro-Acoustic Guitar 41"',
     id: "FG41-INT-EQ-LH",
     description:
       "Unleash your musical prowess with this 41-inch Guitar Calypso Folk designed specifically for left-handed players. Boasting an EQ system for fine-tuned sound control, this guitar is perfect for intermediate musicians looking to elevate their skills. Embrace your unique style and sound with this exceptional left-handed guitar!",
@@ -503,7 +505,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Left Handed Acoustic Guitar 41-inches",
+    name: 'Left Handed Acoustic Guitar 41"',
     id: "FG41-INT-LH",
     description:
       "Strum your way into the world of calypso folk with this 41-inch left-handed guitar designed for intermediate players. Embrace your unique style with this specially crafted instrument, perfect for those who march to the beat of their own tune. Elevate your musical journey with the soulful melodies you can create using this exceptional guitar!",
@@ -512,7 +514,7 @@ const ITEMS = [
     pictureUrl: ["/images/guitars/Acoustic/FG41-INT-LH.png"],
   },
   {
-    name: "Left Handed Acoustic Guitar 41-inches",
+    name: 'Left Handed Acoustic Guitar 41"',
     id: "FG41-INT-LH-NAT",
     description: "",
     category: "GUITAR",
@@ -525,7 +527,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Slim Guitar 41-inches",
+    name: 'Electro-Acoustic Slim Guitar 41"',
     id: "FG41-INT-SLM-EQ-BK",
     description:
       "Unleash your inner musician with the Guitar Calypso Folk Intermediate Slim EQ Black! Embrace the slim design and EQ functionality that enhances your playing experience. Perfect for those captivated by the calypso folk style, this guitar is a harmonious blend of style and functionality. Elevate your musical journey with this sleek and versatile instrument!",
@@ -541,7 +543,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Slim Redline Guitar 41-inches",
+    name: 'Electro-Acoustic Slim Redline Guitar 41"',
     id: "FG41-INT-SLM-EQ-BK-RedLine",
     description:
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate Slim EQ in Black Redline (41 Inches). Its sleek design not only catches the eye but also delivers a rich, resonant sound that will elevate your playing experience. With versatile EQ options, you can customize your sound to suit any musical style. Get ready to rock the stage with this exceptional guitar!",
@@ -557,7 +559,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Slim Guitar 41-inches",
+    name: 'Electro-Acoustic Slim Guitar 41"',
     id: "FG41-INT-SLM-EQ",
     description:
       "Unleash your musical prowess with the Guitar Calypso Folk Intermediate Slim EQ! This 41-inch beauty boasts a sleek and slim design, perfect for players who appreciate comfort and style. Elevate your sound with the EQ feature, adding a whole new dimension to your music. Ideal for intermediate players seeking quality and performance, this guitar is a must-have for anyone looking to take their music to the next level.",
@@ -573,7 +575,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Left Handed Slim Guitar 41-inches",
+    name: 'Electro-Acoustic Left Handed Slim Guitar 41"',
     id: "FG41-INT-SLM-EQ-LH",
     description:
       "Unleash your musical creativity with the Guitar Calypso Folk Intermediate Slim EQ Left Hand (41 Inches). Designed specifically for left-handed players, this guitar features a slim profile that ensures maximum comfort during extended playing sessions. Enjoy the convenience of the built-in EQ, allowing you to fine-tune your sound effortlessly. Elevate your music journey with this exceptional left-handed guitar!",
@@ -589,7 +591,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Slim Guitar 38-inches",
+    name: 'Electro-Acoustic Slim Guitar 38"',
     id: "FG38-SLM-EQ",
     description:
       "Experience the harmonious blend of style and sound with the Guitar Calypso Folk Slim EQ. Its sleek design not only catches the eye but also delivers a rich, resonant sound quality that will captivate any music enthusiast. With versatile EQ options, you can customize your tone to suit your unique style and preferences. Elevate your musical journey with the Guitar Calypso Folk Slim EQ - a perfect companion for any aspiring musician!",
@@ -605,7 +607,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Left Handed Slim Guitar 38-inches",
+    name: 'Electro-Acoustic Left Handed Slim Guitar 38"',
     id: "FG38-SLM-EQ-BK-LH",
     description:
       "Discover the perfect harmony with the Guitar Calypso Folk Slim EQ Black Left Hand! Designed specifically for left-handed players, this 38-inch beauty boasts a slim EQ for effortless adjustments, ensuring you achieve your desired sound with ease. Embrace the unique calypso folk style and unleash your musical creativity in a whole new way!",
@@ -622,7 +624,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Left Handed Slim Guitar 38-inches",
+    name: 'Electro-Acoustic Left Handed Slim Guitar 38"',
     id: "FG38-SLM-EQ-LH",
     description:
       "Unleash your musical creativity with the Guitar Calypso Folk Slim EQ Left Hand, a perfect companion for left-handed players. Its slim design makes it portable and easy to carry, allowing you to play your tunes anywhere. Customize your sound effortlessly with the built-in EQ feature. Elevate your music experience with this 38-inch beauty â€“ grab yours now and let your melodies shine!",
@@ -639,7 +641,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Slim Guitar 38-inches",
+    name: 'Electro-Acoustic Slim Guitar 38"',
     id: "FG38-SLM-EQ-SB",
     description:
       "Strum your way to musical bliss with the Guitar Calypso Folk Slim EQ Sunburn. Its sleek design not only catches the eye but also delivers rich tones that will elevate your playing experience. With a built-in EQ, you can easily fine-tune your sound to perfection. Unleash your creativity and dive into the world of music with this exceptional 38-inch guitar!",
@@ -655,7 +657,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Slim Guitar 40-inches",
+    name: 'Electro-Acoustic Slim Guitar 40"',
     id: "FG40-088-SLM-SB-EQ",
     description:
       "Strum in style with the Guitar Calypso Folk Slim Sunburn EQ! Its slim design offers both comfort and elegance, perfect for passionate musicians. The eye-catching sunburst finish adds a touch of flair, while the built-in EQ ensures your tunes sound just right. Elevate your musical journey with this 40-inch beauty today!",
@@ -671,7 +673,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Classical Guitar 39-inches",
+    name: 'Classical Guitar 39"',
     id: "CL-INT39",
     description:
       "Introducing the Calypso CL-INT39 Classic Guitar. With a 39-inch body featuring white binding line and neck truss rod, this instrument offers both elegance and functionality. Crafted with a Spruce top and Linden back & sides, it delivers a rich, resonant tone. The dyed plywood fingerboard adds a touch of sophistication to its natural finish. Designed by Calypso in Montreal, Canada, and meticulously handmade in China with selected lumber and exotic materials, the CL-INT39 Classic Guitar represents a harmonious blend of quality craftsmanship and musical excellence.",
@@ -757,7 +759,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Electro-Acoustic Guitar 41-inches",
+    name: 'Electro-Acoustic Guitar 41"',
     id: "FG41-INT-EQ",
     description:
       "Introducing the FG41-INT-EQ: an exceptional acoustic guitar designed for versatile performance. Crafted with a spruce top and linden back/sides, this model delivers a rich, resonant tone suitable for various musical styles. The dyed fingerboard and half-cast machine head ensure durability and smooth playability. Finished in a sophisticated brown color, this guitar exudes timeless elegance. Equipped with an MT-3 EQ, it offers precise sound control, making it an ideal choice for musicians seeking flexibility and quality in their sound.",
@@ -808,10 +810,10 @@ const ITEMS = [
     ],
   },
   {
-    name: "Classical Guitar 39-inches",
+    name: 'Classical Guitar 39"',
     id: "CL-CE39-EQ",
     description:
-      "Strum in style with the Guitar Calypso Classic EQ (39 Inches), featuring a classic design that exudes timeless elegance. Take your sound to the next level with the built-in EQ, allowing you to fine-tune your tunes effortlessly. At an ideal size of 39 inches, this guitar offers both portability and comfort without compromising on quality. Elevate your musical journey with the Guitar Calypso - a perfect blend of classic charm and modern functionality!",
+      'Strum in style with the Guitar Calypso Classic EQ (39"), featuring a classic design that exudes timeless elegance. Take your sound to the next level with the built-in EQ, allowing you to fine-tune your tunes effortlessly. At an ideal size of 39 inches, this guitar offers both portability and comfort without compromising on quality. Elevate your musical journey with the Guitar Calypso - a perfect blend of classic charm and modern functionality!',
     category: "GUITAR",
     subCategory: "ELECTRO-CLASSIC",
     pictureUrl: [
@@ -823,7 +825,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Classical Guitar 39-inches",
+    name: 'Classical Guitar 39"',
     id: "CL-CE39-EQ-BK",
     description:
       "Unleash your inner musician with the Guitar Calypso Classic EQ Black! This 39-inch beauty features a classic design that exudes timeless elegance. Equipped with a built-in EQ, it offers versatility and allows you to fine-tune your sound effortlessly. Whether you're a beginner or a seasoned player, this guitar is the perfect size for comfortable playing. Elevate your musical journey with the Guitar Calypso Classic EQ Black today!",
@@ -838,7 +840,7 @@ const ITEMS = [
     ],
   },
   {
-    name: "Classical Guitar 39-inches",
+    name: 'Classical Guitar 39"',
     id: "CL-INT39-EQ",
     description:
       "Unleash your inner musician with the Guitar Calypso Classic Intermediate EQ! Featuring a classic design that exudes timeless elegance, this guitar is perfect for intermediate players looking to enhance their skills. Take your performance to the next level with the built-in EQ, allowing you to fine-tune your sound effortlessly. Elevate your musical journey with the Guitar Calypso Classic Intermediate EQ – a must-have for any aspiring guitarist!",
@@ -912,7 +914,7 @@ const ITEMS = [
     pictureUrl: [],
   },
   {
-    name: "Classical Guitar 39-inches",
+    name: 'Classical Guitar 39"',
     id: "CL-INT39-SLM-EQ-BK",
     description:
       "Unleash your musical prowess with the Guitar Calypso Classic Slim EQ Black in a sleek 39-inch design. Elevate your performance with its built-in EQ for customized sound adjustments, delivering versatility and top-notch audio quality. Dive into a world of rich melodies and captivating rhythms – this guitar is your ticket to musical excellence!",

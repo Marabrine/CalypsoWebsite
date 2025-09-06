@@ -1,7 +1,14 @@
 .footer-body {
-  position: relative;
   background: #242424;
-  height: 20vh;
   color: red;
-  width: 100vw;
+  width: 100%;
+  padding: 2rem 0; /* Add padding instead of fixed height */
+  /* Remove position: relative and excessive height completely */
+}
+
+/* Optional: Style the actual footer element */
+.footer-body footer {
+  max-width: 1200px; /* Constrain content width */
+  margin: 0 auto; /* Center the content */
+  padding: 0 1rem; /* Add horizontal padding */
 }

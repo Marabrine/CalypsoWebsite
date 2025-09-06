@@ -7,6 +7,7 @@ function Drums({ props }) {
   const drumset = props.filter((item) => item.subCategory === "DRUMSET");
   const marching = props.filter((item) => item.subCategory === "MARCHING");
   const oriental = props.filter((item) => item.subCategory === "ORIENTAL");
+  console.log(props);
 
   return (
     <div className="accessories-body">

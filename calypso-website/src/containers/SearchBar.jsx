@@ -31,7 +31,7 @@ export default function SearchBar({ items }) {
           </li>
         ) : (
           filteredItems.map((item, index) => {
-            const name = item.name || "";
+            const name = item.id || "";
             return (
               <Link key={index} to={`/item/${item.id}`}>
                 <li

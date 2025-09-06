@@ -1,8 +1,8 @@
 import "./hamburgerMenu.css";
 
-function HamburgerButton({ onHover }) {
+function HamburgerButton({ onHover, isOpen }) {
   return (
-    <button className="hamburger" onClick={onHover} aria-label="Menu">
+    <button className={`hamburger ${isOpen ? "open" : ""}`} onClick={onHover}>
       <span className="bar"></span>
       <span className="bar"></span>
       <span className="bar"></span>

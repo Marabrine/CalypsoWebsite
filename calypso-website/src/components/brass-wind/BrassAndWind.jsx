@@ -4,7 +4,7 @@ import Item from "../item/Item";
 
 function BrassAndWind({ props }) {
   const { t } = useTranslation();
-
+  console.log(props);
   return (
     <div className="accessories-body">
       <div className="accessories-section">
