@@ -9,13 +9,16 @@ function Item({ item }) {
   };
   return (
     <div>
-      {/*<Link to={`/items/${item.id}`}> */}
       <li key={item.id} className="items-display__item">
         <div className="item-background"></div>
         {item.pictureUrl.length !== 0 ? (
           <Carousel onClick={handleCarouselClick}>
             {item.pictureUrl.map((photo, index) => {
-              return <img src={photo} key={index} />;
+              return (
+                <Link to={`/items/${item.id}`}>
+                  <img src={photo} key={index} />
+                </Link>
+              );
             })}
           </Carousel>
         ) : (
@@ -25,7 +28,6 @@ function Item({ item }) {
           <h3 className="item-name sub">{item.id}</h3>
         </div>
       </li>
-      {/*</Link>*/}
     </div>
   );
 }

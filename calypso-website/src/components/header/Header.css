@@ -65,6 +65,7 @@ nav {
     z-index: 1000;
     margin: 0;
     padding: 0;
+    flex-wrap: nowrap;
   }
   .dropdown-menu > li {
     position: relative;
@@ -77,6 +78,7 @@ nav {
     text-align: center;
     top: 30%;
     background-image: linear-gradient(#242424, black);
+    flex-direction: row;
   }
   .dropdown-menu li img {
     margin-right: 10px;

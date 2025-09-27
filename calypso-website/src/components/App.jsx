@@ -12,7 +12,7 @@ import BrassAndWind from "./brass-wind/BrassAndWind";
 import Drums from "./drums/Drums";
 import Special from "./special/Special";
 import Sonata from "./sonata/Sonata";
-import ItemDetails from "./itemDetails/itemDetails";
+import ItemDetails from "./itemDetails/ItemDetails";
 
 function App() {
   const router = createBrowserRouter([
