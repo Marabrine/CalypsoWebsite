@@ -219,7 +219,7 @@ export default function Header({ props }) {
                 <ul className="instruments">
                   {violin.map((item) => {
                     return (
-                      <li>
+                      <li> 
                         <img src={CalypsoRed} width="12rem" />
                         <Link to={`/items/${item.id}`}>{item.id}</Link>
                       </li>

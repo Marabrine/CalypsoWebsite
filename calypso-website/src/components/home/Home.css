@@ -32,7 +32,23 @@ html {
   width: 100vw;
   margin: 0;
 }
+.home_video {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  z-index: 1000;
+}
 
+.home_video video {
+  width: 80%; /* 80% of container width */
+  height: auto; /* Maintains aspect ratio */
+  max-width: 800px; /* Maximum width limit */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Nice shadow */
+}
 .img-container img {
   /* Take full width of column */
   width: 100%;
