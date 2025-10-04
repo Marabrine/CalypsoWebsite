@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import "./Breadcrumb.css";
+import "./BreadCrumb.css";
 import CalypsoRed from "../assets/CalypsoRed.png";
 
 const Breadcrumb = ({ items = [] }) => {
