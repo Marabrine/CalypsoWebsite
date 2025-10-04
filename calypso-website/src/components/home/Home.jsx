@@ -1,4 +1,5 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import "./Home.css";
 
 const Home = () => {
   const images = [
@@ -31,24 +32,71 @@ const Home = () => {
     "/images/homepage/calypso-image10.jpeg",
   ];
 
-  return (
-    <div>
-      {/**<div className="home_video">
-        <video
-          autoPlay
-          loop
-          muted
-          src="/videos/347299d5-8696-41ab-a985-f9b1d95d1c96.mp4"
-        ></video> 
-  </div> */}
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-      {/**<div className="img-container">
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+  const goToSlide = (index) => {
+    setCurrentIndex(index);
+  };
+
+  const goToPrevious = () => {
+    setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1);
+  };
+
+  const goToNext = () => {
+    setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
+  };
+
+  return (
+    <div className="carousel-container">
+      <div className="carousel-slides">
         {images.map((src, index) => (
-          <div key={index} className="fade-in-image">
-            <img src={src} alt={`Gallery image ${index + 1}`} />
+          <div
+            key={index}
+            className={`carousel-slideHome ${
+              index === currentIndex ? "active" : ""
+            }`}
+          >
+            <img src={src} alt={`Slide ${index + 1}`} />
           </div>
         ))}
-      </div> */}
+      </div>
+
+      <button
+        onClick={goToPrevious}
+        className="carousel-arrow left"
+        aria-label="Previous slide"
+      >
+        ‹
+      </button>
+
+      <button
+        onClick={goToNext}
+        className="carousel-arrow right"
+        aria-label="Next slide"
+      >
+        ›
+      </button>
+
+      <div className="carousel-dots">
+        {images.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => goToSlide(index)}
+            className={`carousel-dot ${index === currentIndex ? "active" : ""}`}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
+      </div>
     </div>
   );
 };

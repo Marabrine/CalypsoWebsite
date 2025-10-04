@@ -14,6 +14,7 @@ import SearchBarMobile from "../../containers/mobile/SearchBarMobile";
 import CalypsoRed from "../../assets/CalypsoRed.png";
 import Breadcrumb from "../../containers/BreadCrumb"; // Import the new breadcrumb component
 import ITEMS from "../../data/items";
+import BackToTopButton from "../../containers/BackToTopButton";
 
 export default function Header({ props }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -87,7 +88,7 @@ export default function Header({ props }) {
         <ul className="dropdown-menu">
           <li>
             <img src={CalypsoRed} width="12rem" />
-            {t("pianos")} &#x2304;
+            <Link to={"/items/pianos"}>{t("pianos")}</Link>
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
@@ -121,7 +122,7 @@ export default function Header({ props }) {
           </li>
           <li>
             <img src={CalypsoRed} width="12rem" />
-            {t("guitars")} &#x2304;
+            <Link to={"/items/guitar-bass"}>{t("guitars")}</Link>
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
@@ -211,7 +212,7 @@ export default function Header({ props }) {
           </li>
           <li>
             <img src={CalypsoRed} width="12rem" />
-            {t("orchStrings")} &#x2304;
+            <Link to={"/items/orchestral-strings"}>{t("orchStrings")}</Link>
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
@@ -219,7 +220,7 @@ export default function Header({ props }) {
                 <ul className="instruments">
                   {violin.map((item) => {
                     return (
-                      <li> 
+                      <li>
                         <img src={CalypsoRed} width="12rem" />
                         <Link to={`/items/${item.id}`}>{item.id}</Link>
                       </li>
@@ -259,7 +260,7 @@ export default function Header({ props }) {
           </li>
           <li>
             <img src={CalypsoRed} width="12rem" />
-            {t("winds")} &#x2304;
+            <Link to={"/items/brass-wind"}>{t("winds")}</Link>
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
@@ -279,7 +280,7 @@ export default function Header({ props }) {
           </li>
           <li>
             <img src={CalypsoRed} width="12rem" />
-            {t("drums")} &#x2304;
+            <Link to={"/items/drums-percussion"}>{t("drums")}</Link>
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
@@ -327,7 +328,7 @@ export default function Header({ props }) {
           </li>
           <li>
             <img src={CalypsoRed} width="12rem" />
-            {t("special")} &#x2304;
+            <Link to={"/items/special"}>{t("special")}</Link>
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
@@ -389,7 +390,7 @@ export default function Header({ props }) {
           </li>
           <li>
             <img src={CalypsoRed} width="12rem" />
-            {t("accessories")} &#x2304;
+            <Link to={"/items/accessories"}>{t("accessories")}</Link>
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
@@ -453,8 +454,7 @@ export default function Header({ props }) {
         <LanguageSwitcher />
       </header>
 
-      {/* Add the breadcrumb component */}
-      <Breadcrumb />
+      {/*<Breadcrumb />*/}
 
       <SideBar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
     </div>

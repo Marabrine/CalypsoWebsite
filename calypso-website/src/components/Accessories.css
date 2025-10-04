@@ -1,37 +1,48 @@
+/* ============================================
+   ACCESSORIES/ITEMS DISPLAY
+   ============================================ */
+
 .accessories-body {
   position: relative;
-  top: 6rem;
-  left: -1.5rem;
-}
-.items-display {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  flex-wrap: wrap; /* This makes items wrap on small screens */
-  justify-content: center;
-}
-.items-display img {
-  height: 17rem;
-  display: block;
-  object-fit: cover;
-  /* background-image: url("../assets/CalypsoFlag.png");
-  background-size: cover;
-  background-position: center center; */
-}
-.items-display li {
-  width: 250px;
-  height: auto;
-  text-align: center;
+  margin-top: 17vh; /* Adjusted from top: 9rem to account for fixed header */
+  padding: 2rem 1.5rem;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .items-title {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 3rem;
-  position: relative;
-  left: 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
   color: rgba(218, 165, 32, 1);
+  margin-bottom: 2rem;
 }
+
+.items-display {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.items-display li {
+  width: 250px;
+  height: auto;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.items-display img {
+  height: 17rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Specific instrument styling */
 .piano img {
   height: 17rem;
   width: 15rem;
@@ -71,4 +82,14 @@
 .accessories img {
   height: 200px;
   width: 100%;
+}
+
+.carousel-slide,
+.guitar img,
+.special img,
+.orchestral img {
+  width: 100%;
+  max-width: 204px;
+  height: 272px;
+  object-fit: cover;
 }
