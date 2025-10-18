@@ -1,6 +1,8 @@
 import "../Accessories.css";
 import { useTranslation } from "react-i18next";
 import Item from "../item/Item";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Guitars({ props }) {
   const { t } = useTranslation();
@@ -14,11 +16,21 @@ function Guitars({ props }) {
   );
   const guitalele = props.filter((item) => item.subCategory === "GUITALELE");
   const electric = props.filter((item) => item.subCategory === "ELECTRIC");
-  console.log(props);
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
   return (
     <div className="accessories-body">
       <div className="accessories-section">
-        <h1 className="items-title">{t("acousticGuitar")}</h1>
+        <h1 className="items-title" id="acousticGuitar">
+          {t("acousticGuitar")}
+        </h1>
         <ul className="items-display guitar">
           {acoustic.map((item) => {
             return <Item item={item} key={item.id} />;
@@ -26,7 +38,7 @@ function Guitars({ props }) {
         </ul>
       </div>
       <div>
-        <h1 className="items-title" id="elecAcou">
+        <h1 className="items-title" id="electroAcoustic">
           {t("electroAcoustic")}
         </h1>
         <ul className="items-display guitar">
@@ -36,7 +48,9 @@ function Guitars({ props }) {
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("electric")}</h1>
+        <h1 className="items-title" id="electric">
+          {t("electric")}
+        </h1>
         <ul className="items-display guitar">
           {electric.map((item) => {
             return <Item item={item} key={item.id} />;
@@ -44,7 +58,9 @@ function Guitars({ props }) {
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("classicGuitar")}</h1>
+        <h1 className="items-title" id="classicGuitar">
+          {t("classicGuitar")}
+        </h1>
         <ul className="items-display guitar">
           {classic.map((item) => {
             return <Item item={item} key={item.id} />;
@@ -52,7 +68,9 @@ function Guitars({ props }) {
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("electroClassic")}</h1>
+        <h1 className="items-title" id="electroClassic">
+          {t("electroClassic")}
+        </h1>
         <ul className="items-display guitar">
           {electroClassic.map((item) => {
             return <Item item={item} key={item.id} />;
@@ -60,7 +78,9 @@ function Guitars({ props }) {
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("guitalele")}</h1>
+        <h1 className="items-title" id="guitalele">
+          {t("guitalele")}
+        </h1>
         <ul className="items-display guitar">
           {guitalele.map((item) => {
             return <Item item={item} />;

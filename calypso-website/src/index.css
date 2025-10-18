@@ -65,7 +65,6 @@ button {
 
 button:hover {
   box-shadow: 1px 1px 20px black;
-  transform: scale(1.05);
 }
 
 button:focus,

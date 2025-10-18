@@ -1,6 +1,8 @@
 import "../Accessories.css";
 import { useTranslation } from "react-i18next";
 import Item from "../item/Item";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Special({ props }) {
   const { t } = useTranslation();
@@ -8,11 +10,21 @@ function Special({ props }) {
   const handpan = props.filter((item) => item.subCategory === "HANDPAN");
   const tongue = props.filter((item) => item.subCategory === "TONGUE");
   const cuatro = props.filter((item) => item.subCategory === "CUATRO");
-
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
   return (
     <div className="accessories-body">
       <div className="accessories-section">
-        <h1 className="items-title">{t("banjo")}</h1>
+        <h1 className="items-title" id="banjo">
+          {t("banjo")}
+        </h1>
         <ul className="items-display special">
           {banjo.map((item) => {
             return <Item item={item} />;
@@ -20,7 +32,9 @@ function Special({ props }) {
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("handpan")}</h1>
+        <h1 className="items-title" id="handpan">
+          {t("handpan")}
+        </h1>
         <ul className="items-display special">
           {handpan.map((item) => {
             return <Item item={item} />;
@@ -28,7 +42,9 @@ function Special({ props }) {
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("tongue")}</h1>
+        <h1 className="items-title" id="tongue">
+          {t("tongue")}
+        </h1>
         <ul className="items-display special">
           {tongue.map((item) => {
             return <Item item={item} />;
@@ -36,7 +52,9 @@ function Special({ props }) {
         </ul>
       </div>
       <div>
-        <h1 className="items-title">{t("cuatro")}</h1>
+        <h1 className="items-title" id="cuatro">
+          {t("cuatro")}
+        </h1>
         <ul className="items-display special">
           {cuatro.map((item) => {
             return <Item item={item} />;

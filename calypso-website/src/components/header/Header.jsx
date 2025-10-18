@@ -14,7 +14,6 @@ import SearchBarMobile from "../../containers/mobile/SearchBarMobile";
 import CalypsoRed from "../../assets/CalypsoRed.png";
 import Breadcrumb from "../../containers/BreadCrumb"; // Import the new breadcrumb component
 import ITEMS from "../../data/items";
-import BackToTopButton from "../../containers/BackToTopButton";
 
 export default function Header({ props }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -92,7 +91,9 @@ export default function Header({ props }) {
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("digitalPiano")} &gt;</Link>
+                <Link to={"/items/pianos#digitalPiano"}>
+                  {t("digitalPiano")} &gt;
+                </Link>
                 <ul className="instruments">
                   {digital.map((item) => {
                     return (
@@ -106,7 +107,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("keyboard")} &gt;</Link>
+                <Link to={"/items/pianos#keyboard"}>{t("keyboard")} &gt;</Link>
                 <ul className="instruments">
                   {keyboard.map((item) => {
                     return (
@@ -126,7 +127,9 @@ export default function Header({ props }) {
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link> {t("acousticGuitar")} &gt;</Link>
+                <Link to={"/items/guitar-bass#acousticGuitar"}>
+                  {t("acousticGuitar")} &gt;
+                </Link>
                 <ul className="instruments">
                   {acoustic.map((item) => {
                     return (
@@ -140,7 +143,9 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("electroAcoustic")} &gt;</Link>
+                <Link to={"/items/guitar-bass#electroAcoustic"}>
+                  {t("electroAcoustic")} &gt;
+                </Link>
                 <ul className="instruments">
                   {electroAcoustic.map((item) => {
                     return (
@@ -154,7 +159,9 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("electric")} &gt;</Link>
+                <Link to={"/items/guitar-bass#electric"}>
+                  {t("electric")} &gt;
+                </Link>
                 <ul className="instruments">
                   {electric.map((item) => {
                     return (
@@ -168,7 +175,9 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("classicGuitar")} &gt;</Link>
+                <Link to={"/items/guitar-bass#classicGuitar"}>
+                  {t("classicGuitar")} &gt;
+                </Link>
                 <ul className="instruments">
                   {classic.map((item) => {
                     return (
@@ -182,7 +191,9 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("electroClassic")} &gt;</Link>
+                <Link to={"/items/guitar-bass#electroClassic"}>
+                  {t("electroClassic")} &gt;
+                </Link>
                 <ul className="instruments">
                   {electroClassic.map((item) => {
                     return (
@@ -196,7 +207,9 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("guitalele")} &gt;</Link>
+                <Link to={"/items/guitar-bass#guitalele"}>
+                  {t("guitalele")} &gt;
+                </Link>
                 <ul className="instruments">
                   {guitalele.map((item) => {
                     return (
@@ -216,7 +229,9 @@ export default function Header({ props }) {
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("violin")}</Link>
+                <Link to={"/items/orchestral-strings#violin"}>
+                  {t("violin")}
+                </Link>
                 <ul className="instruments">
                   {violin.map((item) => {
                     return (
@@ -230,7 +245,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("viola")}</Link>
+                <Link to={"/items/orchestral-strings#viola"}>{t("viola")}</Link>
                 <ul className="instruments">
                   {viola.map((item) => {
                     return (
@@ -244,7 +259,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("cello")}</Link>
+                <Link to={"/items/orchestral-strings#cello"}>{t("cello")}</Link>
                 <ul className="instruments">
                   {cello.map((item) => {
                     return (
@@ -264,7 +279,9 @@ export default function Header({ props }) {
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("brass-wind")}</Link>
+                <Link to={"/items/brass-wind#brass-wind"}>
+                  {t("brass-wind")}
+                </Link>
                 <ul className="instruments">
                   {brass.map((item) => {
                     return (
@@ -284,7 +301,9 @@ export default function Header({ props }) {
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("drumset")}</Link>
+                <Link to={"/items/drums-percussion#drumset"}>
+                  {t("drumset")}
+                </Link>
                 <ul className="instruments">
                   {drumset.map((item) => {
                     return (
@@ -298,7 +317,9 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("marching")}</Link>
+                <Link to={"/items/drums-percussion#marching"}>
+                  {t("marching")}
+                </Link>
                 <ul className="instruments">
                   {marching.map((item) => {
                     return (
@@ -312,7 +333,9 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("oriental")}</Link>
+                <Link to={"/items/drums-percussion#oriental"}>
+                  {t("oriental")}
+                </Link>
                 <ul className="instruments">
                   {oriental.map((item) => {
                     return (
@@ -332,7 +355,7 @@ export default function Header({ props }) {
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("banjo")}</Link>
+                <Link to={"/items/special#banjo"}>{t("banjo")}</Link>
                 <ul className="instruments">
                   {banjo.map((item) => {
                     return (
@@ -346,7 +369,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("handpan")}</Link>
+                <Link to={"/items/special#handpan"}>{t("handpan")}</Link>
                 <ul className="instruments">
                   {handpan.map((item) => {
                     return (
@@ -360,7 +383,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("tongue")}</Link>
+                <Link to={"/items/special#tongue"}>{t("tongue")}</Link>
                 <ul className="instruments">
                   {tongue.map((item) => {
                     return (
@@ -374,7 +397,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("cuatro")}</Link>
+                <Link to={"/items/special#cuatro"}>{t("cuatro")}</Link>
                 <ul className="instruments">
                   {cuatro.map((item) => {
                     return (
@@ -394,7 +417,7 @@ export default function Header({ props }) {
             <ul className="dropdown-menu__submenu">
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("bench")}</Link>
+                <Link to={"/items/accessories#bench"}>{t("bench")}</Link>
                 <ul className="other">
                   {bench.map((item) => {
                     return (
@@ -408,7 +431,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("cable")}</Link>
+                <Link to={"/items/accessories#cable"}>{t("cable")}</Link>
                 <ul className="other">
                   {cable.map((item) => {
                     return (
@@ -422,7 +445,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("stand")}</Link>
+                <Link to={"/items/accessories#stand"}>{t("stand")}</Link>
                 <ul className="other">
                   {stand.map((item) => {
                     return (
@@ -436,7 +459,7 @@ export default function Header({ props }) {
               </li>
               <li>
                 <img src={CalypsoRed} width="12rem" />
-                <Link>{t("other")}</Link>
+                <Link to={"/items/accessories#other"}>{t("other")}</Link>
                 <ul className="other">
                   {other.map((item) => {
                     return (
