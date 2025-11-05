@@ -13,13 +13,22 @@ header {
   top: 0;
   left: 0;
   height: 20vh;
-  background-color: #242424;
-  padding: 0 1rem;
+  background: linear-gradient(180deg, #242424 0%, #1a1a1a 100%);
+  padding: 0 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 }
 
 .logos {
   display: flex;
   align-items: center;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.logos:hover {
+  transform: scale(1.02);
 }
 
 nav {
@@ -32,19 +41,65 @@ nav {
   font-weight: bolder;
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 0 2px 8px rgba(218, 165, 32, 0.3);
+  transition: all 0.3s ease;
+}
+
+.calypso-text:hover {
+  text-shadow: 0 4px 16px rgba(218, 165, 32, 0.6);
 }
 
 .button-contact {
   width: 6rem;
-  border-radius: 15px;
+  border-radius: 20px;
   height: 2.5rem;
-  background-color: rgba(218, 165, 32, 1);
+  background: linear-gradient(
+    135deg,
+    rgba(218, 165, 32, 1) 0%,
+    rgba(184, 134, 11, 1) 100%
+  );
   color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(218, 165, 32, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.button-contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.button-contact:hover::before {
+  left: 100%;
+}
+
+.button-contact:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(218, 165, 32, 0.5);
+}
+
+.button-contact:active {
+  transform: translateY(0);
 }
 
 /* ============================================
-     DROPDOWN MENU
-     ============================================ */
+         DROPDOWN MENU
+         ============================================ */
 
 .dropdown-menu {
   color: black;
@@ -53,12 +108,14 @@ nav {
   position: fixed;
   top: 20vh;
   width: 100%;
-  height: 2rem;
+  height: 3rem;
   z-index: 1000;
   margin: 0;
   padding: 0;
   flex-wrap: nowrap;
   left: 0;
+  background: linear-gradient(180deg, #242424 0%, #1a1a1a 100%);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-menu > li {
@@ -70,14 +127,47 @@ nav {
   color: rgba(218, 165, 32, 1);
   font-size: clamp(10px, 2.5vw, 16px);
   text-align: center;
-  background-image: linear-gradient(#242424, black);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dropdown-menu > li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    rgba(218, 165, 32, 1),
+    rgba(255, 215, 0, 1)
+  );
+  transition: width 0.4s ease;
+}
+
+.dropdown-menu > li:hover::before {
+  width: 100%;
+}
+
+.dropdown-menu > li:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(218, 165, 32, 0.1) 0%,
+    rgba(218, 165, 32, 0.05) 100%
+  );
 }
 
 .dropdown-menu li img {
   margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-menu li:hover img {
+  transform: scale(1.1);
 }
 
 .dropdown-menu li > a,
@@ -85,6 +175,8 @@ nav {
   position: relative;
   text-decoration: none;
   color: rgba(218, 165, 32, 1);
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
 }
 
 .dropdown-menu li > a::after,
@@ -95,9 +187,14 @@ nav {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: rgba(218, 165, 32, 1);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(218, 165, 32, 1),
+    transparent
+  );
   transform: translateX(-50%);
-  transition: width 0.3s ease;
+  transition: width 0.4s ease;
 }
 
 .dropdown-menu li:hover > a::after,
@@ -105,27 +202,55 @@ nav {
   width: 100%;
 }
 
+.dropdown-menu li > a:hover,
+.instruments li > a:hover {
+  color: rgba(255, 215, 0, 1);
+  text-shadow: 0 2px 8px rgba(218, 165, 32, 0.4);
+}
+
 /* ============================================
-     SUBMENU
-     ============================================ */
+         SUBMENU
+         ============================================ */
 
 .dropdown-menu__submenu {
   display: none;
   position: absolute;
   width: fit-content;
   flex-direction: column;
-  transition: transform 0.3s ease-in-out;
-  padding: 0;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
   margin: 0;
-  border-radius: 10px;
-  background-image: url("../../assets/dark-background.jpg");
-  background-size: cover;
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    rgba(36, 36, 36, 0.98) 0%,
+    rgba(26, 26, 26, 0.98) 100%
+  );
+  backdrop-filter: blur(10px);
   list-style: none;
   top: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(218, 165, 32, 0.2);
+  opacity: 0;
+  transform: translateY(-10px);
 }
 
 .dropdown-menu li:hover .dropdown-menu__submenu {
   display: flex;
+  opacity: 1;
+  transform: translateY(0);
+  animation: slideDown 0.3s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .dropdown-menu__submenu li {
@@ -137,6 +262,25 @@ nav {
   top: 0;
   width: 100%;
   white-space: nowrap;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu__submenu li:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(218, 165, 32, 0.15) 0%,
+    rgba(218, 165, 32, 0.05) 100%
+  );
+  padding-left: 2rem;
+}
+
+.dropdown-menu__submenu li:first-child {
+  border-radius: 12px 12px 0 0;
+}
+
+.dropdown-menu__submenu li:last-child {
+  border-radius: 0 0 12px 12px;
 }
 
 /* Nested submenus */
@@ -147,8 +291,9 @@ nav {
   list-style: none;
   text-align: left;
   right: 100%;
-  border-radius: 6px;
+  border-radius: 12px;
   top: 0;
+  margin-right: 0.5rem;
 }
 
 .instruments {
@@ -158,29 +303,58 @@ nav {
   list-style: none;
   text-align: left;
   left: 100%;
-  border-radius: 6px;
+  border-radius: 12px;
   top: 0;
+  margin-left: 0.5rem;
 }
 
 .instruments li {
   text-align: left;
   white-space: nowrap;
-  padding: 0;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.instruments li:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(218, 165, 32, 0.15) 0%,
+    rgba(218, 165, 32, 0.05) 100%
+  );
+  padding-left: 2rem;
 }
 
 .dropdown-menu__submenu li:hover > .instruments,
 .dropdown-menu__submenu li:hover > .other {
   display: block;
-  background-image: url("../../assets/dark-background.jpg");
-  background-size: cover;
+  background: linear-gradient(
+    180deg,
+    rgba(36, 36, 36, 0.98) 0%,
+    rgba(26, 26, 26, 0.98) 100%
+  );
+  backdrop-filter: blur(10px);
   margin: 0;
-  padding: 0;
+  padding: 0.5rem 0;
   z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(218, 165, 32, 0.2);
+  animation: slideIn 0.3s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* ============================================
-     MOBILE SEARCH BUTTON
-     ============================================ */
+         MOBILE SEARCH BUTTON
+         ============================================ */
 
 .search-button__mobile {
   position: relative;
@@ -189,17 +363,22 @@ nav {
   margin: 0;
   background: none;
   justify-content: flex-end;
+  transition: transform 0.3s ease;
+}
+
+.search-button__mobile:hover {
+  transform: scale(1.1);
 }
 
 /* ============================================
-     RESPONSIVE - MOBILE
-     ============================================ */
+         RESPONSIVE - MOBILE
+         ============================================ */
 
 @media (max-width: 950px) {
   header {
     justify-content: space-between;
     height: 17vh;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
 
   .dropdown-menu {
@@ -209,64 +388,7 @@ nav {
   .button-contact {
     width: 5rem;
     font-size: 13px;
-  }
-
-  .calypso-text img {
-    width: 3rem;
-  }
-
-  .calypso-logo img {
-    width: 4rem;
-    height: 4rem;
-  }
-
-  .accessories-body {
-    margin-top: 12vh;
-    padding: 1rem;
-  }
-
-  .items-display {
-    gap: 1rem;
-  }
-
-  .items-display li {
-    width: 100%;
-    max-width: 300px;
-  }
-}
-
-@media (min-width: 951px) {
-  .search-button__mobile {
-    display: none !important;
-  }
-
-  .search-bar__mobile {
-    display: none !important;
-  }
-}
-
-/* ============================================
-     RESPONSIVE - SMALL MOBILE
-     ============================================ */
-
-/* ============================================
-     RESPONSIVE - MOBILE
-     ============================================ */
-
-@media (max-width: 950px) {
-  header {
-    justify-content: space-between;
-    height: 17vh;
-    padding: 0 0.5rem;
-  }
-
-  .dropdown-menu {
-    display: none !important;
-  }
-
-  .button-contact {
-    width: 5rem;
-    font-size: 13px;
+    border-radius: 15px;
   }
 
   .calypso-text img {
@@ -276,6 +398,11 @@ nav {
   .calypso-logo img {
     width: clamp(2rem, 5vw, 3.5rem);
     height: clamp(2rem, 5vw, 3.5rem);
+    transition: transform 0.3s ease;
+  }
+
+  .calypso-logo img:hover {
+    transform: rotate(5deg) scale(1.05);
   }
 
   .accessories-body {
@@ -303,16 +430,20 @@ nav {
   }
 }
 
-/* Extra small phones */
+/* ============================================
+         RESPONSIVE - SMALL MOBILE
+         ============================================ */
+
 @media (max-width: 480px) {
   header {
     height: 8vh;
-    padding: 0 0.25rem;
+    padding: 0 0.5rem;
   }
 
   .button-contact {
     width: 4rem;
     font-size: 11px;
+    border-radius: 12px;
   }
 
   .calypso-text img {
@@ -323,4 +454,31 @@ nav {
     width: 3rem;
     height: 3rem;
   }
+}
+
+/* ============================================
+         ACCESSIBILITY & POLISH
+         ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus states for accessibility */
+.button-contact:focus,
+.dropdown-menu li > a:focus,
+.instruments li > a:focus {
+  outline: 2px solid rgba(218, 165, 32, 0.8);
+  outline-offset: 2px;
 }

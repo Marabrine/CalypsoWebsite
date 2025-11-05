@@ -32,6 +32,15 @@ const Home = () => {
 
   ];*/
 
+  const imagesSections = [
+    "/public/images/backgroun/homeiconsBackground/piano.jpg",
+    "/public/images/backgroun/homeiconsBackground/guitar.jpg",
+    "/public/images/backgroun/homeiconsBackground/strings.jpg",
+    "/public/images/backgroun/homeiconsBackground/trumpet.jpg",
+    "/public/images/backgroun/homeiconsBackground/drums.jpg",
+    "/public/images/backgroun/homeiconsBackground/handpan.png",
+    "/public/images/backgroun/homeiconsBackground/accessories.jpg",
+  ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -57,44 +66,59 @@ const Home = () => {
   };
 
   return (
-    <div className="carousel-containerHome">
-      <div className="carousel-slides">
-        {images.map((src, index) => (
-          <div
-            key={index}
-            className={`carousel-slideHome ${
-              index === currentIndex ? "active" : ""
-            }`}
-          >
-            <img src={src} alt={`Slide ${index + 1}`} />
-          </div>
-        ))}
+    <div className="home-container">
+      <div className="carousel-containerHome">
+        <div className="carousel-slides">
+          {images.map((src, index) => (
+            <div
+              key={index}
+              className={`carousel-slideHome ${
+                index === currentIndex ? "active" : ""
+              }`}
+            >
+              <img src={src} alt={`Slide ${index + 1}`} />
+            </div>
+          ))}
+        </div>
+
+        <button
+          onClick={goToPrevious}
+          className="carousel-arrow left"
+          aria-label="Previous slide"
+        >
+          ‹
+        </button>
+
+        <button
+          onClick={goToNext}
+          className="carousel-arrow right"
+          aria-label="Next slide"
+        >
+          ›
+        </button>
+
+        <div className="carousel-dots">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToSlide(index)}
+              className={`carousel-dot ${
+                index === currentIndex ? "active" : ""
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
       </div>
-
-      <button
-        onClick={goToPrevious}
-        className="carousel-arrow left"
-        aria-label="Previous slide"
-      >
-        ‹
-      </button>
-
-      <button
-        onClick={goToNext}
-        className="carousel-arrow right"
-        aria-label="Next slide"
-      >
-        ›
-      </button>
-
-      <div className="carousel-dots">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => goToSlide(index)}
-            className={`carousel-dot ${index === currentIndex ? "active" : ""}`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
+      <div className="itemsView__image-container">
+        {imagesSections.map((src, index) => (
+          <div key={index} className="itemsView__image">
+            <img
+              src={src}
+              alt={`Section ${index + 1}`}
+              className="itemsView__image"
+            />
+          </div>
         ))}
       </div>
     </div>
