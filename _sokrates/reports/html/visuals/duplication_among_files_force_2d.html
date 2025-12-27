@@ -1,0 +1,117 @@
+<head>
+    <style> body {
+        margin: 0;
+    } </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/force-graph"></script>
+</head>
+
+<body>
+<div id="graph"></div>
+
+<script>
+    const gData = {
+  "nodes" : [ {
+    "id" : "[calypso-website/src/containers/SearchBar.jsx]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/containers/SearchBar.css]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/containers/mobile/SearchBarMobile.css]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/components/home/Home.css]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/containers/changeLanguage.css]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/components/header/Header.jsx]",
+    "size" : 2
+  }, {
+    "id" : "[calypso-website/src/components/header/Header.css]",
+    "size" : 3
+  }, {
+    "id" : "[calypso-website/src/components/about-us/AboutUs.css]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/containers/mobile/SearchBarMobile.jsx]",
+    "size" : 1
+  } ],
+  "links" : [ {
+    "source" : "[calypso-website/src/containers/SearchBar.css]",
+    "target" : "[calypso-website/src/containers/mobile/SearchBarMobile.css]",
+    "count" : 22
+  }, {
+    "source" : "[calypso-website/src/containers/mobile/SearchBarMobile.css]",
+    "target" : "[calypso-website/src/containers/SearchBar.css]",
+    "count" : 22
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.css]",
+    "target" : "[calypso-website/src/components/home/Home.css]",
+    "count" : 16
+  }, {
+    "source" : "[calypso-website/src/components/home/Home.css]",
+    "target" : "[calypso-website/src/components/header/Header.css]",
+    "count" : 16
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.jsx]",
+    "target" : "[calypso-website/src/components/header/Header.jsx]",
+    "count" : 16
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.jsx]",
+    "target" : "[calypso-website/src/components/header/Header.jsx]",
+    "count" : 16
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.css]",
+    "target" : "[calypso-website/src/components/header/Header.css]",
+    "count" : 26
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.css]",
+    "target" : "[calypso-website/src/components/header/Header.css]",
+    "count" : 26
+  }, {
+    "source" : "[calypso-website/src/containers/SearchBar.jsx]",
+    "target" : "[calypso-website/src/containers/mobile/SearchBarMobile.jsx]",
+    "count" : 24
+  }, {
+    "source" : "[calypso-website/src/containers/mobile/SearchBarMobile.jsx]",
+    "target" : "[calypso-website/src/containers/SearchBar.jsx]",
+    "count" : 24
+  }, {
+    "source" : "[calypso-website/src/components/about-us/AboutUs.css]",
+    "target" : "[calypso-website/src/containers/changeLanguage.css]",
+    "count" : 12
+  }, {
+    "source" : "[calypso-website/src/containers/changeLanguage.css]",
+    "target" : "[calypso-website/src/components/about-us/AboutUs.css]",
+    "count" : 12
+  } ]
+}
+
+    const maxNodeSize = gData.nodes.map(n => n.size).reduce((a, b) => Math.max(a, b));
+    const maxCount = gData.links.map(l => l.count).reduce((a, b) => Math.max(a, b));
+
+    gData.links = gData.links.map(l => {
+        return {source: l.target, target: l.source, count: l.count}
+    });
+    const colorOf = (node) => {
+        if (!node.id.startsWith("[")) return "rgba(135, 206, 235, 0.6)";
+        return "rgba(100,100,100,0.6)";
+    }
+
+    const elem = document.getElementById('graph');
+    const Graph = ForceGraph()(elem)
+        .graphData(gData)
+        .nodeRelSize(4)
+        .nodeVal(n => Math.max(20 * n.size / maxNodeSize, 0.001))
+        .nodeLabel(n => n.id + " (" + n.size + ")")
+        .nodeColor(n => colorOf(n))
+        .linkDirectionalParticles(1)
+        .linkDirectionalParticleSpeed(d => d.count / maxCount * 0.01)
+        .linkOpacity(0.1)
+        .linkWidth(d => 3 * d.count / maxCount + 0.1);
+
+</script>
+</body>

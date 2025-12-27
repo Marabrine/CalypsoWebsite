@@ -1,0 +1,26 @@
+calypso-website/src/components/header/Header.css [270:276]:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  background: linear-gradient(
+    90deg,
+    rgba(218, 165, 32, 0.15) 0%,
+    rgba(218, 165, 32, 0.05) 100%
+  );
+  padding-left: 2rem;
+}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+calypso-website/src/components/header/Header.css [319:325]:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  background: linear-gradient(
+    90deg,
+    rgba(218, 165, 32, 0.15) 0%,
+    rgba(218, 165, 32, 0.05) 100%
+  );
+  padding-left: 2rem;
+}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+

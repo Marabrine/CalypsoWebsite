@@ -1,0 +1,550 @@
+<head>
+    <style>
+        body {
+            font-family: Sans-serif;
+            font-size: 11px;
+        }
+
+        .slice {
+            cursor: pointer;
+        }
+
+        .slice .main-arc {
+            stroke: #fff;
+            stroke-width: 1px;
+        }
+
+        .slice .hidden-arc {
+            fill: none;
+        }
+
+        .slice text {
+            pointer-events: none;
+            dominant-baseline: middle;
+            text-anchor: middle;
+        }
+    </style>
+
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+</head>
+<body>
+<script>
+    const width = window.innerWidth,
+        height = window.innerHeight,
+        maxRadius = (Math.min(width, height) / 2) - 5;
+
+    const formatNumber = d3.format(',d');
+
+    const x = d3.scaleLinear()
+        .range([0, 2 * Math.PI])
+        .clamp(true);
+
+    const y = d3.scaleSqrt()
+        .range([maxRadius * .1, maxRadius]);
+
+    const color = d3.scaleOrdinal(d3.schemeCategory20);
+
+    const partition = d3.partition();
+
+    const arc = d3.arc()
+        .startAngle(d => x(d.x0))
+        .endAngle(d => x(d.x1))
+        .innerRadius(d => Math.max(0, y(d.y0)))
+        .outerRadius(d => Math.max(0, y(d.y1)));
+
+    const middleArcLine = d => {
+        const halfPi = Math.PI / 2;
+        const angles = [x(d.x0) - halfPi, x(d.x1) - halfPi];
+        const r = Math.max(0, (y(d.y0) + y(d.y1)) / 2);
+
+        const middleAngle = (angles[1] + angles[0]) / 2;
+        const invertDirection = middleAngle > 0 && middleAngle < Math.PI; // On lower quadrants write text ccw
+        if (invertDirection) {
+            angles.reverse();
+        }
+
+        const path = d3.path();
+        path.arc(0, 0, r, angles[0], angles[1], invertDirection);
+        return path.toString();
+    };
+
+    const textFits = d => {
+        const CHAR_SPACE = 6;
+
+        const deltaAngle = x(d.x1) - x(d.x0);
+        const r = Math.max(0, (y(d.y0) + y(d.y1)) / 2);
+        const perimeter = r * deltaAngle;
+
+        return d.data.name.length * CHAR_SPACE < perimeter;
+    };
+
+    const svg = d3.select('body').append('svg')
+        .style('width', '100vw')
+        .style('height', '100vh')
+        .attr('viewBox', `${-width / 2} ${-height / 2} ${width} ${height}`)
+        .on('click', () => focusOn()); // Reset zoom on canvas click
+
+    var rootData = {
+        "name": "",
+        "children": [ {
+  "name" : "calypso-website",
+  "color" : "",
+  "size" : 0,
+  "children" : [ {
+    "name" : "index.html",
+    "color" : "",
+    "size" : 13,
+    "children" : [ ]
+  }, {
+    "name" : "vite.config.js",
+    "color" : "",
+    "size" : 5,
+    "children" : [ ]
+  }, {
+    "name" : "eslint.config.js",
+    "color" : "",
+    "size" : 32,
+    "children" : [ ]
+  }, {
+    "name" : "src",
+    "color" : "",
+    "size" : 0,
+    "children" : [ {
+      "name" : "index.css",
+      "color" : "",
+      "size" : 79,
+      "children" : [ ]
+    }, {
+      "name" : "components",
+      "color" : "",
+      "size" : 0,
+      "children" : [ {
+        "name" : "home",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Home.css",
+          "color" : "",
+          "size" : 214,
+          "children" : [ ]
+        }, {
+          "name" : "Home.jsx",
+          "color" : "",
+          "size" : 112,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "footer",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Footer.jsx",
+          "color" : "",
+          "size" : 9,
+          "children" : [ ]
+        }, {
+          "name" : "Footer.css",
+          "color" : "",
+          "size" : 11,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "piano",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Pianos.jsx",
+          "color" : "",
+          "size" : 35,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "brass-wind",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "BrassAndWind.jsx",
+          "color" : "",
+          "size" : 23,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "contact",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Contact.css",
+          "color" : "",
+          "size" : 1,
+          "children" : [ ]
+        }, {
+          "name" : "Contact.jsx",
+          "color" : "",
+          "size" : 14,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "accessories",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Accessories.jsx",
+          "color" : "",
+          "size" : 57,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "itemDetails",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "itemDetails.css",
+          "color" : "",
+          "size" : 38,
+          "children" : [ ]
+        }, {
+          "name" : "ItemDetails.jsx",
+          "color" : "",
+          "size" : 27,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "about-us",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "AboutUs.css",
+          "color" : "",
+          "size" : 7,
+          "children" : [ ]
+        }, {
+          "name" : "AboutUs.jsx",
+          "color" : "",
+          "size" : 66,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "drums",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Drums.jsx",
+          "color" : "",
+          "size" : 45,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "sonata",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Sonata.jsx",
+          "color" : "",
+          "size" : 19,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "orchestral",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Orchestral.jsx",
+          "color" : "",
+          "size" : 47,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "carousel",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Carousel.jsx",
+          "color" : "",
+          "size" : 40,
+          "children" : [ ]
+        }, {
+          "name" : "Carousel.css",
+          "color" : "",
+          "size" : 37,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "special",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Special.jsx",
+          "color" : "",
+          "size" : 57,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "Accessories.css",
+        "color" : "",
+        "size" : 84,
+        "children" : [ ]
+      }, {
+        "name" : "item",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Item.jsx",
+          "color" : "",
+          "size" : 33,
+          "children" : [ ]
+        }, {
+          "name" : "Item.css",
+          "color" : "",
+          "size" : 60,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "App.jsx",
+        "color" : "",
+        "size" : 108,
+        "children" : [ ]
+      }, {
+        "name" : "images-scroll",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "ImageScroll.jsx",
+          "color" : "",
+          "size" : 6,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "guitars",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Guitars.jsx",
+          "color" : "",
+          "size" : 83,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "header",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "Header.jsx",
+          "color" : "",
+          "size" : 367,
+          "children" : [ ]
+        }, {
+          "name" : "Header.css",
+          "color" : "",
+          "size" : 399,
+          "children" : [ ]
+        } ]
+      } ]
+    }, {
+      "name" : "hooks",
+      "color" : "",
+      "size" : 0,
+      "children" : [ {
+        "name" : "useFilter.jsx",
+        "color" : "",
+        "size" : 20,
+        "children" : [ ]
+      }, {
+        "name" : "useScroll.jsx",
+        "color" : "",
+        "size" : 14,
+        "children" : [ ]
+      } ]
+    }, {
+      "name" : "main.jsx",
+      "color" : "",
+      "size" : 10,
+      "children" : [ ]
+    }, {
+      "name" : "containers",
+      "color" : "",
+      "size" : 0,
+      "children" : [ {
+        "name" : "changeLanguage.css",
+        "color" : "",
+        "size" : 15,
+        "children" : [ ]
+      }, {
+        "name" : "ItemList.jsx",
+        "color" : "",
+        "size" : 9,
+        "children" : [ ]
+      }, {
+        "name" : "SearchBar.css",
+        "color" : "",
+        "size" : 80,
+        "children" : [ ]
+      }, {
+        "name" : "hamburgerMenu.css",
+        "color" : "",
+        "size" : 25,
+        "children" : [ ]
+      }, {
+        "name" : "ErrorPage.jsx",
+        "color" : "",
+        "size" : 10,
+        "children" : [ ]
+      }, {
+        "name" : "BackToTopButton.jsx",
+        "color" : "",
+        "size" : 71,
+        "children" : [ ]
+      }, {
+        "name" : "SearchBarItem.jsx",
+        "color" : "",
+        "size" : 16,
+        "children" : [ ]
+      }, {
+        "name" : "Roots.jsx",
+        "color" : "",
+        "size" : 16,
+        "children" : [ ]
+      }, {
+        "name" : "sideBar.jsx",
+        "color" : "",
+        "size" : 112,
+        "children" : [ ]
+      }, {
+        "name" : "mobile",
+        "color" : "",
+        "size" : 0,
+        "children" : [ {
+          "name" : "SearchBarMobile.jsx",
+          "color" : "",
+          "size" : 43,
+          "children" : [ ]
+        }, {
+          "name" : "SearchBarMobile.css",
+          "color" : "",
+          "size" : 91,
+          "children" : [ ]
+        } ]
+      }, {
+        "name" : "sideBar.css",
+        "color" : "",
+        "size" : 74,
+        "children" : [ ]
+      }, {
+        "name" : "changeLanguage.jsx",
+        "color" : "",
+        "size" : 16,
+        "children" : [ ]
+      }, {
+        "name" : "SearchBar.jsx",
+        "color" : "",
+        "size" : 30,
+        "children" : [ ]
+      }, {
+        "name" : "ErrorPage.css",
+        "color" : "",
+        "size" : 4,
+        "children" : [ ]
+      }, {
+        "name" : "hamburgerMenu.jsx",
+        "color" : "",
+        "size" : 11,
+        "children" : [ ]
+      } ]
+    }, {
+      "name" : "i18n",
+      "color" : "",
+      "size" : 0,
+      "children" : [ {
+        "name" : "i18n.jsx",
+        "color" : "",
+        "size" : 23,
+        "children" : [ ]
+      } ]
+    } ]
+  } ]
+} ]
+    }
+
+
+    root = d3.hierarchy(rootData);
+    root.sum(d => d.size);
+
+    const slice = svg.selectAll('g.slice')
+        .data(partition(root).descendants());
+
+    slice.exit().remove();
+
+    const newSlice = slice.enter()
+        .append('g').attr('class', 'slice')
+        .on('click', d => {
+            d3.event.stopPropagation();
+            focusOn(d);
+        });
+
+    newSlice.append('title')
+        .text(d => d.data.name + '\n' + formatNumber(d.value));
+
+    newSlice.append('path')
+        .attr('class', 'main-arc')
+        .style('fill', d => color((d.children ? d : d.parent).data.name))
+        .attr('d', arc);
+
+    newSlice.append('path')
+        .attr('class', 'hidden-arc')
+        .attr('id', (_, i) => `hiddenArc${i}`)
+        .attr('d', middleArcLine);
+
+    const text = newSlice.append('text')
+        .attr('display', d => textFits(d) ? null : 'none');
+
+    // Add white contour
+    text.append('textPath')
+        .attr('startOffset', '50%')
+        .attr('xlink:href', (_, i) => `#hiddenArc${i}`)
+        .text(d => d.data.name)
+        .style('fill', 'none')
+        .style('stroke', '#fff')
+        .style('stroke-width', 5)
+        .style('stroke-linejoin', 'round');
+
+    text.append('textPath')
+        .attr('startOffset', '50%')
+        .attr('xlink:href', (_, i) => `#hiddenArc${i}`)
+        .text(d => d.data.name);
+
+    function focusOn(d = {x0: 0, x1: 1, y0: 0, y1: 1}) {
+        const transition = svg.transition()
+            .duration(750)
+            .tween('scale', () => {
+                const xd = d3.interpolate(x.domain(), [d.x0, d.x1]),
+                    yd = d3.interpolate(y.domain(), [d.y0, 1]);
+                return t => {
+                    x.domain(xd(t));
+                    y.domain(yd(t));
+                };
+            });
+
+        transition.selectAll('path.main-arc')
+            .attrTween('d', d => () => arc(d));
+
+        transition.selectAll('path.hidden-arc')
+            .attrTween('d', d => () => middleArcLine(d));
+
+        transition.selectAll('text')
+            .attrTween('display', d => () => textFits(d) ? null : 'none');
+
+        moveStackToFront(d);
+
+        //
+
+        function moveStackToFront(elD) {
+            svg.selectAll('.slice').filter(d => d === elD)
+                .each(function (d) {
+                    this.parentNode.appendChild(this);
+                    if (d.parent) {
+                        moveStackToFront(d.parent);
+                    }
+                })
+        }
+    }
+</script>
+</body>

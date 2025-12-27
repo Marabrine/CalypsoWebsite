@@ -12,3 +12,39 @@
   margin: 0 auto; /* Center the content */
   padding: 0 1rem; /* Add horizontal padding */
 }
+.footer-body a {
+  position: relative;
+  text-decoration: none;
+  color: rgba(218, 165, 32, 1);
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+}
+.footer-body a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(218, 165, 32, 1),
+    transparent
+  );
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
+}
+.footer-body a:hover > a::after {
+  width: 100%;
+}
+.footer-body a:hover {
+  color: rgba(255, 215, 0, 1);
+  text-shadow: 0 2px 8px rgba(218, 165, 32, 0.4);
+}
+footer > img {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+}

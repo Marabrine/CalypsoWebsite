@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>calypso-website/src/hooks/useFilter.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/hooks/useFilter.jsx (<b>20</b> lines of code) (<a href="useFilter.jsx">raw</a>):</h3>
+<div id="editor">import { useState, useEffect } from &quot;react&quot;;
+
+const useFilter = (items) =&gt; {
+  const [value, setValue] = useState(&quot;&quot;);
+  const [filteredItems, setFilteredItems] = useState([]);
+
+  useEffect(() =&gt; {
+    const result = items.filter(
+      (item) =&gt;
+        item.name.toLowerCase().includes(value.toLowerCase()) ||
+        item.description.toLowerCase().includes(value.toLowerCase()) ||
+        item.id.toLowerCase().includes(value.toLowerCase())
+    );
+    setFilteredItems(result);
+  }, [value, items]);
+
+  return {
+    value,
+    setValue,
+    filteredItems,
+  };
+};
+
+export default useFilter;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

@@ -1,15 +1,25 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "./Home.css";
 
 const Home = () => {
+  const { t } = useTranslation();
+  const itemsArray = [
+    t("pianos"),
+    t("guitars"),
+    t("orchStrings"),
+    t("winds"),
+    t("drums"),
+    t("special"),
+    t("accessories"),
+  ];
   const images = [
-    "/images/homepage/DSC07195.jpg",
+    "/images/homepage/DSC07195-cmpr.jpg",
 
-    "/images/homepage/calypso-image8.jpeg",
-    "/images/homepage/DSC06429.jpg",
+    "/images/homepage/DSC06429-cmpr.jpg",
 
-    "/images/homepage/DSC07200.jpg",
-    "/images/homepage/DSC06153.jpg",
+    "/images/homepage/DSC07200-cmpr.jpg",
+    "/images/homepage/DSC06153-cmpr.jpg",
   ];
   /* constImagesHeight = [
     "/images/homepage/DSC05991.jpg",
@@ -33,13 +43,13 @@ const Home = () => {
   ];*/
 
   const imagesSections = [
-    "/public/images/backgroun/homeiconsBackground/piano.jpg",
-    "/public/images/backgroun/homeiconsBackground/guitar.jpg",
-    "/public/images/backgroun/homeiconsBackground/strings.jpg",
-    "/public/images/backgroun/homeiconsBackground/trumpet.jpg",
-    "/public/images/backgroun/homeiconsBackground/drums.jpg",
-    "/public/images/backgroun/homeiconsBackground/handpan.png",
-    "/public/images/backgroun/homeiconsBackground/accessories.jpg",
+    "/images/backgroun/homeiconsBackground/piano.jpg",
+    "/images/backgroun/homeiconsBackground/guitar.jpg",
+    "/images/backgroun/homeiconsBackground/strings.jpg",
+    "/images/backgroun/homeiconsBackground/trumpet.jpg",
+    "/images/backgroun/homeiconsBackground/drums.jpg",
+    "/images/backgroun/homeiconsBackground/handpan.png",
+    "/images/backgroun/homeiconsBackground/accessories.jpg",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -112,12 +122,12 @@ const Home = () => {
       </div>
       <div className="itemsView__image-container">
         {imagesSections.map((src, index) => (
-          <div key={index} className="itemsView__image">
-            <img
-              src={src}
-              alt={`Section ${index + 1}`}
-              className="itemsView__image"
-            />
+          <div
+            key={index}
+            className="itemsView__image"
+            style={{ backgroundImage: `url(${src})`, backgroundSize: "cover" }}
+          >
+            <h3 className="itemsView__text">{itemsArray[index]}</h3>
           </div>
         ))}
       </div>

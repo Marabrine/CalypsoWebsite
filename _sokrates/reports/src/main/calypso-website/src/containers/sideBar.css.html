@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>calypso-website/src/containers/sideBar.css</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/containers/sideBar.css (<b>74</b> lines of code) (<a href="sideBar.css">raw</a>):</h3>
+<div id="editor">.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  height: 70vh;
+  transition: left 0.5s ease;
+  border-radius: 2px;
+  z-index: 100000;
+  background-image: url(&quot;../assets/dark-background.jpg&quot;);
+  background-size: cover;
+  border: 1px solid #242424;
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  left: 0;
+}
+.items-list li.active a {
+  text-shadow: 0 2px 4px rgba(218, 165, 32, 1);
+}
+.close-sidebar {
+  padding: 0;
+  background: none;
+  color: azure;
+  border: 1px solid grey;
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  top: -0rem;
+  margin: 0;
+}
+.items-list {
+  font-family: &quot;Lucida Sans&quot;, &quot;Lucida Sans Regular&quot;, &quot;Lucida Grande&quot;,
+    &quot;Lucida Sans Unicode&quot;, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  list-style: none;
+  padding: 0rem 1rem 1rem 1rem;
+}
+.items-list li {
+  padding-top: 1.5rem;
+}
+.items-list li a {
+  color: rgba(218, 165, 32, 1);
+  border: 1px solid transparent;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+}
+.items-list li a:hover::after,
+.items-list li a:active::after {
+  width: 100%;
+}
+.items-list li a::after {
+  content: &quot;&quot;;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: rgba(218, 165, 32, 1);
+  transition: width 0.3s ease, left 0.3s ease;
+  transform: translateX(-50%);
+}
+.extension {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 1000;
+  list-style: none;
+  display: none;
+  background: azure;
+}
+.extension.visible {
+  display: block;
+}
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/css");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

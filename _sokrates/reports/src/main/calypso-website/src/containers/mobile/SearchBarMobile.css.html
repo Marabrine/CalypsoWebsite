@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>calypso-website/src/containers/mobile/SearchBarMobile.css</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/containers/mobile/SearchBarMobile.css (<b>91</b> lines of code) (<a href="SearchBarMobile.css">raw</a>):</h3>
+<div id="editor">.search-bar__mobile {
+  position: absolute;
+  top: -15rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 21vh;
+  max-width: 100vw;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-right: 1rem; /* reduced from 6rem to avoid pushing width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, &quot;Times New Roman&quot;, serif;
+  font-weight: 600;
+  color: black;
+  background-color: #242424;
+  border: none;
+  border-radius: 0;
+  z-index: 1000;
+  box-sizing: border-box; /* ensure padding doesn&rsquo;t cause overflow */
+  transition: top 0.5s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 0.4s ease-in-out, padding 0.4s ease-in-out;
+}
+.search-bar__mobile .search-bar__close {
+  display: flex;
+  position: absolute;
+  padding: 0.4rem;
+  top: 100%;
+  left: 0;
+  border-radius: 0;
+  font-size: 28px;
+
+  border: none;
+  background-color: #242424;
+  border-bottom-right-radius: 5px;
+  color: rgba(218, 165, 32, 1);
+}
+.search-bar .search-bar__mobile:hover {
+  box-shadow: 1px 1px 20px 6px rgba(218, 165, 32, 1);
+  padding: 4px;
+}
+
+.search-bar__mobile.open {
+  display: block;
+  top: 0rem;
+}
+
+@media (max-width: 950px) {
+  .search-results {
+    position: absolute; /* ✅ Absolute to search-bar */
+    top: 100%; /* Right below the input */
+    left: 50%; /* Start at center */
+    transform: translateX(-50%) translateY(0%); /* Center horizontally */
+    width: 17rem;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: azure;
+    list-style: none;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border: 1px solid black;
+    font-family: &quot;Trebuchet MS&quot;, &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;,
+      &quot;Lucida Sans&quot;, Arial, sans-serif;
+  }
+}
+.search-bar__mobile .search-bar__input {
+  position: relative; /* Required for left + transform to work */
+  background-color: azure;
+  border-radius: 15px;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  border: none;
+  color: black;
+  transition: box-shadow 0.3s ease, padding 0.3s ease;
+  height: 6vh;
+  font-size: 15px;
+  box-shadow: 1px 1px 20px black;
+  font-family: Cambria, Cochin, Georgia, Times, &quot;Times New Roman&quot;, serif;
+  font-weight: 600;
+}
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/css");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

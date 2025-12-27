@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>calypso-website/src/containers/changeLanguage.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/containers/changeLanguage.jsx (<b>16</b> lines of code) (<a href="changeLanguage.jsx">raw</a>):</h3>
+<div id="editor">import { useTranslation } from &quot;react-i18next&quot;;
+import &quot;./changeLanguage.css&quot;;
+
+export default function LanguageSwitcher() {
+  const { i18n } = useTranslation();
+
+  const toggleLanguage = () =&gt; {
+    const newLang = i18n.language === &quot;en&quot; ? &quot;fr&quot; : &quot;en&quot;;
+    i18n.changeLanguage(newLang);
+  };
+
+  return (
+    &lt;div className=&quot;language-switcher&quot;&gt;
+      &lt;button className=&quot;language-button&quot; onClick={toggleLanguage}&gt;
+        {i18n.language === &quot;en&quot; ? &quot;FR&quot; : &quot;EN&quot;}
+      &lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

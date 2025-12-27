@@ -1,0 +1,307 @@
+[ {
+  "relativePath" : "calypso-website/index.html",
+  "extension" : "html",
+  "linesOfCode" : 13,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/vite.config.js",
+  "extension" : "js",
+  "linesOfCode" : 5,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/eslint.config.js",
+  "extension" : "js",
+  "linesOfCode" : 32,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/index.css",
+  "extension" : "css",
+  "linesOfCode" : 79,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/home/Home.css",
+  "extension" : "css",
+  "linesOfCode" : 214,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/home/Home.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 112,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/footer/Footer.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 9,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/footer/Footer.css",
+  "extension" : "css",
+  "linesOfCode" : 11,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/piano/Pianos.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 35,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/brass-wind/BrassAndWind.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 23,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/contact/Contact.css",
+  "extension" : "css",
+  "linesOfCode" : 1,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/contact/Contact.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 14,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/accessories/Accessories.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 57,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/itemDetails/itemDetails.css",
+  "extension" : "css",
+  "linesOfCode" : 38,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/itemDetails/ItemDetails.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 27,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/about-us/AboutUs.css",
+  "extension" : "css",
+  "linesOfCode" : 7,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/about-us/AboutUs.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 66,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/drums/Drums.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 45,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/sonata/Sonata.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 19,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/orchestral/Orchestral.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 47,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/carousel/Carousel.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 40,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/carousel/Carousel.css",
+  "extension" : "css",
+  "linesOfCode" : 37,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/special/Special.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 57,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/Accessories.css",
+  "extension" : "css",
+  "linesOfCode" : 84,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/item/Item.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 33,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/item/Item.css",
+  "extension" : "css",
+  "linesOfCode" : 60,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/App.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 108,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/images-scroll/ImageScroll.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 6,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/guitars/Guitars.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 83,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/header/Header.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 367,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/components/header/Header.css",
+  "extension" : "css",
+  "linesOfCode" : 399,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/hooks/useFilter.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 20,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/hooks/useScroll.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 14,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/main.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 10,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/changeLanguage.css",
+  "extension" : "css",
+  "linesOfCode" : 15,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/ItemList.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 9,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/SearchBar.css",
+  "extension" : "css",
+  "linesOfCode" : 80,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/hamburgerMenu.css",
+  "extension" : "css",
+  "linesOfCode" : 25,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/ErrorPage.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 10,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/BackToTopButton.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 71,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/SearchBarItem.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 16,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/Roots.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 16,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/sideBar.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 112,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 43,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.css",
+  "extension" : "css",
+  "linesOfCode" : 91,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/sideBar.css",
+  "extension" : "css",
+  "linesOfCode" : 74,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/changeLanguage.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 16,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/SearchBar.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 30,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/ErrorPage.css",
+  "extension" : "css",
+  "linesOfCode" : 4,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/containers/hamburgerMenu.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 11,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+}, {
+  "relativePath" : "calypso-website/src/i18n/i18n.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 23,
+  "components" : [ "primary::calypso-website" ],
+  "concerns" : [ "::Unclassified" ]
+} ]

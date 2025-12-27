@@ -1,0 +1,215 @@
+<head>
+    <style> body {
+        margin: 0;
+    } </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/3d-force-graph"></script>
+</head>
+
+<body>
+<div id="3d-graph"></div>
+
+<script>
+    const gData = {
+  "nodes" : [ {
+    "id" : "duplicate4",
+    "size" : 2
+  }, {
+    "id" : "[calypso-website/src/containers/SearchBar.jsx]",
+    "size" : 2
+  }, {
+    "id" : "duplicate3",
+    "size" : 2
+  }, {
+    "id" : "duplicate6",
+    "size" : 2
+  }, {
+    "id" : "duplicate5",
+    "size" : 2
+  }, {
+    "id" : "[calypso-website/src/containers/mobile/SearchBarMobile.css]",
+    "size" : 1
+  }, {
+    "id" : "duplicate8",
+    "size" : 2
+  }, {
+    "id" : "duplicate7",
+    "size" : 2
+  }, {
+    "id" : "[calypso-website/src/components/header/Header.jsx]",
+    "size" : 2
+  }, {
+    "id" : "[calypso-website/src/components/header/Header.css]",
+    "size" : 5
+  }, {
+    "id" : "[calypso-website/src/components/about-us/AboutUs.css]",
+    "size" : 1
+  }, {
+    "id" : "duplicate2",
+    "size" : 2
+  }, {
+    "id" : "duplicate1",
+    "size" : 2
+  }, {
+    "id" : "[calypso-website/src/containers/SearchBar.css]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/components/home/Home.css]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/containers/changeLanguage.css]",
+    "size" : 1
+  }, {
+    "id" : "[calypso-website/src/containers/mobile/SearchBarMobile.jsx]",
+    "size" : 2
+  } ],
+  "links" : [ {
+    "source" : "[calypso-website/src/containers/SearchBar.css]",
+    "target" : "duplicate1",
+    "count" : 1
+  }, {
+    "source" : "duplicate1",
+    "target" : "[calypso-website/src/containers/SearchBar.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/containers/mobile/SearchBarMobile.css]",
+    "target" : "duplicate1",
+    "count" : 1
+  }, {
+    "source" : "duplicate1",
+    "target" : "[calypso-website/src/containers/mobile/SearchBarMobile.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.css]",
+    "target" : "duplicate2",
+    "count" : 1
+  }, {
+    "source" : "duplicate2",
+    "target" : "[calypso-website/src/components/header/Header.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/home/Home.css]",
+    "target" : "duplicate2",
+    "count" : 1
+  }, {
+    "source" : "duplicate2",
+    "target" : "[calypso-website/src/components/home/Home.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.jsx]",
+    "target" : "duplicate3",
+    "count" : 1
+  }, {
+    "source" : "duplicate3",
+    "target" : "[calypso-website/src/components/header/Header.jsx]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.jsx]",
+    "target" : "duplicate3",
+    "count" : 1
+  }, {
+    "source" : "duplicate3",
+    "target" : "[calypso-website/src/components/header/Header.jsx]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.css]",
+    "target" : "duplicate4",
+    "count" : 1
+  }, {
+    "source" : "duplicate4",
+    "target" : "[calypso-website/src/components/header/Header.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.css]",
+    "target" : "duplicate4",
+    "count" : 1
+  }, {
+    "source" : "duplicate4",
+    "target" : "[calypso-website/src/components/header/Header.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/containers/SearchBar.jsx]",
+    "target" : "duplicate5",
+    "count" : 1
+  }, {
+    "source" : "duplicate5",
+    "target" : "[calypso-website/src/containers/SearchBar.jsx]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/containers/mobile/SearchBarMobile.jsx]",
+    "target" : "duplicate5",
+    "count" : 1
+  }, {
+    "source" : "duplicate5",
+    "target" : "[calypso-website/src/containers/mobile/SearchBarMobile.jsx]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.css]",
+    "target" : "duplicate6",
+    "count" : 1
+  }, {
+    "source" : "duplicate6",
+    "target" : "[calypso-website/src/components/header/Header.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/header/Header.css]",
+    "target" : "duplicate6",
+    "count" : 1
+  }, {
+    "source" : "duplicate6",
+    "target" : "[calypso-website/src/components/header/Header.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/components/about-us/AboutUs.css]",
+    "target" : "duplicate7",
+    "count" : 1
+  }, {
+    "source" : "duplicate7",
+    "target" : "[calypso-website/src/components/about-us/AboutUs.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/containers/changeLanguage.css]",
+    "target" : "duplicate7",
+    "count" : 1
+  }, {
+    "source" : "duplicate7",
+    "target" : "[calypso-website/src/containers/changeLanguage.css]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/containers/SearchBar.jsx]",
+    "target" : "duplicate8",
+    "count" : 1
+  }, {
+    "source" : "duplicate8",
+    "target" : "[calypso-website/src/containers/SearchBar.jsx]",
+    "count" : 1
+  }, {
+    "source" : "[calypso-website/src/containers/mobile/SearchBarMobile.jsx]",
+    "target" : "duplicate8",
+    "count" : 1
+  }, {
+    "source" : "duplicate8",
+    "target" : "[calypso-website/src/containers/mobile/SearchBarMobile.jsx]",
+    "count" : 1
+  } ]
+}
+
+    const maxNodeSize = gData.nodes.map(n => n.size).reduce((a, b) => Math.max(a, b));
+    const maxCount = gData.links.map(l => l.count).reduce((a, b) => Math.max(a, b));
+
+    gData.links = gData.links.map(l => { return {source: l.target, target: l.source, count: l.count} });
+
+    const Graph = ForceGraph3D()
+    (document.getElementById('3d-graph'))
+        .graphData(gData)
+        .nodeRelSize(4)
+        .nodeVal(n => Math.max(20 * n.size / maxNodeSize, 0.001))
+        .nodeLabel(n => n.id + " (" + n.size + ")")
+        .nodeColor(n => n.id.startsWith("[") ? "skyblue" : "")
+        .linkDirectionalParticles(6)
+        .linkDirectionalParticleSpeed(d => d.count / maxCount * 0.01)
+        .linkOpacity(0.1)
+        .linkWidth(d => 3 * d.count / maxCount + 0.1);
+
+</script>
+</body>

@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>calypso-website/src/components/carousel/Carousel.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/components/carousel/Carousel.jsx (<b>40</b> lines of code) (<a href="Carousel.jsx">raw</a>):</h3>
+<div id="editor">import { useState } from &quot;react&quot;;
+import &quot;./Carousel.css&quot;;
+
+export default function Carousel({ children }) {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const slideNext = () =&gt; {
+    setActiveIndex((val) =&gt; (val &gt;= children.length - 1 ? 0 : val + 1));
+  };
+
+  const slidePrev = () =&gt; {
+    setActiveIndex((val) =&gt; (val &lt;= 0 ? children.length - 1 : val - 1));
+  };
+
+  return children.length &gt; 1 ? (
+    &lt;div className=&quot;carousel&quot;&gt;
+      &lt;button className=&quot;slider__btn-prev&quot; onClick={slidePrev}&gt;
+        {&quot;&lt;&quot;}
+      &lt;/button&gt;
+
+      &lt;div className=&quot;carousel-viewport&quot;&gt;
+        &lt;div
+          className=&quot;carousel-container&quot;
+          style={{ transform: `translateX(-${activeIndex * 100}%)` }}
+        &gt;
+          {children.map((child, index) =&gt; (
+            &lt;div
+              key={index}
+              className={`carousel-slide ${
+                index !== activeIndex ? &quot;hide&quot; : &quot;&quot;
+              }`}
+            &gt;
+              {child}
+            &lt;/div&gt;
+          ))}
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;button className=&quot;slider__btn-next&quot; onClick={slideNext}&gt;
+        {&quot;&gt;&quot;}
+      &lt;/button&gt;
+    &lt;/div&gt;
+  ) : (
+    &lt;div className=&quot;single-image&quot;&gt;{children[0]}&lt;/div&gt;
+  );
+}
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

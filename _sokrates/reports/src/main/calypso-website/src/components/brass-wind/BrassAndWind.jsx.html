@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>calypso-website/src/components/brass-wind/BrassAndWind.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/components/brass-wind/BrassAndWind.jsx (<b>23</b> lines of code) (<a href="BrassAndWind.jsx">raw</a>):</h3>
+<div id="editor">import &quot;../Accessories.css&quot;;
+import { useTranslation } from &quot;react-i18next&quot;;
+import Item from &quot;../item/Item&quot;;
+import { useScroll } from &quot;../../hooks/useScroll&quot;;
+
+function BrassAndWind({ props }) {
+  const { t } = useTranslation();
+  useScroll();
+
+  return (
+    &lt;div className=&quot;accessories-body&quot;&gt;
+      &lt;div className=&quot;accessories-section&quot;&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;brass-wind&quot;&gt;
+          {t(&quot;brass-wind&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display brass&quot;&gt;
+          {props.map((item) =&gt; {
+            return &lt;Item item={item} key={item.id} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+export default BrassAndWind;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

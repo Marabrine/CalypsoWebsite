@@ -1,0 +1,7 @@
+.about-us__box {
+  position: relative;
+  bottom: 0rem;
+  left: -2rem;
+  z-index: 1000;
+  color: white;
+}

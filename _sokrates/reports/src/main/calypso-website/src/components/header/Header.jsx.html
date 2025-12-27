@@ -1,0 +1,400 @@
+<html>
+<head>
+    <title>calypso-website/src/components/header/Header.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/components/header/Header.jsx (<b>367</b> lines of code) (<a href="Header.jsx">raw</a>):</h3>
+<div id="editor">import SearchBar from &quot;../../containers/SearchBar&quot;;
+import &quot;./Header.css&quot;;
+import LanguageSwitcher from &quot;../../containers/changeLanguage&quot;;
+import { Link } from &quot;react-router-dom&quot;;
+import CalypsoFlag from &quot;../../assets/CalypsoFlag.png&quot;;
+import HamburgerButton from &quot;../../containers/hamburgerMenu&quot;;
+import SideBar from &quot;../../containers/sideBar&quot;;
+import { useState, useRef, useEffect } from &quot;react&quot;;
+import CalypsoText from &quot;../../assets/CalypsoText.png&quot;;
+import { useTranslation } from &quot;react-i18next&quot;;
+import { useNavigate } from &quot;react-router-dom&quot;;
+import SearchButton from &quot;../../assets/search-explore-white-icon-transparent-png-701751695037015aogz4s2rh6-removebg-preview.png&quot;;
+import SearchBarMobile from &quot;../../containers/mobile/SearchBarMobile&quot;;
+import ITEMS from &quot;../../data/items&quot;;
+import AboutUs from &quot;../about-us/AboutUs&quot;;
+import ItemList from &quot;../../containers/ItemList&quot;;
+
+export default function Header({ props }) {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const toggleSidebar = () =&gt; setIsSidebarOpen(!isSidebarOpen);
+  const [isSearchBarOpen, setIsSearchBarOpen] = useState(false);
+
+  const digital = ITEMS.filter((item) =&gt; item.subCategory === &quot;DIGITAL&quot;);
+  const keyboard = ITEMS.filter(
+    (item) =&gt; item.subCategory == &quot;KEYBOARD&quot; &amp;&amp; item.category !== &quot;SONATA&quot;
+  );
+
+  const acoustic = ITEMS.filter((item) =&gt; item.subCategory == &quot;ACOUSTIC&quot;);
+  const classic = ITEMS.filter((item) =&gt; item.subCategory == &quot;CLASSIC&quot;);
+  const electric = ITEMS.filter((item) =&gt; item.subCategory == &quot;ELECTRIC&quot;);
+  const electroAcoustic = ITEMS.filter(
+    (item) =&gt; item.subCategory == &quot;ELECTRO-ACOUSTIC&quot;
+  );
+  const electroClassic = ITEMS.filter(
+    (item) =&gt; item.subCategory == &quot;ELECTRO-CLASSIC&quot;
+  );
+  const guitalele = ITEMS.filter((item) =&gt; item.subCategory == &quot;GUITALELE&quot;);
+  const violin = ITEMS.filter((item) =&gt; item.subCategory == &quot;VIOLIN&quot;);
+  const viola = ITEMS.filter((item) =&gt; item.subCategory == &quot;VIOLA&quot;);
+  const cello = ITEMS.filter((item) =&gt; item.subCategory == &quot;CELLO&quot;);
+  const brass = ITEMS.filter((item) =&gt; item.category == &quot;BRASS-WIND&quot;);
+  const drumset = ITEMS.filter((item) =&gt; item.subCategory == &quot;DRUMSET&quot;);
+  const marching = ITEMS.filter((item) =&gt; item.subCategory == &quot;MARCHING&quot;);
+  const oriental = ITEMS.filter((item) =&gt; item.subCategory == &quot;ORIENTAL&quot;);
+  const banjo = ITEMS.filter((item) =&gt; item.subCategory == &quot;BANJO&quot;);
+  const handpan = ITEMS.filter((item) =&gt; item.subCategory == &quot;HANDPAN&quot;);
+  const tongue = ITEMS.filter((item) =&gt; item.subCategory == &quot;TONGUE&quot;);
+  const cuatro = ITEMS.filter((item) =&gt; item.subCategory == &quot;CUATRO&quot;);
+  const bench = ITEMS.filter((item) =&gt; item.subCategory == &quot;BENCH&quot;);
+  const cable = ITEMS.filter((item) =&gt; item.subCategory == &quot;CABLE&quot;);
+  const stand = ITEMS.filter((item) =&gt; item.subCategory == &quot;STAND&quot;);
+  const other = ITEMS.filter((item) =&gt; item.subCategory == &quot;OTHER&quot;);
+
+  const toggleSearchBar = () =&gt; {
+    setIsSearchBarOpen((prev) =&gt; !prev);
+  };
+
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  return (
+    &lt;div className=&quot;main-header&quot;&gt;
+      &lt;header&gt;
+        &lt;HamburgerButton onHover={toggleSidebar} isOpen={isSidebarOpen} /&gt;
+        &lt;div className=&quot;logos&quot;&gt;
+          &lt;Link to=&quot;/&quot; className=&quot;calypso-logo&quot;&gt;
+            &lt;img src={CalypsoFlag} width=&quot;80rem&quot; height=&quot;80rem&quot; /&gt;
+          &lt;/Link&gt;
+          &lt;img
+            src={CalypsoText}
+            style={{
+              width: &quot;16rem&quot;,
+              height: &quot;auto&quot;,
+            }}
+            className=&quot;calypso-text&quot;
+          /&gt;
+        &lt;/div&gt;
+        &lt;SearchBar items={props} /&gt;
+        &lt;SearchBarMobile
+          isSearchBarOpen={isSearchBarOpen}
+          toggleSearchBar={toggleSearchBar}
+          items={props}
+        /&gt;
+        &lt;button onClick={toggleSearchBar} className=&quot;search-button__mobile&quot;&gt;
+          &lt;img src={SearchButton} width=&quot;35rem&quot; height=&quot;35rem&quot; /&gt;
+        &lt;/button&gt;
+        &lt;LanguageSwitcher /&gt;
+        &lt;Link to={&quot;/about-us&quot;}&gt;testing&lt;/Link&gt;
+      &lt;/header&gt;
+      &lt;ul className=&quot;dropdown-menu&quot;&gt;
+        &lt;li&gt;
+          &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+          &lt;Link to={&quot;/items/pianos&quot;}&gt;{t(&quot;pianos&quot;)}&lt;/Link&gt;
+          &lt;ul className=&quot;dropdown-menu__submenu&quot;&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/pianos#digitalPiano&quot;}&gt;
+                {t(&quot;digitalPiano&quot;)} &amp;gt;
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {digital.map((item) =&gt; {
+                  return (
+                    &lt;li&gt;
+                      &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+                      &lt;Link to={`/items/${item.id}`}&gt;{item.id}&lt;/Link&gt;
+                    &lt;/li&gt;
+                  );
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/pianos#keyboard&quot;}&gt;{t(&quot;keyboard&quot;)} &amp;gt;&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {keyboard.map((item) =&gt; {
+                  return (
+                    &lt;li&gt;
+                      &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+                      &lt;Link to={`/items/${item.id}`}&gt;{item.id}&lt;/Link&gt;
+                    &lt;/li&gt;
+                  );
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+          &lt;Link to={&quot;/items/guitar-bass&quot;}&gt;{t(&quot;guitars&quot;)}&lt;/Link&gt;
+          &lt;ul className=&quot;dropdown-menu__submenu&quot;&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/guitar-bass#acousticGuitar&quot;}&gt;
+                {t(&quot;acousticGuitar&quot;)} &amp;gt;
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {acoustic.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/guitar-bass#electroAcoustic&quot;}&gt;
+                {t(&quot;electroAcoustic&quot;)} &amp;gt;
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {electroAcoustic.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/guitar-bass#electric&quot;}&gt;
+                {t(&quot;electric&quot;)} &amp;gt;
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {electric.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/guitar-bass#classicGuitar&quot;}&gt;
+                {t(&quot;classicGuitar&quot;)} &amp;gt;
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {classic.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/guitar-bass#electroClassic&quot;}&gt;
+                {t(&quot;electroClassic&quot;)} &amp;gt;
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {electroClassic.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/guitar-bass#guitalele&quot;}&gt;
+                {t(&quot;guitalele&quot;)} &amp;gt;
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {guitalele.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+          &lt;Link to={&quot;/items/orchestral-strings&quot;}&gt;{t(&quot;orchStrings&quot;)}&lt;/Link&gt;
+          &lt;ul className=&quot;dropdown-menu__submenu&quot;&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/orchestral-strings#violin&quot;}&gt;{t(&quot;violin&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {violin.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/orchestral-strings#viola&quot;}&gt;{t(&quot;viola&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {viola.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/orchestral-strings#cello&quot;}&gt;{t(&quot;cello&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {cello.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+          &lt;Link to={&quot;/items/brass-wind&quot;}&gt;{t(&quot;winds&quot;)}&lt;/Link&gt;
+          &lt;ul className=&quot;dropdown-menu__submenu&quot;&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/brass-wind#brass-wind&quot;}&gt;{t(&quot;brass-wind&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {brass.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+          &lt;Link to={&quot;/items/drums-percussion&quot;}&gt;{t(&quot;drums&quot;)}&lt;/Link&gt;
+          &lt;ul className=&quot;dropdown-menu__submenu&quot;&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/drums-percussion#drumset&quot;}&gt;{t(&quot;drumset&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {drumset.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/drums-percussion#marching&quot;}&gt;
+                {t(&quot;marching&quot;)}
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {marching.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/drums-percussion#oriental&quot;}&gt;
+                {t(&quot;oriental&quot;)}
+              &lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {oriental.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+          &lt;Link to={&quot;/items/special&quot;}&gt;{t(&quot;special&quot;)}&lt;/Link&gt;
+          &lt;ul className=&quot;dropdown-menu__submenu&quot;&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/special#banjo&quot;}&gt;{t(&quot;banjo&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {banjo.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/special#handpan&quot;}&gt;{t(&quot;handpan&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {handpan.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/special#tongue&quot;}&gt;{t(&quot;tongue&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {tongue.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/special#cuatro&quot;}&gt;{t(&quot;cuatro&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;instruments&quot;&gt;
+                {cuatro.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+          &lt;Link to={&quot;/items/accessories&quot;}&gt;{t(&quot;accessories&quot;)}&lt;/Link&gt;
+          &lt;ul className=&quot;dropdown-menu__submenu&quot;&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/accessories#bench&quot;}&gt;{t(&quot;bench&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;other&quot;&gt;
+                {bench.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/accessories#cable&quot;}&gt;{t(&quot;cable&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;other&quot;&gt;
+                {cable.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/accessories#stand&quot;}&gt;{t(&quot;stand&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;other&quot;&gt;
+                {stand.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img src={CalypsoRed} width=&quot;12rem&quot; /&gt;
+              &lt;Link to={&quot;/items/accessories#other&quot;}&gt;{t(&quot;other&quot;)}&lt;/Link&gt;
+              &lt;ul className=&quot;other&quot;&gt;
+                {other.map((item) =&gt; {
+                  return &lt;ItemList item={item} /&gt;;
+                })}
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      {/*&lt;Breadcrumb /&gt;*/}
+
+      &lt;SideBar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} /&gt;
+    &lt;/div&gt;
+  );
+}
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

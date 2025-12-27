@@ -1,0 +1,90 @@
+<html>
+<head>
+    <title>calypso-website/src/components/item/Item.css</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/components/item/Item.css (<b>60</b> lines of code) (<a href="Item.css">raw</a>):</h3>
+<div id="editor">.items-display__item {
+  max-width: 17rem;
+  padding: 2rem 2rem 0rem 2rem;
+  height: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+
+  transition: transform 0.3s ease, background 0.3s ease;
+  text-align: center;
+}
+.items-display__item {
+  position: relative;
+}
+
+.item-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(&quot;../../assets/4880206.jpg&quot;);
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.items-display__item img {
+  position: relative;
+  z-index: 2;
+}
+.items-display__item:hover {
+  transform: scale(1.1);
+  color: azure;
+}
+.item-name sub {
+  padding: 0;
+  margin: 0;
+}
+.item-name {
+  text-align: center;
+  color: rgba(218, 165, 32, 1);
+  text-shadow: 2px 1px 2px black;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.titles {
+  margin-top: 2rem;
+  z-index: 2;
+  position: relative;
+}
+.items-display__item:hover .item-name {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+.items-display__item:hover img {
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+
+.items-display__item img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/css");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

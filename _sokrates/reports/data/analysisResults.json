@@ -1,0 +1,2256 @@
+{
+  "metadata" : {
+    "name" : "Calypsowebsite",
+    "description" : "",
+    "tooltip" : "",
+    "logoLink" : "",
+    "links" : [ ]
+  },
+  "metricsList" : {
+    "metrics" : [ {
+      "id" : "TOTAL_NUMBER_OF_FILES",
+      "value" : 8219,
+      "description" : "Total number of files in the source folder"
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN",
+      "value" : 51,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN",
+      "value" : 2818,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_JSX",
+      "value" : 32,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_JSX",
+      "value" : 1549,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_CSS",
+      "value" : 16,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_CSS",
+      "value" : 1219,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_JS",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_JS",
+      "value" : 37,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_MAIN_EXT_HTML",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_MAIN_EXT_HTML",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_TEST",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_TEST",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "TEST_VS_MAIN_LINES_OF_CODE_PERCENTAGE",
+      "value" : 0.0,
+      "description" : "Test / main code ratio"
+    }, {
+      "id" : "NUMBER_OF_FILES_GENERATED",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_GENERATED",
+      "value" : 3127,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_GENERATED_EXT_JSON",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_GENERATED_EXT_JSON",
+      "value" : 3127,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_BUILD_AND_DEPLOYMENT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_BUILD_AND_DEPLOYMENT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_OTHER",
+      "value" : 7,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_OTHER",
+      "value" : 3245,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_OTHER_EXT_JSON",
+      "value" : 6,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_OTHER_EXT_JSON",
+      "value" : 3238,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_OTHER_EXT_MD",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_OTHER_EXT_MD",
+      "value" : 7,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE",
+      "value" : 51,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE",
+      "value" : 2818,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE_EXT_JSX",
+      "value" : 32,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE_EXT_JSX",
+      "value" : 1549,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE_EXT_CSS",
+      "value" : 16,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE_EXT_CSS",
+      "value" : 1219,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE_EXT_JS",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE_EXT_JS",
+      "value" : 37,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE_EXT_HTML",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_DECOMPOSITION_PRIMARY_CALYPSO_WEBSITE_EXT_HTML",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_DEPENDENCY_LINKS_DECOMPOSITION_PRIMARY",
+      "value" : 0,
+      "description" : "Number of anchor dependencies"
+    }, {
+      "id" : "NUMBER_OF_DEPENDENCIES_DECOMPOSITION_PRIMARY",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_PLACES_WITH_CYCLIC_DEPENDENCIES_DECOMPOSITION_PRIMARY",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_TODOS",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_TODOS",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED",
+      "value" : 51,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED",
+      "value" : 2818,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_JSX",
+      "value" : 32,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_JSX",
+      "value" : 1549,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_CSS",
+      "value" : 16,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_CSS",
+      "value" : 1219,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_JS",
+      "value" : 2,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_JS",
+      "value" : 37,
+      "description" : null
+    }, {
+      "id" : "NUMBER_OF_FILES_CONCERN_GENERAL_UNCLASSIFIED_EXT_HTML",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "LINES_OF_CODE_CONCERN_GENERAL_UNCLASSIFIED_EXT_HTML",
+      "value" : 13,
+      "description" : null
+    }, {
+      "id" : "NEGLIGIBLE_RISK_FILE_SIZE_COUNT",
+      "value" : 45,
+      "description" : "Number of  files with 100 or less lines of code"
+    }, {
+      "id" : "LOW_RISK_FILE_SIZE_COUNT",
+      "value" : 3,
+      "description" : "Number of  files with 100 to 200 lines of code"
+    }, {
+      "id" : "MEDIUM_RISK_FILE_SIZE_COUNT",
+      "value" : 3,
+      "description" : "Number of  files with 200 to 500 lines of code"
+    }, {
+      "id" : "HIGH_RISK_FILE_SIZE_COUNT",
+      "value" : 0,
+      "description" : "Number of  files with 500 to 1000 lines of code"
+    }, {
+      "id" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
+      "value" : 0,
+      "description" : "Number of  files with more than 1000 lines of code"
+    }, {
+      "id" : "NEGLIGIBLE_RISK_FILE_SIZE_LOC",
+      "value" : 1506,
+      "description" : "Lines of code in  files with 100 or less lines of code"
+    }, {
+      "id" : "LOW_RISK_FILE_SIZE_LOC",
+      "value" : 332,
+      "description" : "Lines of code in  files with 100 to 200 lines of code"
+    }, {
+      "id" : "MEDIUM_RISK_FILE_SIZE_LOC",
+      "value" : 980,
+      "description" : "Lines of code in  files with 200 to 500 lines of code"
+    }, {
+      "id" : "HIGH_RISK_FILE_SIZE_LOC",
+      "value" : 0,
+      "description" : "Lines of code in  files with 500 to 1000 lines of code"
+    }, {
+      "id" : "VERY_HIGH_RISK_FILE_SIZE_LOC",
+      "value" : 0,
+      "description" : "Lines of code in  files with more than 1000 lines of code"
+    }, {
+      "id" : "NUMBER_OF_UNITS",
+      "value" : 1,
+      "description" : "Number of units"
+    }, {
+      "id" : "LINES_OF_CODE_IN_UNITS",
+      "value" : 3,
+      "description" : "Lines of code in units"
+    }, {
+      "id" : "LINES_OF_CODE_OUTSIDE_UNITS",
+      "value" : 2815,
+      "description" : "Lines of code in units"
+    }, {
+      "id" : "UNIT_SIZE_NEGLIGIBLE_RISK_LOC",
+      "value" : 3,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_NEGLIGIBLE_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_NEGLIGIBLE_RISK_LOC",
+      "value" : 3,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_NEGLIGIBLE_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_COMPONENT_CALYPSO_WEBSITE_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_NEGLIGIBLE_RISK_LOC",
+      "value" : 3,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_NEGLIGIBLE_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "UNIT_SIZE_EXTENSION_JS_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_NEGLIGIBLE_RISK_LOC",
+      "value" : 3,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_NEGLIGIBLE_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_PLUS_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_HIGH_PLUS_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_NEGLIGIBLE_RISK_LOC",
+      "value" : 3,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_NEGLIGIBLE_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_CALYPSO_WEBSITE_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_NEGLIGIBLE_RISK_LOC",
+      "value" : 3,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_NEGLIGIBLE_RISK_PERCENTAGE",
+      "value" : 100.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_NEGLIGIBLE_RISK_COUNT",
+      "value" : 1,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_LOW_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_LOW_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_LOW_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_MEDIUM_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_MEDIUM_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_MEDIUM_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_VERY_HIGH_RISK_LOC",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_VERY_HIGH_RISK_PERCENTAGE",
+      "value" : 0.0,
+      "description" : null
+    }, {
+      "id" : "CONDITIONAL_COMPLEXITY_COMPONENT_JS_VERY_HIGH_RISK_COUNT",
+      "value" : 0,
+      "description" : null
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATES",
+      "value" : 8,
+      "description" : "Number of duplicates"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_FILES_WITH_DUPLICATES",
+      "value" : 9,
+      "description" : "Number of files with duplicates"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES",
+      "value" : 116,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES",
+      "value" : 2575,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE",
+      "value" : 4.504854368932039,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "UNIT_DUPLICATES_COUNT",
+      "value" : 0,
+      "description" : "Unit duplicates"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_PRIMARY_CALYPSO_WEBSITE",
+      "value" : 116,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_PRIMARY_CALYPSO_WEBSITE",
+      "value" : 116,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_PRIMARY_CALYPSO_WEBSITE",
+      "value" : 100.0,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_JSX",
+      "value" : 40,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_JSX",
+      "value" : 1316,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_JSX",
+      "value" : 3.0395136778115504,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_DUPLICATED_LINES_CSS",
+      "value" : 76,
+      "description" : "Number of duplicated lines"
+    }, {
+      "id" : "DUPLICATION_NUMBER_OF_CLEANED_LINES_CSS",
+      "value" : 1219,
+      "description" : "Number of lines after cleaning for duplication calculations"
+    }, {
+      "id" : "DUPLICATION_PERCENTAGE_CSS",
+      "value" : 6.234618539786711,
+      "description" : "Duplication percentage"
+    }, {
+      "id" : "TOTAL_ANALYSIS_TIME_IN_MILLIS",
+      "value" : 1399,
+      "description" : "Total analysis time in milliseconds"
+    } ]
+  },
+  "controlResults" : {
+    "goalsAnalysisResults" : [ {
+      "metricsWithGoal" : {
+        "goal" : "Keep the system simple and easy to change",
+        "description" : "Aim at keeping the system size modest (less than 200,000 LOC is good), duplication low (less than 5% is good), files small (no files longer than 1000 LOC is good), and units simple (no units with more than 25 decision points is good).",
+        "controls" : [ {
+          "metric" : "LINES_OF_CODE_MAIN",
+          "description" : "Total number of lines of main code",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "200000",
+            "tolerance" : "20000"
+          }
+        }, {
+          "metric" : "DUPLICATION_PERCENTAGE",
+          "description" : "System duplication",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "5",
+            "tolerance" : "1"
+          }
+        }, {
+          "metric" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
+          "description" : "The number of very large files",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "0",
+            "tolerance" : "1"
+          }
+        }, {
+          "metric" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_COUNT",
+          "description" : "Number of very complex units",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "0",
+            "tolerance" : "1"
+          }
+        } ]
+      },
+      "controlStatuses" : [ {
+        "control" : {
+          "metric" : "LINES_OF_CODE_MAIN",
+          "description" : "Total number of lines of main code",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "200000",
+            "tolerance" : "20000"
+          }
+        },
+        "metric" : {
+          "id" : "LINES_OF_CODE_MAIN",
+          "value" : 2818,
+          "description" : null
+        },
+        "status" : "OK"
+      }, {
+        "control" : {
+          "metric" : "DUPLICATION_PERCENTAGE",
+          "description" : "System duplication",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "5",
+            "tolerance" : "1"
+          }
+        },
+        "metric" : {
+          "id" : "DUPLICATION_PERCENTAGE",
+          "value" : 4.504854368932039,
+          "description" : "Duplication percentage"
+        },
+        "status" : "OK"
+      }, {
+        "control" : {
+          "metric" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
+          "description" : "The number of very large files",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "0",
+            "tolerance" : "1"
+          }
+        },
+        "metric" : {
+          "id" : "VERY_HIGH_RISK_FILE_SIZE_COUNT",
+          "value" : 0,
+          "description" : "Number of  files with more than 1000 lines of code"
+        },
+        "status" : "OK"
+      }, {
+        "control" : {
+          "metric" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_COUNT",
+          "description" : "Number of very complex units",
+          "desiredRange" : {
+            "min" : "0",
+            "max" : "0",
+            "tolerance" : "1"
+          }
+        },
+        "metric" : {
+          "id" : "CONDITIONAL_COMPLEXITY_VERY_HIGH_RISK_COUNT",
+          "value" : 0,
+          "description" : null
+        },
+        "status" : "OK"
+      } ]
+    } ]
+  },
+  "totalNumberOfFilesInScope" : 8219,
+  "mainAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 51,
+    "linesOfCode" : 2818,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.jsx",
+      "value" : 32,
+      "description" : [ ]
+    }, {
+      "name" : "  *.css",
+      "value" : 16,
+      "description" : [ ]
+    }, {
+      "name" : "  *.js",
+      "value" : 2,
+      "description" : [ ]
+    }, {
+      "name" : "  *.html",
+      "value" : 1,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerExtension" : [ {
+      "name" : "  *.jsx",
+      "value" : 1549,
+      "description" : [ ]
+    }, {
+      "name" : "  *.css",
+      "value" : 1219,
+      "description" : [ ]
+    }, {
+      "name" : "  *.js",
+      "value" : 37,
+      "description" : [ ]
+    }, {
+      "name" : "  *.html",
+      "value" : 13,
+      "description" : [ ]
+    } ]
+  },
+  "testAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 0,
+    "linesOfCode" : 0,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ ],
+    "linesOfCodePerExtension" : [ ]
+  },
+  "generatedAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 2,
+    "linesOfCode" : 3127,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.json",
+      "value" : 2,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerExtension" : [ {
+      "name" : "  *.json",
+      "value" : 3127,
+      "description" : [ ]
+    } ]
+  },
+  "buildAndDeployAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 0,
+    "linesOfCode" : 0,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ ],
+    "linesOfCodePerExtension" : [ ]
+  },
+  "otherAspectAnalysisResults" : {
+    "name" : null,
+    "filesCount" : 7,
+    "linesOfCode" : 3245,
+    "numberOfRegexLineMatches" : 0,
+    "fileCountPerExtension" : [ {
+      "name" : "  *.json",
+      "value" : 6,
+      "description" : [ ]
+    }, {
+      "name" : "  *.md",
+      "value" : 1,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerExtension" : [ {
+      "name" : "  *.json",
+      "value" : 3238,
+      "description" : [ ]
+    }, {
+      "name" : "  *.md",
+      "value" : 7,
+      "description" : [ ]
+    } ]
+  },
+  "logicalDecompositionsAnalysisResults" : [ {
+    "key" : "primary",
+    "components" : [ {
+      "name" : "calypso-website",
+      "filesCount" : 51,
+      "linesOfCode" : 2818,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ {
+        "name" : "  *.jsx",
+        "value" : 32,
+        "description" : [ ]
+      }, {
+        "name" : "  *.css",
+        "value" : 16,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 2,
+        "description" : [ ]
+      }, {
+        "name" : "  *.html",
+        "value" : 1,
+        "description" : [ ]
+      } ],
+      "linesOfCodePerExtension" : [ {
+        "name" : "  *.jsx",
+        "value" : 1549,
+        "description" : [ ]
+      }, {
+        "name" : "  *.css",
+        "value" : 1219,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 37,
+        "description" : [ ]
+      }, {
+        "name" : "  *.html",
+        "value" : 13,
+        "description" : [ ]
+      } ]
+    } ],
+    "componentDependencies" : [ ],
+    "componentDependenciesErrors" : [ ],
+    "logicalDecomposition" : {
+      "name" : "primary",
+      "scope" : "main",
+      "filters" : [ ],
+      "componentsFolderDepth" : 1,
+      "minComponentsCount" : 0,
+      "components" : [ {
+        "name" : "calypso-website",
+        "sourceFileFilters" : [ {
+          "pathPattern" : "./calypso-website/.*",
+          "contentPattern" : "",
+          "exception" : false,
+          "note" : ""
+        } ],
+        "files" : [ ]
+      } ],
+      "metaComponents" : [ ],
+      "groups" : [ ],
+      "includeRemainingFiles" : true,
+      "dependenciesFinder" : {
+        "useBuiltInDependencyFinders" : true,
+        "rules" : [ ],
+        "metaRules" : [ ]
+      },
+      "renderingOptions" : {
+        "orientation" : "TB",
+        "maxNumberOfDependencies" : 100,
+        "renderComponentsWithoutDependencies" : true,
+        "renderIndirectDependencies" : false,
+        "renderInternalIndirectDependencies" : false,
+        "reverseDirection" : false
+      },
+      "includeExternalComponents" : true,
+      "dependencyLinkThreshold" : 1,
+      "duplicationLinkThreshold" : 50,
+      "temporalLinkThreshold" : 1,
+      "maxSearchDepthLines" : 200
+    },
+    "fileCountPerComponent" : [ {
+      "name" : "calypso-website",
+      "value" : 51,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerComponent" : [ {
+      "name" : "calypso-website",
+      "value" : 2818,
+      "description" : [ ]
+    } ]
+  } ],
+  "concernsAnalysisResults" : [ {
+    "key" : "general",
+    "concerns" : [ {
+      "name" : "TODOs",
+      "filesCount" : 0,
+      "linesOfCode" : 0,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ ],
+      "linesOfCodePerExtension" : [ ]
+    }, {
+      "name" : "Unclassified",
+      "filesCount" : 51,
+      "linesOfCode" : 2818,
+      "numberOfRegexLineMatches" : 0,
+      "fileCountPerExtension" : [ {
+        "name" : "  *.jsx",
+        "value" : 32,
+        "description" : [ ]
+      }, {
+        "name" : "  *.css",
+        "value" : 16,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 2,
+        "description" : [ ]
+      }, {
+        "name" : "  *.html",
+        "value" : 1,
+        "description" : [ ]
+      } ],
+      "linesOfCodePerExtension" : [ {
+        "name" : "  *.jsx",
+        "value" : 1549,
+        "description" : [ ]
+      }, {
+        "name" : "  *.css",
+        "value" : 1219,
+        "description" : [ ]
+      }, {
+        "name" : "  *.js",
+        "value" : 37,
+        "description" : [ ]
+      }, {
+        "name" : "  *.html",
+        "value" : 13,
+        "description" : [ ]
+      } ]
+    } ],
+    "concernsGroup" : null,
+    "fileCountPerConcern" : [ {
+      "name" : "TODOs",
+      "value" : 0,
+      "description" : [ ]
+    }, {
+      "name" : "Unclassified",
+      "value" : 51,
+      "description" : [ ]
+    } ],
+    "linesOfCodePerConcern" : [ {
+      "name" : "TODOs",
+      "value" : 0,
+      "description" : [ ]
+    }, {
+      "name" : "Unclassified",
+      "value" : 2818,
+      "description" : [ ]
+    } ]
+  } ],
+  "foundTags" : [ {
+    "tagRule" : {
+      "tag" : "travis",
+      "color" : "#7CB9E8",
+      "pathPatterns" : [ "(|.*/)[.]travis[.]ya?ml" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "calypso-website/node_modules/concat-map/.travis.yml\ncalypso-website/node_modules/deep-is/.travis.yml\ncalypso-website/node_modules/fast-json-stable-stringify/.travis.yml\ncalypso-website/node_modules/json-buffer/.travis.yml\ncalypso-website/node_modules/json-schema-traverse/.travis.yml\ncalypso-website/node_modules/json-stable-stringify-without-jsonify/.travis.yml"
+  }, {
+    "tagRule" : {
+      "tag" : "npm",
+      "color" : "#B9D9EB",
+      "pathPatterns" : [ "(|.*/)package[.]json" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "calypso-website/node_modules/.vite/deps/package.json\ncalypso-website/node_modules/@ampproject/remapping/package.json\ncalypso-website/node_modules/@babel/code-frame/package.json\ncalypso-website/node_modules/@babel/compat-data/package.json\ncalypso-website/node_modules/@babel/core/package.json\ncalypso-website/node_modules/@babel/generator/package.json\ncalypso-website/node_modules/@babel/helper-compilation-targets/package.json\ncalypso-website/node_modules/@babel/helper-module-imports/package.json\ncalypso-website/node_modules/@babel/helper-module-transforms/package.json\ncalypso-website/node_modules/@babel/helper-plugin-utils/package.json\ncalypso-website/node_modules/@babel/helper-string-parser/package.json\ncalypso-website/node_modules/@babel/helper-validator-identifier/package.json\ncalypso-website/node_modules/@babel/helper-validator-option/package.json\ncalypso-website/node_modules/@babel/helpers/package.json\ncalypso-website/node_modules/@babel/parser/package.json\ncalypso-website/node_modules/@babel/plugin-transform-react-jsx-self/package.json\ncalypso-website/node_modules/@babel/plugin-transform-react-jsx-source/package.json\ncalypso-website/node_modules/@babel/runtime/helpers/esm/package.json\ncalypso-website/node_modules/@babel/runtime/package.json\ncalypso-website/node_modules/@babel/template/package.json\n...\n(found 178 more files)"
+  }, {
+    "tagRule" : {
+      "tag" : "yarn",
+      "color" : "#B9D9EB",
+      "pathPatterns" : [ "(|.*/)[.]yarnrc", "(|.*/)yarn[.]lock" ],
+      "excludePathPatterns" : [ ]
+    },
+    "evidence" : "calypso-website/node_modules/uri-js/yarn.lock"
+  } ],
+  "filesAnalysisResults" : {
+    "overallFileSizeDistribution" : {
+      "key" : "",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 1506,
+      "lowRiskValue" : 332,
+      "mediumRiskValue" : 980,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 3,
+      "negligibleRiskCount" : 45,
+      "mediumRiskCount" : 3,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 11.781405251951739,
+      "totalValue" : 2818,
+      "totalCount" : 51,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 34.77643718949609,
+      "negligibleRiskPercentage" : 53.44215755855217
+    },
+    "fileSizeDistributionPerExtension" : [ {
+      "key" : "html",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 13,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 13,
+      "totalCount" : 1,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0
+    }, {
+      "key" : "js",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 37,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 2,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 37,
+      "totalCount" : 2,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0
+    }, {
+      "key" : "css",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 606,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 613,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 14,
+      "mediumRiskCount" : 2,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 1219,
+      "totalCount" : 16,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 50.28712059064807,
+      "negligibleRiskPercentage" : 49.71287940935193
+    }, {
+      "key" : "jsx",
+      "lowRiskThreshold" : 100,
+      "mediumRiskThreshold" : 200,
+      "highRiskThreshold" : 500,
+      "veryHighRiskThreshold" : 1000,
+      "negligibleRiskValue" : 850,
+      "lowRiskValue" : 332,
+      "mediumRiskValue" : 367,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 3,
+      "negligibleRiskCount" : 28,
+      "mediumRiskCount" : 1,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-100",
+      "lowRiskLabel" : "101-200",
+      "mediumRiskLabel" : "201-500",
+      "highRiskLabel" : "501-1000",
+      "veryHighRiskLabel" : "1001+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 21.43318269851517,
+      "totalValue" : 1549,
+      "totalCount" : 32,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 23.692704970949,
+      "negligibleRiskPercentage" : 54.87411233053583
+    } ],
+    "fileSizeDistributionPerLogicalDecomposition" : [ {
+      "name" : "primary",
+      "fileSizeDistributionPerComponent" : [ {
+        "key" : "calypso-website",
+        "lowRiskThreshold" : 100,
+        "mediumRiskThreshold" : 200,
+        "highRiskThreshold" : 500,
+        "veryHighRiskThreshold" : 1000,
+        "negligibleRiskValue" : 1506,
+        "lowRiskValue" : 332,
+        "mediumRiskValue" : 980,
+        "highRiskValue" : 0,
+        "veryHighRiskValue" : 0,
+        "lowRiskCount" : 3,
+        "negligibleRiskCount" : 45,
+        "mediumRiskCount" : 3,
+        "highRiskCount" : 0,
+        "veryHighRiskCount" : 0,
+        "negligibleRiskLabel" : "1-100",
+        "lowRiskLabel" : "101-200",
+        "mediumRiskLabel" : "201-500",
+        "highRiskLabel" : "501-1000",
+        "veryHighRiskLabel" : "1001+",
+        "highRiskPercentage" : 0.0,
+        "lowRiskPercentage" : 11.781405251951739,
+        "totalValue" : 2818,
+        "totalCount" : 51,
+        "veryHighRiskPercentage" : 0.0,
+        "mediumRiskPercentage" : 34.77643718949609,
+        "negligibleRiskPercentage" : 53.44215755855217
+      } ]
+    } ],
+    "longestFiles" : [ {
+      "relativePath" : "calypso-website/src/components/header/Header.css",
+      "extension" : "css",
+      "linesOfCode" : 399,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/header/Header.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 367,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/home/Home.css",
+      "extension" : "css",
+      "linesOfCode" : 214,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/home/Home.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 112,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/sideBar.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 112,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/App.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 108,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.css",
+      "extension" : "css",
+      "linesOfCode" : 91,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/Accessories.css",
+      "extension" : "css",
+      "linesOfCode" : 84,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/guitars/Guitars.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 83,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/SearchBar.css",
+      "extension" : "css",
+      "linesOfCode" : 80,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/index.css",
+      "extension" : "css",
+      "linesOfCode" : 79,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/sideBar.css",
+      "extension" : "css",
+      "linesOfCode" : 74,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/BackToTopButton.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 71,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/about-us/AboutUs.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 66,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/item/Item.css",
+      "extension" : "css",
+      "linesOfCode" : 60,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/accessories/Accessories.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 57,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/special/Special.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 57,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/orchestral/Orchestral.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 47,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/drums/Drums.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 45,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 43,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/carousel/Carousel.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 40,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/itemDetails/itemDetails.css",
+      "extension" : "css",
+      "linesOfCode" : 38,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/carousel/Carousel.css",
+      "extension" : "css",
+      "linesOfCode" : 37,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/piano/Pianos.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 35,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/item/Item.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 33,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/eslint.config.js",
+      "extension" : "js",
+      "linesOfCode" : 32,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/SearchBar.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 30,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/itemDetails/ItemDetails.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 27,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/hamburgerMenu.css",
+      "extension" : "css",
+      "linesOfCode" : 25,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/brass-wind/BrassAndWind.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 23,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/i18n/i18n.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 23,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/hooks/useFilter.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 20,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/sonata/Sonata.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 19,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/SearchBarItem.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 16,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/Roots.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 16,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/changeLanguage.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 16,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/changeLanguage.css",
+      "extension" : "css",
+      "linesOfCode" : 15,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/contact/Contact.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 14,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/hooks/useScroll.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 14,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/index.html",
+      "extension" : "html",
+      "linesOfCode" : 13,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/footer/Footer.css",
+      "extension" : "css",
+      "linesOfCode" : 11,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/hamburgerMenu.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 11,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/main.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 10,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/ErrorPage.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 10,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/footer/Footer.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 9,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/containers/ItemList.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 9,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/about-us/AboutUs.css",
+      "extension" : "css",
+      "linesOfCode" : 7,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/src/components/images-scroll/ImageScroll.jsx",
+      "extension" : "jsx",
+      "linesOfCode" : 6,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    }, {
+      "relativePath" : "calypso-website/vite.config.js",
+      "extension" : "js",
+      "linesOfCode" : 5,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 1,
+      "linesOfCodeInUnits" : 3
+    }, {
+      "relativePath" : "calypso-website/src/containers/ErrorPage.css",
+      "extension" : "css",
+      "linesOfCode" : 4,
+      "unitsCount" : 0,
+      "unitsMcCabeIndexSum" : 0,
+      "linesOfCodeInUnits" : 0
+    } ],
+    "filesWithMostUnits" : [ {
+      "relativePath" : "calypso-website/vite.config.js",
+      "extension" : "js",
+      "linesOfCode" : 5,
+      "unitsCount" : 1,
+      "unitsMcCabeIndexSum" : 1,
+      "linesOfCodeInUnits" : 3
+    } ]
+  },
+  "filesHistoryAnalysisResults" : {
+    "overallFileLastModifiedDistribution" : null,
+    "overallFileFirstModifiedDistribution" : null,
+    "overallFileChangeDistribution" : null,
+    "overallContributorsCountDistribution" : null,
+    "filesWithoutCommitHistoryCount" : 0,
+    "filesWithoutCommitHistoryLinesOfCode" : 0,
+    "changeDistributionPerExtension" : [ ],
+    "lastModifiedDistributionPerExtension" : [ ],
+    "firstModifiedDistributionPerExtension" : [ ],
+    "changeDistributionPerLogicalDecomposition" : [ ],
+    "firstModifiedDistributionPerLogicalDecomposition" : [ ],
+    "lastModifiedDistributionPerLogicalDecomposition" : [ ],
+    "oldestFiles" : [ ],
+    "youngestFiles" : [ ],
+    "mostRecentlyChangedFiles" : [ ],
+    "mostPreviouslyChangedFiles" : [ ],
+    "mostChangedFiles" : [ ],
+    "filesWithMostContributors" : [ ],
+    "filesWithLeastContributors" : [ ],
+    "firstDate" : "",
+    "latestDate" : "",
+    "daysBetweenFirstAndLastDate" : 0,
+    "weeks" : 0,
+    "estimatedWorkindDays" : 0,
+    "activeDays" : 0,
+    "ageInDays" : 0,
+    "historyPerExtensionPerYear" : [ ]
+  },
+  "unitsAnalysisResults" : {
+    "totalNumberOfUnits" : 1,
+    "linesOfCodeInUnits" : 3,
+    "unitSizeRiskDistribution" : {
+      "key" : "",
+      "lowRiskThreshold" : 10,
+      "mediumRiskThreshold" : 20,
+      "highRiskThreshold" : 50,
+      "veryHighRiskThreshold" : 100,
+      "negligibleRiskValue" : 3,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-10",
+      "lowRiskLabel" : "11-20",
+      "mediumRiskLabel" : "21-50",
+      "highRiskLabel" : "51-100",
+      "veryHighRiskLabel" : "101+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 3,
+      "totalCount" : 1,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0
+    },
+    "conditionalComplexityRiskDistribution" : {
+      "key" : "",
+      "lowRiskThreshold" : 5,
+      "mediumRiskThreshold" : 10,
+      "highRiskThreshold" : 25,
+      "veryHighRiskThreshold" : 50,
+      "negligibleRiskValue" : 3,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-5",
+      "lowRiskLabel" : "6-10",
+      "mediumRiskLabel" : "11-25",
+      "highRiskLabel" : "26-50",
+      "veryHighRiskLabel" : "51+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 3,
+      "totalCount" : 1,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0
+    },
+    "unitSizeRiskDistributionPerExtension" : [ {
+      "key" : "js",
+      "lowRiskThreshold" : 10,
+      "mediumRiskThreshold" : 20,
+      "highRiskThreshold" : 50,
+      "veryHighRiskThreshold" : 100,
+      "negligibleRiskValue" : 3,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-10",
+      "lowRiskLabel" : "11-20",
+      "mediumRiskLabel" : "21-50",
+      "highRiskLabel" : "51-100",
+      "veryHighRiskLabel" : "101+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 3,
+      "totalCount" : 1,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0
+    } ],
+    "unitSizeRiskDistributionPerComponent" : [ [ {
+      "key" : "calypso-website",
+      "lowRiskThreshold" : 10,
+      "mediumRiskThreshold" : 20,
+      "highRiskThreshold" : 50,
+      "veryHighRiskThreshold" : 100,
+      "negligibleRiskValue" : 3,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-10",
+      "lowRiskLabel" : "11-20",
+      "mediumRiskLabel" : "21-50",
+      "highRiskLabel" : "51-100",
+      "veryHighRiskLabel" : "101+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 3,
+      "totalCount" : 1,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0
+    } ] ],
+    "longestUnits" : [ {
+      "shortName" : "export default defineConfig()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "calypso-website/vite.config.js",
+        "extension" : "js",
+        "linesOfCode" : 5,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 1,
+        "linesOfCodeInUnits" : 3
+      },
+      "startLine" : 5,
+      "endLine" : 7,
+      "linesOfCode" : 3,
+      "mcCabeIndex" : 1,
+      "numberOfParameters" : 1,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    } ],
+    "conditionalComplexityRiskDistributionPerExtension" : [ {
+      "key" : "js",
+      "lowRiskThreshold" : 5,
+      "mediumRiskThreshold" : 10,
+      "highRiskThreshold" : 25,
+      "veryHighRiskThreshold" : 50,
+      "negligibleRiskValue" : 3,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-5",
+      "lowRiskLabel" : "6-10",
+      "mediumRiskLabel" : "11-25",
+      "highRiskLabel" : "26-50",
+      "veryHighRiskLabel" : "51+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 3,
+      "totalCount" : 1,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0
+    } ],
+    "conditionalComplexityRiskDistributionPerComponent" : [ [ {
+      "key" : "calypso-website",
+      "lowRiskThreshold" : 5,
+      "mediumRiskThreshold" : 10,
+      "highRiskThreshold" : 25,
+      "veryHighRiskThreshold" : 50,
+      "negligibleRiskValue" : 3,
+      "lowRiskValue" : 0,
+      "mediumRiskValue" : 0,
+      "highRiskValue" : 0,
+      "veryHighRiskValue" : 0,
+      "lowRiskCount" : 0,
+      "negligibleRiskCount" : 1,
+      "mediumRiskCount" : 0,
+      "highRiskCount" : 0,
+      "veryHighRiskCount" : 0,
+      "negligibleRiskLabel" : "1-5",
+      "lowRiskLabel" : "6-10",
+      "mediumRiskLabel" : "11-25",
+      "highRiskLabel" : "26-50",
+      "veryHighRiskLabel" : "51+",
+      "highRiskPercentage" : 0.0,
+      "lowRiskPercentage" : 0.0,
+      "totalValue" : 3,
+      "totalCount" : 1,
+      "veryHighRiskPercentage" : 0.0,
+      "mediumRiskPercentage" : 0.0,
+      "negligibleRiskPercentage" : 100.0
+    } ] ],
+    "mostComplexUnits" : [ {
+      "shortName" : "export default defineConfig()",
+      "longName" : "",
+      "sourceFile" : {
+        "relativePath" : "calypso-website/vite.config.js",
+        "extension" : "js",
+        "linesOfCode" : 5,
+        "unitsCount" : 1,
+        "unitsMcCabeIndexSum" : 1,
+        "linesOfCodeInUnits" : 3
+      },
+      "startLine" : 5,
+      "endLine" : 7,
+      "linesOfCode" : 3,
+      "mcCabeIndex" : 1,
+      "numberOfParameters" : 1,
+      "numberOfLiterals" : 0,
+      "numberOfStatements" : 0,
+      "numberOfExpressions" : 0,
+      "children" : [ ]
+    } ]
+  },
+  "duplicationAnalysisResults" : {
+    "overallDuplication" : {
+      "key" : "system",
+      "numberOfDuplicates" : 8,
+      "cleanedLinesOfCode" : 2575,
+      "duplicatedLinesOfCode" : 116,
+      "numberOfFilesWithDuplicates" : 9,
+      "duplicationPercentage" : 4.504854368932039
+    },
+    "duplicationPerComponent" : [ [ {
+      "key" : "calypso-website",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 2575,
+      "duplicatedLinesOfCode" : 116,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 4.504854368932039
+    } ] ],
+    "duplicationPerConcern" : [ ],
+    "duplicationPerExtension" : [ {
+      "key" : "jsx",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 1316,
+      "duplicatedLinesOfCode" : 40,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 3.0395136778115504
+    }, {
+      "key" : "css",
+      "numberOfDuplicates" : 0,
+      "cleanedLinesOfCode" : 1219,
+      "duplicatedLinesOfCode" : 76,
+      "numberOfFilesWithDuplicates" : 0,
+      "duplicationPercentage" : 6.234618539786711
+    } ],
+    "longestDuplicates" : [ {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/containers/SearchBar.css",
+          "extension" : "css",
+          "linesOfCode" : 80,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 80,
+        "startLine" : 51,
+        "endLine" : 61,
+        "cleanedStartLine" : 47,
+        "cleanedEndLine" : 57,
+        "percentage" : 13.75,
+        "blockSize" : 11
+      }, {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.css",
+          "extension" : "css",
+          "linesOfCode" : 91,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 91,
+        "startLine" : 66,
+        "endLine" : 76,
+        "cleanedStartLine" : 63,
+        "cleanedEndLine" : 73,
+        "percentage" : 12.087912087912088,
+        "blockSize" : 11
+      } ],
+      "blockSize" : 11
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/header/Header.css",
+          "extension" : "css",
+          "linesOfCode" : 399,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 399,
+        "startLine" : 457,
+        "endLine" : 469,
+        "cleanedStartLine" : 381,
+        "cleanedEndLine" : 388,
+        "percentage" : 2.0050125313283207,
+        "blockSize" : 8
+      }, {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/home/Home.css",
+          "extension" : "css",
+          "linesOfCode" : 214,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 214,
+        "startLine" : 9,
+        "endLine" : 16,
+        "cleanedStartLine" : 7,
+        "cleanedEndLine" : 14,
+        "percentage" : 3.7383177570093458,
+        "blockSize" : 8
+      } ],
+      "blockSize" : 8
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/header/Header.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 367,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 290,
+        "startLine" : 102,
+        "endLine" : 112,
+        "cleanedStartLine" : 91,
+        "cleanedEndLine" : 98,
+        "percentage" : 2.7586206896551726,
+        "blockSize" : 8
+      }, {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/header/Header.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 367,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 290,
+        "startLine" : 116,
+        "endLine" : 128,
+        "cleanedStartLine" : 102,
+        "cleanedEndLine" : 109,
+        "percentage" : 2.7586206896551726,
+        "blockSize" : 8
+      } ],
+      "blockSize" : 8
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/header/Header.css",
+          "extension" : "css",
+          "linesOfCode" : 399,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 399,
+        "startLine" : 270,
+        "endLine" : 276,
+        "cleanedStartLine" : 232,
+        "cleanedEndLine" : 238,
+        "percentage" : 1.7543859649122806,
+        "blockSize" : 7
+      }, {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/header/Header.css",
+          "extension" : "css",
+          "linesOfCode" : 399,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 399,
+        "startLine" : 319,
+        "endLine" : 325,
+        "cleanedStartLine" : 274,
+        "cleanedEndLine" : 280,
+        "percentage" : 1.7543859649122806,
+        "blockSize" : 7
+      } ],
+      "blockSize" : 7
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/containers/SearchBar.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 30,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 27,
+        "startLine" : 18,
+        "endLine" : 24,
+        "cleanedStartLine" : 16,
+        "cleanedEndLine" : 21,
+        "percentage" : 22.22222222222222,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 43,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 39,
+        "startLine" : 30,
+        "endLine" : 36,
+        "cleanedStartLine" : 28,
+        "cleanedEndLine" : 33,
+        "percentage" : 15.384615384615385,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/header/Header.css",
+          "extension" : "css",
+          "linesOfCode" : 399,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 399,
+        "startLine" : 224,
+        "endLine" : 229,
+        "cleanedStartLine" : 190,
+        "cleanedEndLine" : 195,
+        "percentage" : 1.5037593984962405,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/header/Header.css",
+          "extension" : "css",
+          "linesOfCode" : 399,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 399,
+        "startLine" : 330,
+        "endLine" : 335,
+        "cleanedStartLine" : 284,
+        "cleanedEndLine" : 289,
+        "percentage" : 1.5037593984962405,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/components/about-us/AboutUs.css",
+          "extension" : "css",
+          "linesOfCode" : 7,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 7,
+        "startLine" : 2,
+        "endLine" : 7,
+        "cleanedStartLine" : 2,
+        "cleanedEndLine" : 7,
+        "percentage" : 85.71428571428571,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/containers/changeLanguage.css",
+          "extension" : "css",
+          "linesOfCode" : 15,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 15,
+        "startLine" : 5,
+        "endLine" : 10,
+        "cleanedStartLine" : 5,
+        "cleanedEndLine" : 10,
+        "percentage" : 40.0,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    }, {
+      "displayContent" : "",
+      "duplicatedFileBlocks" : [ {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/containers/SearchBar.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 30,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 27,
+        "startLine" : 12,
+        "endLine" : 17,
+        "cleanedStartLine" : 10,
+        "cleanedEndLine" : 15,
+        "percentage" : 22.22222222222222,
+        "blockSize" : 6
+      }, {
+        "sourceFile" : {
+          "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.jsx",
+          "extension" : "jsx",
+          "linesOfCode" : 43,
+          "unitsCount" : 0,
+          "unitsMcCabeIndexSum" : 0,
+          "linesOfCodeInUnits" : 0
+        },
+        "sourceFileCleanedLinesOfCode" : 39,
+        "startLine" : 15,
+        "endLine" : 20,
+        "cleanedStartLine" : 14,
+        "cleanedEndLine" : 19,
+        "percentage" : 15.384615384615385,
+        "blockSize" : 6
+      } ],
+      "blockSize" : 6
+    } ],
+    "mostFrequentDuplicates" : [ ]
+  },
+  "contributorsAnalysisResults" : {
+    "latestCommitDate" : "",
+    "contributors" : [ ],
+    "contributorsPerYear" : [ ],
+    "contributorsPerMonth" : [ ],
+    "contributorsPerDay" : [ ],
+    "contributorsPerWeek" : [ ],
+    "commitsPerExtensions" : [ ]
+  },
+  "numberOfExcludedFiles" : 8161,
+  "excludedExtensions" : {
+    "" : 185,
+    "npmignore" : 3,
+    "def" : 5,
+    "js" : 4398,
+    "py" : 1,
+    "jst" : 25,
+    "nvmrc" : 1,
+    "post" : 5,
+    "mov" : 1,
+    "applescript" : 1,
+    "md" : 208,
+    "markdown" : 3,
+    "json" : 230,
+    "lock" : 1,
+    "jpeg" : 7,
+    "jar" : 1,
+    "bnf" : 1,
+    "map" : 2239,
+    "jshintrc" : 1,
+    "flow" : 3,
+    "yaml" : 13,
+    "jpg" : 29,
+    "zip" : 2,
+    "pre" : 5,
+    "cts" : 17,
+    "svg" : 2,
+    "babelrc" : 2,
+    "gitignore" : 1,
+    "png" : 312,
+    "prettierrc" : 1,
+    "mts" : 29,
+    "cjs" : 29,
+    "mp4" : 1,
+    "1" : 1,
+    "txt" : 4,
+    "node" : 2,
+    "bsd" : 2,
+    "gitkeep" : 1,
+    "mjs" : 42,
+    "ds_store" : 26,
+    "php" : 1,
+    "ts" : 319,
+    "prettierignore" : 1
+  },
+  "analysisStartTimeMs" : 1764431146926,
+  "maxLinesOfCode" : 3245,
+  "maxFileCount" : 51
+}

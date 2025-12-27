@@ -1,0 +1,48 @@
+duplicated block id: 1
+size: 11 cleaned lines of code
+in 2 files:
+ - calypso-website/src/containers/SearchBar.css (51:61)
+ - calypso-website/src/containers/mobile/SearchBarMobile.css (66:76)
+
+duplicated block id: 2
+size: 8 cleaned lines of code
+in 2 files:
+ - calypso-website/src/components/header/Header.css (457:469)
+ - calypso-website/src/components/home/Home.css (9:16)
+
+duplicated block id: 3
+size: 8 cleaned lines of code
+in 2 files:
+ - calypso-website/src/components/header/Header.jsx (102:112)
+ - calypso-website/src/components/header/Header.jsx (116:128)
+
+duplicated block id: 4
+size: 7 cleaned lines of code
+in 2 files:
+ - calypso-website/src/components/header/Header.css (270:276)
+ - calypso-website/src/components/header/Header.css (319:325)
+
+duplicated block id: 5
+size: 6 cleaned lines of code
+in 2 files:
+ - calypso-website/src/containers/SearchBar.jsx (18:24)
+ - calypso-website/src/containers/mobile/SearchBarMobile.jsx (30:36)
+
+duplicated block id: 6
+size: 6 cleaned lines of code
+in 2 files:
+ - calypso-website/src/components/header/Header.css (224:229)
+ - calypso-website/src/components/header/Header.css (330:335)
+
+duplicated block id: 7
+size: 6 cleaned lines of code
+in 2 files:
+ - calypso-website/src/components/about-us/AboutUs.css (2:7)
+ - calypso-website/src/containers/changeLanguage.css (5:10)
+
+duplicated block id: 8
+size: 6 cleaned lines of code
+in 2 files:
+ - calypso-website/src/containers/SearchBar.jsx (12:17)
+ - calypso-website/src/containers/mobile/SearchBarMobile.jsx (15:20)
+

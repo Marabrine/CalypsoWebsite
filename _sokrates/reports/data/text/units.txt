@@ -1,0 +1,9 @@
+id: 1
+unit: export default defineConfig()
+file: calypso-website/vite.config.js
+start line: 5
+end line: 7
+size: 3 LOC
+McCabe index: 1
+number of parameters: 1
+

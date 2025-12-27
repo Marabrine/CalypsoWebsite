@@ -1,0 +1,141 @@
+<html>
+<head>
+    <title>calypso-website/src/containers/sideBar.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/containers/sideBar.jsx (<b>112</b> lines of code) (<a href="sideBar.jsx">raw</a>):</h3>
+<div id="editor">import &quot;./sideBar.css&quot;;
+import { useTranslation } from &quot;react-i18next&quot;;
+import { Link, useLocation } from &quot;react-router-dom&quot;;
+import { useState } from &quot;react&quot;;
+import CalypsoRed from &quot;../assets/CalypsoRed.png&quot;;
+
+function SideBar({ isSidebarOpen, toggleSidebar }) {
+  const { t } = useTranslation();
+  const [isExtensionOpen, setIsExtensionOpen] = useState(false);
+  const toggleExtension = () =&gt; setIsExtensionOpen(!isExtensionOpen);
+  const location = useLocation();
+
+  // Helper function to check if a path is active
+  const isActive = (path) =&gt; location.pathname === path;
+
+  return (
+    &lt;&gt;
+      &lt;div className={`sidebar ${isSidebarOpen ? &quot;open&quot; : &quot;&quot;}`}&gt;
+        &lt;ul className=&quot;items-list&quot;&gt;
+          &lt;li className={isActive(&quot;/items/pianos&quot;) ? &quot;active&quot; : &quot;&quot;}&gt;
+            &lt;img
+              src={CalypsoRed}
+              width=&quot;16rem&quot;
+              style={{ marginRight: &quot;10px&quot; }}
+            /&gt;
+            &lt;Link to={&quot;/items/pianos&quot;} onClick={toggleSidebar}&gt;
+              {t(&quot;pianos&quot;)}
+            &lt;/Link&gt;
+          &lt;/li&gt;
+          &lt;li
+            className={isActive(&quot;/items/guitar-bass&quot;) ? &quot;active&quot; : &quot;&quot;}
+            onMouseEnter={() =&gt; setIsExtensionOpen(true)}
+            onMouseLeave={() =&gt; setIsExtensionOpen(false)}
+          &gt;
+            &lt;img
+              src={CalypsoRed}
+              width=&quot;16rem&quot;
+              style={{ marginRight: &quot;10px&quot; }}
+            /&gt;
+            &lt;Link to={&quot;/items/guitar-bass&quot;} onClick={toggleSidebar}&gt;
+              {t(&quot;guitars&quot;)}
+            &lt;/Link&gt;
+            &lt;ul className={`extension ${isExtensionOpen ? &quot;visible&quot; : &quot;&quot;}`}&gt;
+              &lt;li&gt;test1&lt;/li&gt;
+              &lt;li&gt;test2&lt;/li&gt;
+              &lt;li&gt;test3&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li className={isActive(&quot;/items/orchestral-strings&quot;) ? &quot;active&quot; : &quot;&quot;}&gt;
+            &lt;img
+              src={CalypsoRed}
+              width=&quot;16rem&quot;
+              style={{ marginRight: &quot;10px&quot; }}
+            /&gt;
+            &lt;Link onClick={toggleSidebar} to={&quot;/items/orchestral-strings&quot;}&gt;
+              {t(&quot;orchStrings&quot;)}
+            &lt;/Link&gt;
+          &lt;/li&gt;
+          &lt;li className={isActive(&quot;/items/brass-wind&quot;) ? &quot;active&quot; : &quot;&quot;}&gt;
+            &lt;img
+              src={CalypsoRed}
+              width=&quot;16rem&quot;
+              style={{ marginRight: &quot;10px&quot; }}
+            /&gt;
+            &lt;Link onClick={toggleSidebar} to={&quot;/items/brass-wind&quot;}&gt;
+              {t(&quot;winds&quot;)}
+            &lt;/Link&gt;
+          &lt;/li&gt;
+          &lt;li className={isActive(&quot;/items/drums-percussion&quot;) ? &quot;active&quot; : &quot;&quot;}&gt;
+            &lt;img
+              src={CalypsoRed}
+              width=&quot;16rem&quot;
+              style={{ marginRight: &quot;10px&quot; }}
+            /&gt;
+            &lt;Link onClick={toggleSidebar} to={&quot;/items/drums-percussion&quot;}&gt;
+              {t(&quot;drums&quot;)}
+            &lt;/Link&gt;
+          &lt;/li&gt;
+          &lt;li className={isActive(&quot;/items/special&quot;) ? &quot;active&quot; : &quot;&quot;}&gt;
+            &lt;img
+              src={CalypsoRed}
+              width=&quot;16rem&quot;
+              style={{ marginRight: &quot;10px&quot; }}
+            /&gt;
+            &lt;Link onClick={toggleSidebar} to={&quot;/items/special&quot;}&gt;
+              {t(&quot;special&quot;)}
+            &lt;/Link&gt;
+          &lt;/li&gt;
+          &lt;li className={isActive(&quot;/items/accessories&quot;) ? &quot;active&quot; : &quot;&quot;}&gt;
+            &lt;img
+              src={CalypsoRed}
+              width=&quot;16rem&quot;
+              style={{ marginRight: &quot;10px&quot; }}
+            /&gt;
+            &lt;Link to={&quot;/items/accessories&quot;} onClick={toggleSidebar}&gt;
+              {t(&quot;accessories&quot;)}
+            &lt;/Link&gt;
+          &lt;/li&gt;
+          &lt;li className={isActive(&quot;/items/sonata-calypso&quot;) ? &quot;active&quot; : &quot;&quot;}&gt;
+            &lt;img
+              src={CalypsoRed}
+              width=&quot;16rem&quot;
+              style={{ marginRight: &quot;10px&quot; }}
+            /&gt;
+            &lt;Link onClick={toggleSidebar} to={&quot;/items/sonata-calypso&quot;}&gt;
+              {t(&quot;sonata&quot;)}
+            &lt;/Link&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      {isSidebarOpen &amp;&amp; &lt;div className=&quot;overlay&quot; onClick={toggleSidebar}&gt;&lt;/div&gt;}
+    &lt;/&gt;
+  );
+}
+export default SideBar;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

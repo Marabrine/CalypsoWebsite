@@ -1,0 +1,358 @@
+[ {
+  "relativePath" : "calypso-website/index.html",
+  "extension" : "html",
+  "linesOfCode" : 13,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/vite.config.js",
+  "extension" : "js",
+  "linesOfCode" : 5,
+  "unitsCount" : 1,
+  "unitsMcCabeIndexSum" : 1,
+  "linesOfCodeInUnits" : 3
+}, {
+  "relativePath" : "calypso-website/eslint.config.js",
+  "extension" : "js",
+  "linesOfCode" : 32,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/index.css",
+  "extension" : "css",
+  "linesOfCode" : 79,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/home/Home.css",
+  "extension" : "css",
+  "linesOfCode" : 214,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/home/Home.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 112,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/footer/Footer.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 9,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/footer/Footer.css",
+  "extension" : "css",
+  "linesOfCode" : 11,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/piano/Pianos.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 35,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/brass-wind/BrassAndWind.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 23,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/contact/Contact.css",
+  "extension" : "css",
+  "linesOfCode" : 1,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/contact/Contact.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 14,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/accessories/Accessories.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 57,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/itemDetails/itemDetails.css",
+  "extension" : "css",
+  "linesOfCode" : 38,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/itemDetails/ItemDetails.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 27,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/about-us/AboutUs.css",
+  "extension" : "css",
+  "linesOfCode" : 7,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/about-us/AboutUs.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 66,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/drums/Drums.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 45,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/sonata/Sonata.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 19,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/orchestral/Orchestral.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 47,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/carousel/Carousel.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 40,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/carousel/Carousel.css",
+  "extension" : "css",
+  "linesOfCode" : 37,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/special/Special.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 57,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/Accessories.css",
+  "extension" : "css",
+  "linesOfCode" : 84,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/item/Item.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 33,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/item/Item.css",
+  "extension" : "css",
+  "linesOfCode" : 60,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/App.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 108,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/images-scroll/ImageScroll.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 6,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/guitars/Guitars.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 83,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/header/Header.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 367,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/components/header/Header.css",
+  "extension" : "css",
+  "linesOfCode" : 399,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/hooks/useFilter.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 20,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/hooks/useScroll.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 14,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/main.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 10,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/changeLanguage.css",
+  "extension" : "css",
+  "linesOfCode" : 15,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/ItemList.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 9,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/SearchBar.css",
+  "extension" : "css",
+  "linesOfCode" : 80,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/hamburgerMenu.css",
+  "extension" : "css",
+  "linesOfCode" : 25,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/ErrorPage.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 10,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/BackToTopButton.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 71,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/SearchBarItem.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 16,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/Roots.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 16,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/sideBar.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 112,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 43,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.css",
+  "extension" : "css",
+  "linesOfCode" : 91,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/sideBar.css",
+  "extension" : "css",
+  "linesOfCode" : 74,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/changeLanguage.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 16,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/SearchBar.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 30,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/ErrorPage.css",
+  "extension" : "css",
+  "linesOfCode" : 4,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/containers/hamburgerMenu.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 11,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+}, {
+  "relativePath" : "calypso-website/src/i18n/i18n.jsx",
+  "extension" : "jsx",
+  "linesOfCode" : 23,
+  "unitsCount" : 0,
+  "unitsMcCabeIndexSum" : 0,
+  "linesOfCodeInUnits" : 0
+} ]

@@ -1,0 +1,8 @@
+Path	Lines of Code
+calypso-website/README.md	7
+calypso-website/package-lock.json	3121
+calypso-website/package.json	34
+calypso-website/public/locales/en/translation.json	36
+calypso-website/public/locales/fr/translation.json	36
+calypso-website/static.json	5
+package-lock.json	6

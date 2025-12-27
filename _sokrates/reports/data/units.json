@@ -1,0 +1,15 @@
+[ {
+  "shortName" : "export default defineConfig()",
+  "longName" : "",
+  "relativeFileName" : "calypso-website/vite.config.js",
+  "fileLinesCount" : 7,
+  "components" : [ "primary::calypso-website" ],
+  "startLine" : 5,
+  "endLine" : 7,
+  "linesOfCode" : 3,
+  "mcCabeIndex" : 1,
+  "numberOfParameters" : 1,
+  "numberOfLiterals" : 0,
+  "numberOfStatements" : 0,
+  "numberOfExpressions" : 0
+} ]

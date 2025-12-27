@@ -1,0 +1,50 @@
+Start of analysis
+Found 8219 files
+51 are in the main's scope  (2818 lines of code)
+  *.jsx: 32 files, (1549 lines of code)
+  *.css: 16 files, (1219 lines of code)
+  *.js: 2 files, (37 lines of code)
+  *.html: 1 files, (13 lines of code)
+0 are in the test's scope  (0 lines of code)
+2 are in the generated's scope  (3127 lines of code)
+  *.json: 2 files, (3127 lines of code)
+0 are in the build and deployment's scope  (0 lines of code)
+7 are in the other's scope  (3245 lines of code)
+  *.json: 6 files, (3238 lines of code)
+  *.md: 1 files, (7 lines of code)
+Excluded from analyses 8161 files
+Analysing dependencies...
+51 are in the DECOMPOSITION_primary/calypso-website's scope  (2818 lines of code)
+  *.jsx: 32 files, (1549 lines of code)
+  *.css: 16 files, (1219 lines of code)
+  *.js: 2 files, (37 lines of code)
+  *.html: 1 files, (13 lines of code)
+  - "primary", found 0 dependencies (0 component dependencies)
+0 are in the CONCERN_general/TODOs's scope  (0 lines of code)
+51 are in the CONCERN_general/Unclassified's scope  (2818 lines of code)
+  *.jsx: 32 files, (1549 lines of code)
+  *.css: 16 files, (1219 lines of code)
+  *.js: 2 files, (37 lines of code)
+  *.html: 1 files, (13 lines of code)
+Analysing units...
+Basic unit metrics...
+  - found 1 units (3 lines of code in units)
+Unit size 3 / 0 / 0 / 0 / 0
+Unit size per component:
+Unit Size Component calypso-website: 3 / 0 / 0 / 0 / 0
+Unit size per extension:
+Unit Size Extension js: 3 / 0 / 0 / 0 / 0
+Conditional complexity: 3 / 0 / 0 / 0 / 0
+Conditional complexity per component:
+Conditional Complexity Component calypso-website 3 / 0 / 0 / 0 / 0
+Conditional complexity per extension:
+Conditional Complexity Component js: 3 / 0 / 0 / 0 / 0
+Analysing duplication...
+  - found 8 duplicates (116 duplicated lines vs. 2575 cleaned lines) in 9 files
+  - per component:primary
+     - "calypso-website": 116 duplicated lines vs. 2575 total lines
+  - per extension:
+     - "jsx": 40 duplicated lines vs. 1316 total lines
+     - "css": 76 duplicated lines vs. 1219 total lines
+Total analysis time: 1.39s
+

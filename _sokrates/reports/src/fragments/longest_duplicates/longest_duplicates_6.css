@@ -1,0 +1,24 @@
+calypso-website/src/components/header/Header.css [224:229]:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  background: linear-gradient(
+    180deg,
+    rgba(36, 36, 36, 0.98) 0%,
+    rgba(26, 26, 26, 0.98) 100%
+  );
+  backdrop-filter: blur(10px);
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+calypso-website/src/components/header/Header.css [330:335]:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  background: linear-gradient(
+    180deg,
+    rgba(36, 36, 36, 0.98) 0%,
+    rgba(26, 26, 26, 0.98) 100%
+  );
+  backdrop-filter: blur(10px);
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+

@@ -1,0 +1,238 @@
+{
+  "title" : "Duplication",
+  "timestamp" : "2025-11-29 10:45:48",
+  "duplicates" : [ {
+    "blockSize" : 11,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "calypso-website/src/containers/SearchBar.css",
+        "extension" : "css",
+        "linesOfCode" : 80,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 80,
+      "startLine" : 51,
+      "endLine" : 61,
+      "cleanedStartLine" : 47,
+      "cleanedEndLine" : 57
+    }, {
+      "file" : {
+        "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.css",
+        "extension" : "css",
+        "linesOfCode" : 91,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 91,
+      "startLine" : 66,
+      "endLine" : 76,
+      "cleanedStartLine" : 63,
+      "cleanedEndLine" : 73
+    } ]
+  }, {
+    "blockSize" : 8,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/header/Header.css",
+        "extension" : "css",
+        "linesOfCode" : 399,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 399,
+      "startLine" : 457,
+      "endLine" : 469,
+      "cleanedStartLine" : 381,
+      "cleanedEndLine" : 388
+    }, {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/home/Home.css",
+        "extension" : "css",
+        "linesOfCode" : 214,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 214,
+      "startLine" : 9,
+      "endLine" : 16,
+      "cleanedStartLine" : 7,
+      "cleanedEndLine" : 14
+    } ]
+  }, {
+    "blockSize" : 8,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/header/Header.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 367,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 290,
+      "startLine" : 102,
+      "endLine" : 112,
+      "cleanedStartLine" : 91,
+      "cleanedEndLine" : 98
+    }, {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/header/Header.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 367,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 290,
+      "startLine" : 116,
+      "endLine" : 128,
+      "cleanedStartLine" : 102,
+      "cleanedEndLine" : 109
+    } ]
+  }, {
+    "blockSize" : 7,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/header/Header.css",
+        "extension" : "css",
+        "linesOfCode" : 399,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 399,
+      "startLine" : 270,
+      "endLine" : 276,
+      "cleanedStartLine" : 232,
+      "cleanedEndLine" : 238
+    }, {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/header/Header.css",
+        "extension" : "css",
+        "linesOfCode" : 399,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 399,
+      "startLine" : 319,
+      "endLine" : 325,
+      "cleanedStartLine" : 274,
+      "cleanedEndLine" : 280
+    } ]
+  }, {
+    "blockSize" : 6,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "calypso-website/src/containers/SearchBar.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 30,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 27,
+      "startLine" : 18,
+      "endLine" : 24,
+      "cleanedStartLine" : 16,
+      "cleanedEndLine" : 21
+    }, {
+      "file" : {
+        "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 43,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 39,
+      "startLine" : 30,
+      "endLine" : 36,
+      "cleanedStartLine" : 28,
+      "cleanedEndLine" : 33
+    } ]
+  }, {
+    "blockSize" : 6,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/header/Header.css",
+        "extension" : "css",
+        "linesOfCode" : 399,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 399,
+      "startLine" : 224,
+      "endLine" : 229,
+      "cleanedStartLine" : 190,
+      "cleanedEndLine" : 195
+    }, {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/header/Header.css",
+        "extension" : "css",
+        "linesOfCode" : 399,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 399,
+      "startLine" : 330,
+      "endLine" : 335,
+      "cleanedStartLine" : 284,
+      "cleanedEndLine" : 289
+    } ]
+  }, {
+    "blockSize" : 6,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "calypso-website/src/components/about-us/AboutUs.css",
+        "extension" : "css",
+        "linesOfCode" : 7,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 7,
+      "startLine" : 2,
+      "endLine" : 7,
+      "cleanedStartLine" : 2,
+      "cleanedEndLine" : 7
+    }, {
+      "file" : {
+        "relativePath" : "calypso-website/src/containers/changeLanguage.css",
+        "extension" : "css",
+        "linesOfCode" : 15,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 15,
+      "startLine" : 5,
+      "endLine" : 10,
+      "cleanedStartLine" : 5,
+      "cleanedEndLine" : 10
+    } ]
+  }, {
+    "blockSize" : 6,
+    "duplicatedFileBlocks" : [ {
+      "file" : {
+        "relativePath" : "calypso-website/src/containers/SearchBar.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 30,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 27,
+      "startLine" : 12,
+      "endLine" : 17,
+      "cleanedStartLine" : 10,
+      "cleanedEndLine" : 15
+    }, {
+      "file" : {
+        "relativePath" : "calypso-website/src/containers/mobile/SearchBarMobile.jsx",
+        "extension" : "jsx",
+        "linesOfCode" : 43,
+        "components" : [ "primary::calypso-website" ],
+        "concerns" : [ "::Unclassified" ]
+      },
+      "sourceFileCleanedLinesOfCode" : 39,
+      "startLine" : 15,
+      "endLine" : 20,
+      "cleanedStartLine" : 14,
+      "cleanedEndLine" : 19
+    } ]
+  } ],
+  "overallDuplication" : null
+}

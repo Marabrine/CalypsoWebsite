@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>calypso-website/src/components/App.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/components/App.jsx (<b>108</b> lines of code) (<a href="App.jsx">raw</a>):</h3>
+<div id="editor">import { createBrowserRouter, replace, RouterProvider } from &quot;react-router-dom&quot;;
+import RootLayout from &quot;../containers/Roots&quot;;
+import Contact from &quot;./contact/Contact&quot;;
+import ITEMS from &quot;../data/items&quot;;
+import Home from &quot;./home/Home&quot;;
+import ErrorPage from &quot;../containers/ErrorPage&quot;;
+import Accessories from &quot;./accessories/Accessories&quot;;
+import Guitars from &quot;./guitars/Guitars&quot;;
+import Pianos from &quot;./piano/Pianos&quot;;
+import Orchestral from &quot;./orchestral/Orchestral&quot;;
+import BrassAndWind from &quot;./brass-wind/BrassAndWind&quot;;
+import Drums from &quot;./drums/Drums&quot;;
+import Special from &quot;./special/Special&quot;;
+import Sonata from &quot;./sonata/Sonata&quot;;
+import ItemDetails from &quot;./itemDetails/ItemDetails&quot;;
+import AboutUs from &quot;./about-us/AboutUs&quot;;
+
+function App() {
+  const router = createBrowserRouter([
+    {
+      path: &quot;/&quot;,
+      element: &lt;RootLayout props={ITEMS} /&gt;,
+      errorElement: &lt;ErrorPage /&gt;,
+      children: [
+        { path: &quot;&quot;, element: &lt;Home /&gt; },
+        { path: &quot;about-us&quot;, element: &lt;AboutUs /&gt; },
+        {
+          path: &quot;items&quot;,
+          children: [
+            {
+              path: &quot;guitar-bass&quot;,
+              element: (
+                &lt;Guitars
+                  props={ITEMS.filter((item) =&gt; item.category === &quot;GUITAR&quot;)}
+                /&gt;
+              ),
+            },
+            {
+              path: &quot;pianos&quot;,
+              element: (
+                &lt;Pianos
+                  props={ITEMS.filter((item) =&gt; item.category === &quot;PIANO&quot;)}
+                /&gt;
+              ),
+            },
+            {
+              path: &quot;orchestral-strings&quot;,
+              element: (
+                &lt;Orchestral
+                  props={ITEMS.filter((item) =&gt; item.category === &quot;STRINGS&quot;)}
+                /&gt;
+              ),
+            },
+            {
+              path: &quot;brass-wind&quot;,
+              element: (
+                &lt;BrassAndWind
+                  props={ITEMS.filter((item) =&gt; item.category === &quot;BRASS-WIND&quot;)}
+                /&gt;
+              ),
+            },
+            {
+              path: &quot;drums-percussion&quot;,
+              element: (
+                &lt;Drums
+                  props={ITEMS.filter((item) =&gt; item.category === &quot;DRUMS&quot;)}
+                /&gt;
+              ),
+            },
+            {
+              path: &quot;special&quot;,
+              element: (
+                &lt;Special
+                  props={ITEMS.filter((item) =&gt; item.category === &quot;SPECIAL&quot;)}
+                /&gt;
+              ),
+            },
+            {
+              path: &quot;accessories&quot;,
+              element: (
+                &lt;Accessories
+                  props={ITEMS.filter(
+                    (item) =&gt; item.category === &quot;ACCESSORIES&quot;
+                  )}
+                /&gt;
+              ),
+            },
+            {
+              path: &quot;sonata-calypso&quot;,
+              element: (
+                &lt;Sonata
+                  props={ITEMS.filter((item) =&gt; item.category === &quot;SONATA&quot;)}
+                /&gt;
+              ),
+            },
+            { path: &quot;:id&quot;, element: &lt;ItemDetails props={ITEMS} /&gt; },
+          ],
+        },
+        { path: &quot;/contact&quot;, element: &lt;Contact /&gt; },
+      ],
+    },
+  ]);
+  return (
+    &lt;&gt;
+      &lt;RouterProvider router={router} /&gt;
+    &lt;/&gt;
+  );
+}
+
+export default App;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

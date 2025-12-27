@@ -1,0 +1,62 @@
+/* ============================================
+     ABOUT US PAGE STYLES
+     ============================================ */
+
+.about-us__box {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #1a1a1a 0%, #242424 100%);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+/* Titre principal */
+.about-us__box h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  background: linear-gradient(135deg, #daa520 0%, #ffd700 50%, #daa520 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* Titres de section */
+.section-title {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-weight: 700;
+  color: #daa520;
+  margin: 2.5rem 0 1rem;
+  padding-left: 1rem;
+  border-left: 4px solid #daa520;
+}
+
+/* Paragraphes */
+.about-us__box p {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  font-size: clamp(1.05rem, 2.2vw, 1.2rem);
+  line-height: 2;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-us__box {
+    margin: 2rem 1rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us__box {
+    margin: 1rem 0.5rem;
+    padding: 1.5rem 1rem;
+  }
+}

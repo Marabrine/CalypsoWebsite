@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>calypso-website/src/i18n/i18n.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/i18n/i18n.jsx (<b>23</b> lines of code) (<a href="i18n.jsx">raw</a>):</h3>
+<div id="editor">import i18n from &quot;i18next&quot;;
+import { initReactI18next } from &quot;react-i18next&quot;;
+import Backend from &quot;i18next-http-backend&quot;;
+import LanguageDetector from &quot;i18next-browser-languagedetector&quot;;
+i18n
+  .use(Backend) // Utilise le module Backend pour charger les fichiers de traduction via HTTP (/public/locales)
+  .use(LanguageDetector) // Utilise le d&eacute;tecteur pour choisir automatiquement la langue du navigateur de l'utilisateur
+  .use(initReactI18next) // Initialise react-i18next pour l'int&eacute;gration avec React
+  .init({
+    lng: &quot;fr&quot;, // Langue par d&eacute;faut si rien n'est d&eacute;tect&eacute;
+    fallbackLng: &quot;en&quot;, // Langue de secours si une traduction est manquante
+    debug: true, // Active console de messages utiles (&agrave; d&eacute;sactiver en production)
+    interpolation: {
+      escapeValue: false, // React &eacute;chappe d&eacute;j&agrave; les donn&eacute;es, inutile de le refaire
+    },
+    supportedLngs: [&quot;fr&quot;, &quot;en&quot;], // liste dans langages support&eacute;s
+    load: &quot;languageOnly&quot;, // n&rsquo;utiliser que la portion langue du navigateur.
+  });
+// Met &agrave; jour l'attribut lang dans le &lt;html&gt; selon la langue active (important pour l&rsquo;accessibilit&eacute;)
+i18n.on(&quot;languageChanged&quot;, (lng) =&gt; {
+  document.documentElement.lang = lng;
+});
+export default i18n;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

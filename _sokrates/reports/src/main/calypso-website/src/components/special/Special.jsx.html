@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>calypso-website/src/components/special/Special.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/components/special/Special.jsx (<b>57</b> lines of code) (<a href="Special.jsx">raw</a>):</h3>
+<div id="editor">import &quot;../Accessories.css&quot;;
+import { useTranslation } from &quot;react-i18next&quot;;
+import Item from &quot;../item/Item&quot;;
+import { useScroll } from &quot;../../hooks/useScroll&quot;;
+
+function Special({ props }) {
+  const { t } = useTranslation();
+  const banjo = props.filter((item) =&gt; item.subCategory === &quot;BANJO&quot;);
+  const handpan = props.filter((item) =&gt; item.subCategory === &quot;HANDPAN&quot;);
+  const tongue = props.filter((item) =&gt; item.subCategory === &quot;TONGUE&quot;);
+  const cuatro = props.filter((item) =&gt; item.subCategory === &quot;CUATRO&quot;);
+  useScroll();
+
+  return (
+    &lt;div className=&quot;accessories-body&quot;&gt;
+      &lt;div className=&quot;accessories-section&quot;&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;banjo&quot;&gt;
+          {t(&quot;banjo&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display special&quot;&gt;
+          {banjo.map((item) =&gt; {
+            return &lt;Item item={item} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;handpan&quot;&gt;
+          {t(&quot;handpan&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display special&quot;&gt;
+          {handpan.map((item) =&gt; {
+            return &lt;Item item={item} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;tongue&quot;&gt;
+          {t(&quot;tongue&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display special&quot;&gt;
+          {tongue.map((item) =&gt; {
+            return &lt;Item item={item} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;cuatro&quot;&gt;
+          {t(&quot;cuatro&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display special&quot;&gt;
+          {cuatro.map((item) =&gt; {
+            return &lt;Item item={item} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+export default Special;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

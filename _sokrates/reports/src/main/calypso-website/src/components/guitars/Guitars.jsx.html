@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>calypso-website/src/components/guitars/Guitars.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/components/guitars/Guitars.jsx (<b>83</b> lines of code) (<a href="Guitars.jsx">raw</a>):</h3>
+<div id="editor">import &quot;../Accessories.css&quot;;
+import { useTranslation } from &quot;react-i18next&quot;;
+import Item from &quot;../item/Item&quot;;
+import { useScroll } from &quot;../../hooks/useScroll&quot;;
+
+function Guitars({ props }) {
+  const { t } = useTranslation();
+  const acoustic = props.filter((item) =&gt; item.subCategory === &quot;ACOUSTIC&quot;);
+  const electroAcoustic = props.filter(
+    (item) =&gt; item.subCategory === &quot;ELECTRO-ACOUSTIC&quot;
+  );
+  const classic = props.filter((item) =&gt; item.subCategory === &quot;CLASSIC&quot;);
+  const electroClassic = props.filter(
+    (item) =&gt; item.subCategory === &quot;ELECTRO-CLASSIC&quot;
+  );
+  const guitalele = props.filter((item) =&gt; item.subCategory === &quot;GUITALELE&quot;);
+  const electric = props.filter((item) =&gt; item.subCategory === &quot;ELECTRIC&quot;);
+  useScroll();
+
+  return (
+    &lt;div className=&quot;accessories-body&quot;&gt;
+      &lt;div className=&quot;accessories-section&quot;&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;acousticGuitar&quot;&gt;
+          {t(&quot;acousticGuitar&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display guitar&quot;&gt;
+          {acoustic.map((item) =&gt; {
+            return &lt;Item item={item} key={item.id} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;electroAcoustic&quot;&gt;
+          {t(&quot;electroAcoustic&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display guitar&quot;&gt;
+          {electroAcoustic.map((item) =&gt; {
+            return &lt;Item item={item} key={item.id} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;electric&quot;&gt;
+          {t(&quot;electric&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display guitar&quot;&gt;
+          {electric.map((item) =&gt; {
+            return &lt;Item item={item} key={item.id} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;classicGuitar&quot;&gt;
+          {t(&quot;classicGuitar&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display guitar&quot;&gt;
+          {classic.map((item) =&gt; {
+            return &lt;Item item={item} key={item.id} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;electroClassic&quot;&gt;
+          {t(&quot;electroClassic&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display guitar&quot;&gt;
+          {electroClassic.map((item) =&gt; {
+            return &lt;Item item={item} key={item.id} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1 className=&quot;items-title&quot; id=&quot;guitalele&quot;&gt;
+          {t(&quot;guitalele&quot;)}
+        &lt;/h1&gt;
+        &lt;ul className=&quot;items-display guitar&quot;&gt;
+          {guitalele.map((item) =&gt; {
+            return &lt;Item item={item} /&gt;;
+          })}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+export default Guitars;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>

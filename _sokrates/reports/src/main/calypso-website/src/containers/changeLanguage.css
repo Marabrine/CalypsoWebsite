@@ -1,0 +1,18 @@
+.language-button {
+  background-color: rgba(218, 165, 32, 1);
+}
+.language-switcher {
+  position: relative;
+  bottom: 0rem;
+  left: -2rem;
+  z-index: 1000;
+  color: white;
+}
+@media (max-width: 950px) {
+  .language-switcher {
+    /*position: fixed;
+    left: 1rem;
+    bottom: 1rem;*/
+    display: none;
+  }
+}

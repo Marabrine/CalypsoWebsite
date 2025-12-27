@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>calypso-website/src/components/item/Item.jsx</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body style="font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif">
+<h3 style="margin-bottom: 0">calypso-website/src/components/item/Item.jsx (<b>33</b> lines of code) (<a href="Item.jsx">raw</a>):</h3>
+<div id="editor">import Carousel from &quot;../carousel/Carousel&quot;;
+import { Link } from &quot;react-router-dom&quot;;
+import &quot;./Item.css&quot;;
+
+function Item({ item }) {
+  const handleCarouselClick = (e) =&gt; {
+    e.preventDefault();
+    e.stopPropagation();
+  };
+  return (
+    &lt;div&gt;
+      &lt;li key={item.id} className=&quot;items-display__item&quot;&gt;
+        &lt;div className=&quot;item-background&quot;&gt;&lt;/div&gt;
+        {item.pictureUrl.length !== 0 ? (
+          &lt;Carousel onClick={handleCarouselClick}&gt;
+            {item.pictureUrl.map((photo, index) =&gt; {
+              return (
+                &lt;Link to={`/items/${item.id}`}&gt;
+                  &lt;img src={photo} key={index} /&gt;
+                &lt;/Link&gt;
+              );
+            })}
+          &lt;/Carousel&gt;
+        ) : (
+          &lt;img src=&quot;/images/no-image.png&quot; /&gt;
+        )}
+        &lt;div className=&quot;titles&quot;&gt;
+          &lt;h3 className=&quot;item-name sub&quot;&gt;{item.id}&lt;/h3&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/div&gt;
+  );
+}
+export default Item;
+</div>
+<script src="https://www.zeljkoobrenovic.com/tools/common/lib/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+    editor.setTheme("ace/theme/xcode");
+    editor.setReadOnly(true);
+    editor.setOption("wrap", true);
+    editor.setPrintMarginColumn(120);
+</script>
+</body>
